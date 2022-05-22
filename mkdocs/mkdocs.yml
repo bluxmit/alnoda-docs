@@ -37,13 +37,13 @@ theme:
       toggle:
         icon: material/toggle-switch-off-outline
         name: Switch to light mode
-      primary: brown  
-      accent: deep orange
+      primary: black  
+      accent: red
     - scheme: slate
       toggle:
         icon: material/toggle-switch
         name: Switch to dark mode
-      primary: orange
+      primary: black
       accent: red
 
 extra:
@@ -54,8 +54,6 @@ extra:
 plugins:
   - search
   # Enable Macros and jinja2 templates
-  - macros:
-      module_name: macros/helpers
 
 
 extra_javascript:
