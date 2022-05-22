@@ -64,6 +64,16 @@ nav:
   - SQlite workspace: 
     - About: sqlite-workspace/README.md
     - Tutorial: sqlite-workspace/tutorial.md
+  - Streamlit workspace: 
+    - About: streamlit-workspace/README.md
+    - Tutorial: streamlit-workspace/tutorial.md
+  - Ubunntu workspace: 
+    - About: ubuntu-workspace/README.md
+    - Tutorial: ubuntu-workspace/tutorial.md
+    - Run remotely: ubuntu-workspace/remote-wid.md
+  - Ubunntu-docker workspace: 
+    - About: ubuntu-docker-workspace/README.md
+    - Tutorial: ubuntu-docker-workspace/tutorial.md
   
 
 
