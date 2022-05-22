@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
+  <img src="assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
 </p> 
 
 Containerized development, admin and professional environments.  

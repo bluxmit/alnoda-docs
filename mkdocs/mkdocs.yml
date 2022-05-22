@@ -83,7 +83,7 @@ nav:
 
 site_name: Alnoda Workspaces
 repo_url: https://github.com/bluxmit/alnoda-workspaces
-site_url: https://alnoda.org
+site_url: https://docs.alnoda.org
 edit_uri: ""
 
 # ===========================================================
@@ -115,8 +115,8 @@ theme:
 
 extra:
   # Link to open when your logo is clicked
-  homepage: https://alnoda.org
-  host_url: http://localhost
+  homepage: https://docs.alnoda.org
+  host_url: https://docs.alnoda.org
 
 plugins:
   - search
