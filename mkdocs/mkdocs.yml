@@ -3,18 +3,22 @@
 # ===========================================================
 
 nav:
-  - Home: README.md
-  - My apps: pages/my-apps.md
-  - Tutorials:
-    - Get started: getting-started.md
-    - Schedule script: schedule-script.md
+  - About: README.md
+  - Get started:
+    - Create workspace: get-started/create-workspace.md
+    - Common features: get-started/common-features.md
+    - Working in terminal: get-started/working-in-terminal.md
+  - Ansible-Terraform workspace: 
+    - About: ansible-terraform-workspace/README.md
+    - Ansible tools: ansible-terraform-workspace/ansible-tools.md
+    - Terraform tools: ansible-terraform-workspace/terraform-tools.md
 
 
 # ===========================================================
 # CONFIGURATION
 # ===========================================================
 
-site_name: Workspace
+site_name: Alnoda Workspaces
 repo_url: https://github.com/bluxmit/alnoda-workspaces
 site_url: https://alnoda.org
 edit_uri: ""
@@ -26,7 +30,7 @@ edit_uri: ""
 theme:
   name: 'material'
   favicon: 'assets/favicon.ico'
-  logo: 'assets/Alnoda-logo.svg'
+  logo: 'assets/Alnoda-white.svg'
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/git-alt
