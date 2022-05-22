@@ -54,6 +54,8 @@ In the Quicklaunch go to the tab 'My apps' and open app on the port 8040.
 > **NOTE:** If you close terminal, the application will stop. If you want application to keep running after workspace terminal is closed 
 start it with **"&!"** at the end. 
 
+![Quickstart page](img/start-app.gif)
+
 ## Keep services runnning
 
 Any application started in the terminal will run as long as your terminal session is alive. 

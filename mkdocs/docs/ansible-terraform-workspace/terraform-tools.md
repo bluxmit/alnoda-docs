@@ -144,9 +144,9 @@ Go to the quickstart page, and open Blast Radius WEB UI
 ***NOTE:** Blast Radius is a great project, but there is lack of updates to the project recently, and it might not work 
 with some Terraform providers.*
 
-### [Terraform Inframap](https://github.com/cycloidio/inframap)
+## Terraform Inframap
 
-- Visualize terraform state
+[Terraform Inframap](https://github.com/cycloidio/inframap) can visualize terraform state
 
 ```
 inframap generate terraform.tfstate | dot -Tpng > graph.png

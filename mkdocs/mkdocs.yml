@@ -8,10 +8,60 @@ nav:
     - Create workspace: get-started/create-workspace.md
     - Common features: get-started/common-features.md
     - Working in terminal: get-started/working-in-terminal.md
+    - Schedule script executions: get-started/schedule-script.md
   - Ansible-Terraform workspace: 
     - About: ansible-terraform-workspace/README.md
     - Ansible tools: ansible-terraform-workspace/ansible-tools.md
     - Terraform tools: ansible-terraform-workspace/terraform-tools.md
+  - Base workspace: 
+    - About: base-workspace/README.md
+  - Codeserver workspace: 
+    - About: codeserver-workspace/README.md
+  - Elasticsearch workspace: 
+    - About: elasticsearch-workspace/README.md
+    - Tutorial: elasticsearch-workspace/tutorial.md
+  - Go workspace: 
+    - About: go-workspace/README.md
+    - Tutorial: go-workspace/tutorial.md
+  - IDE workspace: 
+    - About: ide-workspace/README.md
+  - Java workspace: 
+    - About: java-workspace/README.md
+    - Tutorial: java-workspace/tutorial.md
+  - Kafka workspace: 
+    - About: kafka-workspace/README.md
+    - Tutorial: kafka-workspace/tutorial.md
+  - MkDocs magicspace: 
+    - About: mkdocs-magicspace/README.md
+    - Docs: https://mkdocs-magicspace.alnoda.org/
+  - Node.js workspace: 
+    - About: nodejs-workspace/README.md
+    - Tutorial: nodejs-workspace/tutorial.md
+  - PHP workspace: 
+    - About: php-workspace/README.md
+    - Tutorial: php-workspace/tutorial.md
+  - Postgres workspace: 
+    - About: postgres-workspace/README.md
+    - Tutorial: postgres-workspace/tutorial.md
+  - Python workspace: 
+    - About: python-workspace/README.md
+    - Tutorial: python-workspace/tutorial.md
+  - R workspace: 
+    - About: r-workspace/README.md
+    - Tutorial: r-workspace/tutorial.md
+  - Redis workspace: 
+    - About: redis-workspace/README.md
+    - Tutorial: redis-workspace/tutorial.md
+  - Ruby workspace: 
+    - About: ruby-workspace/README.md
+    - Tutorial: ruby-workspace/tutorial.md
+  - Rust workspace: 
+    - About: rust-workspace/README.md
+    - Tutorial: rust-workspace/tutorial.md
+  - Scala workspace: 
+    - About: scala-workspace/README.md
+    - Tutorial: scala-workspace/tutorial.md
+  
 
 
 # ===========================================================
