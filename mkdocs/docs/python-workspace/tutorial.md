@@ -58,7 +58,9 @@ and execute `pytest ./ --html-report=./pytest-report`. The results will be produ
 
 For instance, execute tests and generate report for the example python project execute 
 
-> `cd /home/examples/simple-script && pytest ./ --html-report=/home/static-server/my-pytest-report `   
+```
+cd /home/examples/simple-script && pytest ./ --html-report=/home/static-server/my-pytest-report 
+```   
 
 the output will be in folder `/home/static-server/my-pytest-report` that is served with a Static-file server
 
@@ -73,7 +75,9 @@ the output will be in folder `/home/static-server/my-pytest-report` that is serv
 Auto-generate API documentation for Python projects. Let's generate autodocumentation website for the example python project, 
 with output into `` where it can be viewed with Static-file server  
 
-> ` cd /home/examples/simple-script && pdoc --html --output-dir /home/static-server/pdoc-html ./  `
+``` 
+cd /home/examples/simple-script && pdoc --html --output-dir /home/static-server/pdoc-html ./  
+```
 
 <div align="center" style="font-style: italic;">
     Demo: Pdoc3
@@ -89,8 +93,10 @@ such as running time and memory usage.
 
 Vprof is a browser-based profiling tool. Here is an example of profiling scripts from the example python project: 
 
-> `cd /home/examples/simple-script && vprof -H 0.0.0.0 -p 8031 -c cpmh fib.py `    
-> `cd /home/examples/simple-script && vprof -H 0.0.0.0 -p 8031 -c cpmh script.py `    
+```
+cd /home/examples/simple-script && vprof -H 0.0.0.0 -p 8031 -c cpmh fib.py    
+cd /home/examples/simple-script && vprof -H 0.0.0.0 -p 8031 -c cpmh script.py 
+```    
 
 <div align="center" style="font-style: italic;">
     Demo: Vprof
@@ -103,8 +109,10 @@ Vprof is a browser-based profiling tool. Here is an example of profiling scripts
 SnakeViz is a browser based graphical viewer for the output of Python’s cProfile module. Let's profile 
 and visualize one of python modules in the example project: 
 
-> `cd /home/examples/simple-script && python -m cProfile -o script.prof script.py `    
-> `snakeviz -s -p 8030 -H 0.0.0.0 script.prof `   
+```
+cd /home/examples/simple-script && python -m cProfile -o script.prof script.py    
+snakeviz -s -p 8030 -H 0.0.0.0 script.prof 
+```   
 
 You will see thae link appeared in the terminal, open it in browser 
 
@@ -120,8 +128,10 @@ Flameprof is a Flamegraph generator for python's cProfile stats.
 
 Let's profile and visualize one of python modules in the example project:
 
-> `cd /home/examples/simple-script && python -m cProfile -o script.prof script.py `   
-> ` flameprof script.prof > script.svg `   
+```
+cd /home/examples/simple-script && python -m cProfile -o script.prof script.py   
+flameprof script.prof > script.svg 
+```   
 
 <div align="center" style="font-style: italic;">
     Demo: Flameprof
@@ -138,8 +148,10 @@ Pyinstrument helps you find it!
 
 Profile and visualize one of python modules in the example project:
 
-> `mkdir -p /home/static-server/profiling/basic-python-script `   
-> `pyinstrument -t -r html -o /home/static-server/profiling/basic-python-script/p2  script.py `   
+```
+mkdir -p /home/static-server/profiling/basic-python-script    
+pyinstrument -t -r html -o /home/static-server/profiling/basic-python-script/p2  script.py 
+```
 
 <div align="center" style="font-style: italic;">
     Demo: Pyinstrument
@@ -153,7 +165,9 @@ Profile and visualize one of python modules in the example project:
 cProfile is recommended for most users; it's a C extension with reasonable overhead that makes it suitable 
 for profiling long-running programs. Profile and visualize one of python modules in the example project:
 
-> `cd /home/examples/simple-script && python -m cProfile script.py >> /home/static-server/cprof.tx `
+```
+cd /home/examples/simple-script && python -m cProfile script.py >> /home/static-server/cprof.tx 
+```
 
 
 ### [Pylint-json2html](https://github.com/Exirel/pylint-json2html)
@@ -161,7 +175,9 @@ for profiling long-running programs. Profile and visualize one of python modules
 A pylint JSON report file to HTML: pylint is used to generate a JSON report, and this tool will transform this report into 
 an HTML document: 
 
-> `pylint script.py | pylint-json2html -f jsonextended -o script.html `   
+```
+pylint script.py | pylint-json2html -f jsonextended -o script.html 
+```   
 
 <div align="center" style="font-style: italic;">
     Demo: Pylint-json2html demo
@@ -178,8 +194,10 @@ time with trivial style nitpicks.
 
 The example python project has a pre-commit configuration file:
  
-> `cd /home/examples/simple-script && pre-commit install ` 
-> `pre-commit run --all-files ` 
+```
+cd /home/examples/simple-script && pre-commit install  
+pre-commit run --all-files 
+```
  
 ### Schedule python jobs
 
@@ -188,8 +206,10 @@ allows to configure resource limits for jobs and much more!
 
 Python Workspace includes an example script that fetches today's exchange rates:   
 
-> `cd /home/examples/exchange_rates `  
-> `python fetch-rates.py `
+```
+cd /home/examples/exchange_rates   
+python fetch-rates.py 
+```
 
 The script will fetch today's exchange rates from and output result to the folder `/home/static-server/exchange-rates_<DATE>.json`. This 
 folder is served by the Static-file server 

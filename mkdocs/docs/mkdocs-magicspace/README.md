@@ -81,3 +81,5 @@ Image is built from **Ubuntu 20.4** with the additional CLI apps
 See our guides on [**getting started**](https://mkdocs-magicspace.alnoda.org/tutorials/get-started/), 
 [**extended Markdown tutorials**](https://mkdocs-magicspace.alnoda.org/tutorials/markdown/intro/) 
 and [**advanced features**](https://mkdocs-magicspace.alnoda.org/docs/).
+
+![Workspace demo](img/mkdocs-magicspace-demo.gif)
