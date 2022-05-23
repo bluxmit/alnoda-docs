@@ -6,6 +6,8 @@
 
 Collection of tools to develop SQLite databases.
 
+![Workspace collage](img/sqlite-wid-collage.png)
+
 ## Why this images
 
 If you need to develop embedded SQLite databases and fill them with data.
