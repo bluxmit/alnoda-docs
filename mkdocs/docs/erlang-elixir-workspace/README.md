@@ -6,9 +6,7 @@
 
 Docker image with Erlang, Elixir and browser-based VS-Code version.
 
-<p align="center">
-  <img src="img/codeserver-collage-sm.jpg" alt="Collage" width="750">
-</p>
+![Workspace collage](../codeserver-workspace/img/codeserver-collage-sm.jpg)
 
 ## Why this images
 

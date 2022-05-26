@@ -20,6 +20,9 @@ nav:
   - Elasticsearch workspace: 
     - About: elasticsearch-workspace/README.md
     - Tutorial: elasticsearch-workspace/tutorial.md
+  - Erlang-Elixir workspace: 
+    - About: erlang-elixir-workspace/README.md
+    - Tutorial: erlang-elixir-workspace/tutorial.md
   - Go workspace: 
     - About: go-workspace/README.md
     - Tutorial: go-workspace/tutorial.md
