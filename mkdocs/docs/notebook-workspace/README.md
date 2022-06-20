@@ -1,6 +1,6 @@
 <p align="center">
-  <img src="../../img/Alnoda-white.svg" alt="Alnoda logo" width="150">
-</p>  
+  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
+</p> 
 
 # Jupyter notebook workspace 
 
