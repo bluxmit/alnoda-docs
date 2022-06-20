@@ -23,6 +23,52 @@ try to run a cell in the note, you will see a pop-out winndow suggesting to inst
 
 ![notebooks-install](img/notebooks-install.png)
 
+## Python environments 
+
+### Venv
+
+The [venv](https://docs.python.org/3/library/venv.html#module-venv) virtualenv is a very popular tool that creates isolated Python environments for Python libraries. 
+This module provides support for creating lightweight 
+“virtual environments” with their own site directories, optionally isolated from system site directories. 
+Each virtual environment has its own Python binary (which matches the version of the binary that was used to create this environment) 
+and can have its own independent set of installed Python packages in its site directories.
+
+Create virtual environment called env-1
+
+```
+python3 -m venv env-1
+```
+
+Activate environnment
+
+```
+source env-1/bin/activate
+```
+
+### Poetry
+
+Create our project
+
+```
+poetry new poetry-demo
+cd poetry-demo
+```
+
+Specify dependencies in pyproject.toml.   
+
+By default, poetry creates a virtual environmen. There are several ways to run commands within this virtual environment. 
+To run your script simply use poetry run
+
+```
+poetry run python your_script.py
+```
+
+The easiest way to activate the virtual environment is to create a new shell with poetry shell 
+
+```
+poetry shell 
+```
+
 
 ## Python tooling  
 

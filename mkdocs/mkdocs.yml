@@ -40,6 +40,16 @@ nav:
   - Node.js workspace: 
     - About: nodejs-workspace/README.md
     - Tutorial: nodejs-workspace/tutorial.md
+  - Notebook workspace: 
+    - About: notebook-workspace/README.md
+    - Working with data: notebook-workspace/working-with-data.md
+    - Data exploration: notebook-workspace/data-exploration.md
+    - Presentations: notebook-workspace/presentations.md
+    - Reports: notebook-workspace/reports.md
+    - Productionalize notebooks: notebook-workspace/productionalize.md
+    - Pipelines: notebook-workspace/pipelines.md
+    - Interactive web app: notebook-workspace/interactive.md
+    - Documentation: notebook-workspace/documentation.md
   - PHP workspace: 
     - About: php-workspace/README.md
     - Tutorial: php-workspace/tutorial.md

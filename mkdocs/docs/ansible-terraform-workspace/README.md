@@ -28,6 +28,7 @@ open [localhost:8020](http://localhost:8020) in browser.
 
 **Ansible tools:**
 
+- [**Ansible**](https://docs.ansible.com/)
 - [**Ansible Ara**](https://github.com/ansible-community/ara)
 - [**Ansible-cmdb**](https://github.com/fboender/ansible-cmdb)
 - [**Ansible inventory grapher**](https://github.com/willthames/ansible-inventory-grapher)
@@ -37,6 +38,7 @@ open [localhost:8020](http://localhost:8020) in browser.
 
 **Terraform tools:**
 
+- [**Terrraform**](https://www.terraform.io/)
 - [**Pre-commit-terraform**](https://github.com/antonbabenko/pre-commit-terraform)
 - [**Rover**](https://github.com/im2nguyen/rover)
 - [**Blast-Radius**](https://github.com/28mm/blast-radius)
