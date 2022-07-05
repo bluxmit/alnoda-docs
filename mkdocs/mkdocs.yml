@@ -34,6 +34,9 @@ nav:
   - Kafka workspace: 
     - About: kafka-workspace/README.md
     - Tutorial: kafka-workspace/tutorial.md
+  - Kubespray workspace: 
+    - About: kubespray-workspace/README.md
+    - Tutorial: kubespray-workspace/tutorial.md
   - MkDocs magicspace: 
     - About: mkdocs-magicspace/README.md
     - Docs: https://mkdocs-magicspace.alnoda.org/

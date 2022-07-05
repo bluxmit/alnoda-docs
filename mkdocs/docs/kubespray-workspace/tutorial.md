@@ -94,3 +94,12 @@ You should be able to see your kubernetes nodes. Now you can interact with your 
 
 - UI tools
     - Octant
+
+
+### Ansible features
+
+Visit [this tutorial](../ansible-terraform-workspace/ansible-tools.md) to get familiar with the Ansible toolset included in the workspace.
+
+### Terraform features
+
+Visit [this tutorial](../ansible-terraform-workspace/terraform-tools.md) to get familiar with the Terraform toolset included in the workspace.
