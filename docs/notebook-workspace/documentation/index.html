@@ -1841,24 +1841,24 @@ publication-quality books and documents from computational material.   </p>
 <p>Here is a basic hands-on example of how to get started with the Jupyter Book.  </p>
 <p>Clone the repository containing the demo book source files</p>
 <pre><code>cd /home/project
-git clone https://github.com/executablebooks/quantecon-mini-example
-cd quantecon-mini-example
+git clone https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook
+cd fraud-detection-handbook
 </code></pre>
-<p>Create conda environment &amp; install libraries needed to run the code in this particular example. 
-This includes the latest version of Jupyter Book:</p>
-<pre><code>conda env create -f environment.yml
-conda activate qe-mini-example
+<p>Install dependencies</p>
+<pre><code>pip install -r requirementts.txt
 </code></pre>
 <p>Build the Jupyter Book </p>
-<pre><code>jupyter-book build ./mini_book 
+<pre><code>cd ..
+jupyter-book build fraud-detection-handbook
 </code></pre>
 <p>Move the resulting static website into the folder that you can view with Static Server, 
 and delete the root index.html that prevents Static Server to render site properly</p>
-<pre><code>mv mini_book/_build/html /home/static-server
-rm /home/static-server/html/index.html
+<pre><code>mv fraud-detection-handbook/_build/html /home/static-server
 </code></pre>
 <p>From the Quickstart page open Static Server, and go to <code>html/docs</code> folder </p>
 <p><img alt="Jupyterbook" src="../img/jupyterbook.png" /></p>
+<p><strong>NOTE:</strong> this is Jupyterbook - computational reproducible resource. You can reproduce all the computations using 
+the notebooks in the cloned folder.</p>
                 
               
               

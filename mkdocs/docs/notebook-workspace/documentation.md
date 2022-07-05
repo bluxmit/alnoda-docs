@@ -73,33 +73,34 @@ Clone the repository containing the demo book source files
 
 ```
 cd /home/project
-git clone https://github.com/executablebooks/quantecon-mini-example
-cd quantecon-mini-example
+git clone https://github.com/Fraud-Detection-Handbook/fraud-detection-handbook
+cd fraud-detection-handbook
 ```
 
-Create conda environment & install libraries needed to run the code in this particular example. 
-This includes the latest version of Jupyter Book:
+Install dependencies
 
 ```
-conda env create -f environment.yml
-conda activate qe-mini-example
+pip install -r requirementts.txt
 ```
 
 Build the Jupyter Book 
 
 ```
-jupyter-book build ./mini_book 
+cd ..
+jupyter-book build fraud-detection-handbook
 ```
 
 Move the resulting static website into the folder that you can view with Static Server, 
 and delete the root index.html that prevents Static Server to render site properly
 
 ```
-mv mini_book/_build/html /home/static-server
-rm /home/static-server/html/index.html
+mv fraud-detection-handbook/_build/html /home/static-server
 ```
 
 From the Quickstart page open Static Server, and go to `html/docs` folder 
 
 
 ![Jupyterbook](img/jupyterbook.png)
+
+**NOTE:** this is Jupyterbook - computational reproducible resource. You can reproduce all the computations using 
+the notebooks in the cloned folder.
