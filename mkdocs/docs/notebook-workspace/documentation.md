@@ -21,18 +21,6 @@ To start, cd to the example project folder
 cd /home/examples/mkdocs
 ```
 
-Create new conda environment 
-
-```
-conda create --name mkdocs python=3.8
-```
-
-Activate conda environment 
-
-```
-conda activate mkdocs
-```
-
 Install dependencies
 
 ```
@@ -80,7 +68,7 @@ cd fraud-detection-handbook
 Install dependencies
 
 ```
-pip install -r requirementts.txt
+pip install -r requirements.txt
 ```
 
 Build the Jupyter Book 
