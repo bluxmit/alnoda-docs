@@ -28,14 +28,6 @@ mc
 
 ![mc](img/mc.png)
 
-Or with Xplr
-
-```
-xplr
-```
-
-![xplr](img/xplr.png)
-
 
 ## Text editor
 

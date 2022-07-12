@@ -39,3 +39,9 @@ Navigate to Quickstart and Open file browser. View and download the output file
 Schedule daily executions with Cronicle
 
 ![Cronicle](img/cronicle-demo.gif)
+
+## Cron 
+
+**Note:** you can also use cron scheduler to schedule executions of your tasks and jobs. Cron is pure terminal-based 
+application. It is well-known and a greatly adopted tool. Check out [this tutorial](../ubuntu-workspace/cron-scheduler.md) to learn how 
+you can use cron in the workspace.

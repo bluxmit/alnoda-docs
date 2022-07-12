@@ -56,14 +56,3 @@ start it with **"&!"** at the end.
 
 ![Quickstart page](img/start-app.gif)
 
-## Keep services runnning
-
-Any application started in the terminal will run as long as your terminal session is alive. 
-If you want any application or service runing after terminal session is closed, start service with **"&!"** at the end of 
-the command.  
-
-For example, to start *npm-gui* and keep it running after terminal is closed, run 
-
-```
-npm-gui 0.0.0.0:8040 &!
-```   
