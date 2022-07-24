@@ -61,7 +61,9 @@ nav:
     - Tutorial: postgres-workspace/tutorial.md
   - Python workspace: 
     - About: python-workspace/README.md
-    - Tutorial: python-workspace/tutorial.md
+  - Python-automate workspace: 
+    - About: python-automate-workspace/README.md
+    - Tutorial: python-automate-workspace/tutorial.md
   - R workspace: 
     - About: r-workspace/README.md
     - Tutorial: r-workspace/tutorial.md

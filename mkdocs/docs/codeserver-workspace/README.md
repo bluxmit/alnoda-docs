@@ -1,17 +1,15 @@
-<p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p> 
 
 # Code-server workspace
-General-purpose dockerized development environment. Fully isolated inside a docker container. 
-Includes code editor, terminal, scheduler and filebrowser. 
+
+General-purpose containerized isolated development environment.  
+Includes code editor, terminal, filebrowser and git manager. 
 
 ![Workspace collage](img/codeserver-collage-sm.jpg)
 
 ## Why this images
 
 1. If you need isolated dev environment where you can code and install packages and apps without affecting the base operating system.
-2. If you want self-hosted remote development environment.
+2. If you are building self-hosted remote development environment.
 
 ## Start
  

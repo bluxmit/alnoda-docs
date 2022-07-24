@@ -2,307 +2,327 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.alnoda.org/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ansible-terraform-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ansible-terraform-workspace/ansible-tools/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ansible-terraform-workspace/terraform-tools/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/base-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/codeserver-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/elasticsearch-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/elasticsearch-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/erlang-elixir-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/erlang-elixir-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/common-features/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/create-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/get-started/kep-running/</loc>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/schedule-script/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/working-in-terminal/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/go-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/go-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ide-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/java-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/java-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/kafka-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/kafka-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/kubespray-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/kubespray-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
-         <loc>https://docs.alnoda.org/mkdocs-magicspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <loc>https://docs.alnoda.org/mkdocs-workspace/</loc>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/nodejs-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/nodejs-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/data-exploration/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/documentation/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/interactive/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/pipelines/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/presentations/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/productionalize/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/reports/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/notebook-workspace/working-with-data/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/php-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/php-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/postgres-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/postgres-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/python-automate-workspace/</loc>
+         <lastmod>2022-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/python-automate-workspace/tutorial/</loc>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/python-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/python-workspace/pyenv-tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/python-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/r-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/r-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/redis-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/redis-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ruby-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ruby-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/rust-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/rust-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/scala-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/scala-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/sqlite-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/sqlite-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/streamlit-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/streamlit-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ubuntu-docker-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ubuntu-docker-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ubuntu-workspace/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/ubuntu-workspace/cron-scheduler/</loc>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ubuntu-workspace/remote-wid/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/ubuntu-workspace/tutorial/</loc>
-         <lastmod>2022-07-06</lastmod>
+         <lastmod>2022-07-24</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

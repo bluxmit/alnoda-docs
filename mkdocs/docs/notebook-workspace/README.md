@@ -1,26 +1,26 @@
 <p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p> 
+  <img src="./img/jupyter-circle.svg" alt="Jupyter logo" width="150">
+</p>  
 
 # Jupyter notebook workspace 
 
-Opinionated Jupyter notebook & Jupyter Lab instsllation, together with the tolset which helps 
-to get the most out of Jupyter notebooks.  
+Containerized research, development and execution environment which helps to make the most from the Jupyter notebooks.  
 
-Explore and analyze data, build reports, presentations and documentations. Convert notebooks to various formats. 
+Explore and analyze data, build reports, presentations and documentation. Convert notebooks to various formats. 
 Serve notebooks for reporting. Create data pipelines from notebooks. Schedule executions with UI and monitoring tool. 
 
 ![Workspace collage](img/notebook-wid-collage.png)
 
 ## Why this images
 
-1. You need a ready-to-go Jupyter environment with batteries included, such as pandas dataframes vizualisation and exploration, code autocompletion etc. And you don't want to install all the extensions and struggle with dependencies resolution.
+1. You need a ready-to-go Jupyter environment with batteries included, such as pandas dataframes vizualisation and exploration, code autocompletion, etc. And you don't want to install all the extensions and struggle with dependencies resolution.
 2. You need to schedule executions of your notebooks, whether it is on local laptop or on the server 
 3. You need to make use of your notebooks - create slides, PDFs, HTML, reports, docs 
 4. You want to turn notebooks into analytical reporting apps or interactive web applications 
 5. You want to productionalize notebooks - create pipelines of batch jobs and schedule their executions
 
-There are short tutorials on how to use most of the mentioned features, with example notebooks.
+There are short [tutorials](https://docs.alnoda.org/notebook-workspace/) on how to use most of the mentioned features, 
+with example notebooks. 
 
 ## Start
  

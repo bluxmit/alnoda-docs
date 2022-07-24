@@ -1,7 +1,3 @@
-<p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p>   
-
 # Ubuntu workspace
 Containerized Linux terminal environment. Essentially Ubuntu 20.04 docker image extended with typical console apps, such as Git, 
 file browsers and system monitors.
@@ -37,9 +33,6 @@ docker exec -it --user=root space-1 /bin/zsh
     - **System monitors:** ncdu, htop, glances, vizex
     - **Process Control:** supervisord
     - **Job scheduler:** cron
-
-## Docs
-See our guides on [**getting started**](docs/getting-started.md) and [**advanced features**](docs/workspaces.md).
 
 
 <div align="center" style="font-style: italic;">

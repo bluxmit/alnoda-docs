@@ -1,11 +1,11 @@
 <p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p> 
+  <img src="./img/terraform-circle.svg" alt="Terraform logo" width="150">
+</p>  
 
 # Ansible-Terraform Workspace
 
-Dockerized development environment for Ansible and Terraform. Workspace will help to create and manage infrastructures; 
-visualize planned terraform changes; display ansible hosts plays; schedule and observe executions.
+Containerized development, execution and admin environment for Ansible and Terraform. 
+Create, provision, visualize and manage infrastructures, schedule maintenance tasks.
 
 <p align="center">
   <img src="img/ansible-terraform-wid-collage.png" alt="Collage" width="750">
@@ -64,12 +64,13 @@ VS-Code extensions and works in browser. This means it can run inside a docker c
     - Python 3, Pip 
     - Node/nodeenv
     - curl, wget, telnet, jq
-    - **Git:** git, git-flow, lazygit 
-    - **File browsers:** mc, xplr
+    - **Git:** git, git-flow 
+    - **File browsers:** mc
     - **Text editors:** nano, vim, mcedit
     - **System monitors:** ncdu, htop, glances, vizex
     - **Process Control:** supervisord
     - **Job scheduler:** cron
+    - **Terminal multiplexer:** tmux 
 
 <div align="center" style="font-style: italic;">
     Demo: Ansible-Terraform workspace

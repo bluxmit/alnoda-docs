@@ -1,18 +1,22 @@
 <p align="center">
-  <img src="../assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p> 
+  <img src="./img/r-circle.svg" alt="R logo" width="150">
+</p>  
 
 # R workspace 
 
-Docker image with R and browser-based RStudio version. 
+Development and execution environment for R programming language. 
+Experiment, prototype, code and schedule executions.
 
-![Collage](img/r-workspace-collage.png) 
+<p align="center">
+  <img src="img/r-workspace-collage.png" alt="Collage" width="750">
+</p>
 
 ## Why this images
 
-1. Uou need self-hosted remote development environment.
+1. You need self-hosted remote development environment for R.
 2. You want to be one 'docker run' command away from having everything needed to work with R.
-3. You need isolated environment where you can work with R without polluting main environment.
+3. You need isolated environment where you can work with R without affecting main environment.
+4. You need an environment that you can "move" to a more powerful machine if needed.
 
 ## Start
  
@@ -26,7 +30,7 @@ and open [localhost:8020](http://localhost:8020) in browser.
 
 - [R](https://www.r-project.org/) 
 
-**Dev tools:**
+**Tools:**
 
 - **RStudio server** - open source version of popular R IDE, browser-based. 
 - [**Terminal**](https://github.com/tsl0922/ttyd) - secure browser-based terminal.
@@ -38,16 +42,16 @@ and open [localhost:8020](http://localhost:8020) in browser.
 - [**Midnight Commander**](https://midnight-commander.org/)  - Feature rich visual file manager with internal text viewer and editor. 
 - [**Process Monitor**](https://htop.dev/)  - Monitor running process and resource utilization. 
 - Quicklaunch UI with getting started tutorial
-
-Image is built from **Ubuntu 20.4** with the additional CLI apps
-
-- [Zsh](https://www.zsh.org/), [Oh my Zsh](https://ohmyz.sh/)
-- Python 3, Pip 
-- Node/nodeenv
-- curl, wget, telnet, jq
-- **Git:** git, git-flow, lazygit 
-- **File browsers:** mc, xplr
-- **Text editors:** nano, vim, mcedit
-- **System monitors:** ncdu, htop, glances, vizex
-- **Process Control:** supervisord
-- **Job scheduler:** cron
+- **Ubuntu 20.4** with the following CLI apps
+    - [Zsh](https://www.zsh.org/), [Oh my Zsh](https://ohmyz.sh/)
+    - Python 3, Pip 
+    - Node/nodeenv
+    - curl, wget, telnet, jq
+    - **Git:** git, git-flow 
+    - **File browsers:** mc
+    - **Text editors:** nano, vim, mcedit
+    - **System monitors:** ncdu, htop, glances, vizex
+    - **Process Control:** supervisord
+    - **Job scheduler:** cron
+    - **Terminal multiplexer:** tmux 
+    
