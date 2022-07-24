@@ -37,8 +37,8 @@ nav:
   - Kubespray workspace: 
     - About: kubespray-workspace/README.md
     - Tutorial: kubespray-workspace/tutorial.md
-  - MkDocs magicspace: 
-    - About: mkdocs-magicspace/README.md
+  - Mkdocs-workspace: 
+    - About: mkdocs-workspace/README.md
     - Docs: https://mkdocs-magicspace.alnoda.org/
   - Node.js workspace: 
     - About: nodejs-workspace/README.md
@@ -118,14 +118,14 @@ theme:
   palette:
     - scheme: default
       toggle:
-        icon: material/toggle-switch-off-outline
-        name: Switch to light mode
+        icon: material/weather-sunny
+        name: Switch to dark mode
       primary: black  
       accent: red
     - scheme: slate
       toggle:
-        icon: material/toggle-switch
-        name: Switch to dark mode
+        icon: material/weather-night
+        name: Switch to light mode
       primary: black
       accent: red
 

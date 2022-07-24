@@ -12,47 +12,6 @@ Use workspace terminal to execute CLI commands
 Workspace conntains example SQLite database, the file `/home/static-server/sqlite-viewer/examples/Chinook_Sqlite.sqlite`  
 
 
-## NocoDB
-
-[NocoDB](https://docs.nocodb.com/). NocoDB is an open source Airtable alternative. Use it to create SQLite tables, develop databases 
-without SQL.  
-
-NocoDB can also be used to fill SQLite databases with data with the help of nice interactive UI. 
-
-Launch the workspace, navigate to the Workspace UI and open NocoDB. 
-Create new user (provide any email,pass). Create tables, enter data, import data files, create forms and much more.  
-
-
-### NocoDB with existing SQLite database
-
-Create NocoDB project with an empty external SQLite database file `/home/project/sqlite-db/db-main.sqlite`. 
-
-![noco-new-main](img/noco-new-main.png
-
-Create some data, and explore it with Sqlite-web 
-
-![noco-new-main](img/sqliteweb-main.gif)
-
-You can also open existing SQLIte database, and edit it with NocoDB. Let's open example SQLite database `/home/static-server/sqlite-viewer/examples/Chinook_Sqlite.sqlite` 
-
-![noco-new-main](img/noco-chinook.gif)
-
-
-### query NocoDB data 
-
-NocoDB is backed by SQLite3, database file `/home/nocodb/noco.db `.  
-
-You can query NocoDB databse directly with sqlite-web. Open it from Workspace UI Quickstart page.  
-
-At any moment you can copy SQLite database from NocoDB with all the data, edit, modify and configure for the needs of your application. 
-
-- Copy of NocoDB database and continue developing with Sqlite-web
-
-```
-mv -f /home/nocodb/noco.db /home/project/sqlite-db/db-main.sqlite 
-```
-
-
 ## Sqlite 
 
 SQLite3 is installed. Open terminal and execute
@@ -88,18 +47,7 @@ sqlite3
 
 No matter if workspace is used locally, in cloud or kubernetes you can upload and download database files using file browser 
 
-![noco-new-main](img/filebrowser-download.png)
-
-### Copy SQlite databases
-
-SQlite is just a file, jou can copy it and replace other databases. For example, if you want to copy NocoDB database 
-into the "Main" database, which is served by Sqlite-web ('Main') simply execute in terminal
-
-```
-mv -f /home/nocodb/noco.db /home/project/sqlite-db/db-main.sqlite 
-```
-
-You also can use file browser to move or copy files.
+![filebrowser](img/filebrowser-download.png)
 
 
 ## Sqlite-web
@@ -108,11 +56,8 @@ You also can use file browser to move or copy files.
 
 There are 2 SQlite database served by default:
 
-- NocoDB database. Sqlite-web 'Nocodb' 
 - 'Main' database. Empty SQlite3 database. Sqlite-web 'Main'
 - 'Example/test' database. Filled with test "Chinook" database. 
-
-![noco-new-main](img/sqliteweb-chinook.gif)
 
 ### Serve on-demand SQlite database
 
@@ -144,7 +89,7 @@ You can open on-demand database served with Sqlite-web from the Quickstart page.
 
 Upload SQLite database file (from your local machine) and explore.
 
-![noco-new-main](img/sqlite-viewer.png)
+![sqlite-viewer](img/sqlite-viewer.png)
 
 
 ## Web-GUI-for-SQLite
@@ -153,7 +98,7 @@ Upload SQLite database file (from your local machine) and explore.
 
 Upload SQLite database file (from your local machine) and explore.
  
-![noco-new-main](img/sqlite-web-gui.png)
+![sqlite-web](img/sqlite-web-gui.png)
 
 
 ## Litecli
@@ -166,9 +111,9 @@ Open Terminal and try with example database:
 litecli /home/static-server/sqlite-viewer/examples/Chinook_Sqlite.sqlite
 ```
 
-![noco-new-main](img/litecli-1.png)
+![litecli1](img/litecli-1.png)
 
-![noco-new-main](img/litecli-2.png)
+![litecli2](img/litecli-2.png)
 
 
 Load extensions
@@ -188,14 +133,14 @@ tbls doc sqlite:////home/static-server/sqlite-viewer/examples/Chinook_Sqlite.sql
 
 and view SVG files with Static File Server
 
-![noco-new-main](img/tbls.gif)
+![tbls](img/tbls.gif)
 
 
 ## DB designer
 
 With DB designer you can visually create ERD diagrams, and generate DDL SQL scripts 
 
-![noco-new-main](img/dbdesigner.png)
+![dbdesigner](img/dbdesigner.png)
 
 ## Advanced 
 

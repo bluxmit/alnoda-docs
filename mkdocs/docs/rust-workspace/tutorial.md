@@ -93,8 +93,6 @@ You will see that before cargo builds the package, it installs all the dependenc
 
 ![Workspace collage](img/cargo-deps.png)
 
-Open Quickstart page, go to "My apps" and use port 8040 shortcut to open your web app
-
-![Workspace collage](../base-workspace/img/start-8040.png)
+Open [localhost:8040/hello.html](http://localhost:8040/hello.html)
 
 

@@ -3,49 +3,7 @@
 Jupyter notebook - is a famous exploration and visualisation tool, which in turn makes it a good 
 option to present the results or becoming a reporting solution.  
 
-There are couple options how to create reports from notebooks:
-
-1. Notebooks in view-only mode
-2. Notebooks converted to different formats that can be downloaded
-
-This workspace has necessary tools to enable all of these options.  
-
-
-## Jupyter notebook and Jupyter Lab
-
-The easiest way to create a report from the Jupyter notebook is export and download it directly from the Jupyter 
-notebook or Jupyter Lab. Oopen any notebook go to 'File' -> 'Download as' and coose the format 
-
-![NBViewer](img/download-as.png) 
-
-This is an easy and fast option, but the tools listed below provide more functionality. They are executed in terminal, 
-and hence can be scheduled to be executed automatically. You can get a daily report of your stock price technical analysis 
-ready for you without the need to execute notebook yourself. You can view the report whenever yopu want. 
-
-
-## NBViewer
-
-[NBViewer](https://github.com/jupyter/nbviewer) is a web service that displays Jupyter notebooks in view-only mode. NBViewer does not 
-execute notebooks.  
-
-NBViewer suits the purpos to visualize executed notebooks. It is also a hub for sharing notebooks, as users can download notebooks 
-from NBViewer.    
-
-Workspace has NBViewer up and running, it serves notebooks from the folder `/home/project/nbviewer`. It is enough to simply 
-move or copy your Jupyter notebook to this folder to make it displayed by the NBViewer.    
-
-Copy an example notebook to the NBviever folder 
-
-```
-cp /home/examples/jupyter/magpye.ipynb /home/project/nbviewer 
-```
-
-Open Notebook Viewer from the Quickstart page.  
-
-![NBViewer](img/nbviewer.png) 
-
-__HINT:__ if you need to view freshly executed notebook every day, schedule periodic executions with Cronicle.  
-
+There are couple options how to create reports from notebooks.
 
 
 ## Nbconvert 
@@ -87,7 +45,6 @@ If you want to convert notebook to LaTeX, run
 ```
 jupyter nbconvert --to latex /home/examples/jupyter/magpye.ipynb --output /home/project/magpyetex
 ```
-
 
 
 ## Voila
