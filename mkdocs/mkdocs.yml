@@ -9,89 +9,99 @@ nav:
     - Common features: get-started/common-features.md
     - Working in terminal: get-started/working-in-terminal.md
     - Schedule script executions: get-started/schedule-script.md
-  - Ansible-Terraform workspace: 
-    - About: ansible-terraform-workspace/README.md
-    - Ansible tools: ansible-terraform-workspace/ansible-tools.md
-    - Terraform tools: ansible-terraform-workspace/terraform-tools.md
-  - Base workspace: 
-    - About: base-workspace/README.md
-  - Codeserver workspace: 
-    - About: codeserver-workspace/README.md
-  - Elasticsearch workspace: 
-    - About: elasticsearch-workspace/README.md
-    - Tutorial: elasticsearch-workspace/tutorial.md
-  - Erlang-Elixir workspace: 
-    - About: erlang-elixir-workspace/README.md
-    - Tutorial: erlang-elixir-workspace/tutorial.md
-  - Go workspace: 
-    - About: go-workspace/README.md
-    - Tutorial: go-workspace/tutorial.md
-  - IDE workspace: 
-    - About: ide-workspace/README.md
-  - Java workspace: 
-    - About: java-workspace/README.md
-    - Tutorial: java-workspace/tutorial.md
-  - Kafka workspace: 
-    - About: kafka-workspace/README.md
-    - Tutorial: kafka-workspace/tutorial.md
-  - Kubespray workspace: 
-    - About: kubespray-workspace/README.md
-    - Tutorial: kubespray-workspace/tutorial.md
-  - Mkdocs-workspace: 
-    - About: mkdocs-workspace/README.md
-    - Docs: https://mkdocs-magicspace.alnoda.org/
-  - Node.js workspace: 
-    - About: nodejs-workspace/README.md
-    - Tutorial: nodejs-workspace/tutorial.md
-  - Notebook workspace: 
-    - About: notebook-workspace/README.md
-    - Working with data: notebook-workspace/working-with-data.md
-    - Data exploration: notebook-workspace/data-exploration.md
-    - Presentations: notebook-workspace/presentations.md
-    - Reports: notebook-workspace/reports.md
-    - Productionalize notebooks: notebook-workspace/productionalize.md
-    - Pipelines: notebook-workspace/pipelines.md
-    - Interactive web app: notebook-workspace/interactive.md
-    - Documentation: notebook-workspace/documentation.md
-  - PHP workspace: 
-    - About: php-workspace/README.md
-    - Tutorial: php-workspace/tutorial.md
-  - Postgres workspace: 
-    - About: postgres-workspace/README.md
-    - Tutorial: postgres-workspace/tutorial.md
-  - Python workspace: 
-    - About: python-workspace/README.md
-  - Python-automate workspace: 
-    - About: python-automate-workspace/README.md
-    - Tutorial: python-automate-workspace/tutorial.md
-  - R workspace: 
-    - About: r-workspace/README.md
-    - Tutorial: r-workspace/tutorial.md
-  - Redis workspace: 
-    - About: redis-workspace/README.md
-    - Tutorial: redis-workspace/tutorial.md
-  - Ruby workspace: 
-    - About: ruby-workspace/README.md
-    - Tutorial: ruby-workspace/tutorial.md
-  - Rust workspace: 
-    - About: rust-workspace/README.md
-    - Tutorial: rust-workspace/tutorial.md
-  - Scala workspace: 
-    - About: scala-workspace/README.md
-    - Tutorial: scala-workspace/tutorial.md
-  - SQlite workspace: 
-    - About: sqlite-workspace/README.md
-    - Tutorial: sqlite-workspace/tutorial.md
-  - Streamlit workspace: 
-    - About: streamlit-workspace/README.md
-    - Tutorial: streamlit-workspace/tutorial.md
-  - Ubunntu workspace: 
-    - About: ubuntu-workspace/README.md
-    - Tutorial: ubuntu-workspace/tutorial.md
-    - Run remotely: ubuntu-workspace/remote-wid.md
-  - Ubunntu-docker workspace: 
-    - About: ubuntu-docker-workspace/README.md
-    - Tutorial: ubuntu-docker-workspace/tutorial.md
+
+  - Workspaces:
+    - Ansible-Terraform workspace: 
+      - About: workspaces/ansible-terraform-workspace/README.md
+      - Ansible tools: workspaces/ansible-terraform-workspace/ansible-tools.md
+      - Terraform tools: workspaces/ansible-terraform-workspace/terraform-tools.md
+    - Base workspace: 
+      - About: workspaces/base-workspace/README.md
+    - Codeserver workspace: 
+      - About: workspaces/codeserver-workspace/README.md
+    - Elasticsearch workspace: 
+      - About: workspaces/elasticsearch-workspace/README.md
+      - Tutorial: workspaces/elasticsearch-workspace/tutorial.md
+    - Erlang-Elixir workspace: 
+      - About: workspaces/erlang-elixir-workspace/README.md
+      - Tutorial: workspaces/erlang-elixir-workspace/tutorial.md
+    - Go workspace: 
+      - About: workspaces/go-workspace/README.md
+      - Tutorial: workspaces/go-workspace/tutorial.md
+    - IDE workspace: 
+      - About: workspaces/ide-workspace/README.md
+    - Java workspace: 
+      - About: workspaces/java-workspace/README.md
+      - Tutorial: workspaces/java-workspace/tutorial.md
+    - Kafka workspace: 
+      - About: workspaces/kafka-workspace/README.md
+      - Tutorial: workspaces/kafka-workspace/tutorial.md
+    - Kubespray workspace: 
+      - About: workspaces/kubespray-workspace/README.md
+      - Tutorial: workspaces/kubespray-workspace/tutorial.md
+    - Mkdocs-workspace: 
+      - About: workspaces/mkdocs-workspace/README.md
+      - Docs: https://mkdocs-magicspace.alnoda.org/
+    - Node.js workspace: 
+      - About: workspaces/nodejs-workspace/README.md
+      - Tutorial: workspaces/nodejs-workspace/tutorial.md
+    - Notebook workspace: 
+      - About: workspaces/notebook-workspace/README.md
+      - Working with data: workspaces/notebook-workspace/working-with-data.md
+      - Data exploration: workspaces/notebook-workspace/data-exploration.md
+      - Presentations: workspaces/notebook-workspace/presentations.md
+      - Reports: workspaces/notebook-workspace/reports.md
+      - Productionalize notebooks: workspaces/notebook-workspace/productionalize.md
+      - Pipelines: workspaces/notebook-workspace/pipelines.md
+      - Interactive web app: workspaces/notebook-workspace/interactive.md
+      - Documentation: workspaces/notebook-workspace/documentation.md
+    - PHP workspace: 
+      - About: workspaces/php-workspace/README.md
+      - Tutorial: workspaces/php-workspace/tutorial.md
+    - Postgres workspace: 
+      - About: workspaces/postgres-workspace/README.md
+      - Tutorial: workspaces/postgres-workspace/tutorial.md
+    - Python workspace: 
+      - About: workspaces/python-workspace/README.md
+    - Python-automate workspace: 
+      - About: workspaces/python-automate-workspace/README.md
+      - Tutorial: workspaces/python-automate-workspace/tutorial.md
+    - R workspace: 
+      - About: workspaces/r-workspace/README.md
+      - Tutorial: workspaces/r-workspace/tutorial.md
+    - Redis workspace: 
+      - About: workspaces/redis-workspace/README.md
+      - Tutorial: workspaces/redis-workspace/tutorial.md
+    - Ruby workspace: 
+      - About: workspaces/ruby-workspace/README.md
+      - Tutorial: workspaces/ruby-workspace/tutorial.md
+    - Rust workspace: 
+      - About: workspaces/rust-workspace/README.md
+      - Tutorial: workspaces/rust-workspace/tutorial.md
+    - Scala workspace: 
+      - About: workspaces/scala-workspace/README.md
+      - Tutorial: workspaces/scala-workspace/tutorial.md
+    - SQlite workspace: 
+      - About: workspaces/sqlite-workspace/README.md
+      - Tutorial: workspaces/sqlite-workspace/tutorial.md
+    - Streamlit workspace: 
+      - About: workspaces/streamlit-workspace/README.md
+      - Tutorial: workspaces/streamlit-workspace/tutorial.md
+    - Theia workspace: 
+      - About: workspaces/theia-workspace/README.md
+      - Tutorial: workspaces/theia-workspace/getting-started.md
+    - Ubunntu workspace: 
+      - About: workspaces/ubuntu-workspace/README.md
+      - Tutorial: workspaces/ubuntu-workspace/tutorial.md
+      - Run remotely: workspaces/ubuntu-workspace/remote-wid.md
+    - Ubunntu-docker workspace: 
+      - About: workspaces/ubuntu-docker-workspace/README.md
+      - Tutorial: workspaces/ubuntu-docker-workspace/tutorial.md
+  
+  - User guide:
+    - Examples:
+        - Voyager: user-guide/examples/voyager.md
+
   
 
 
@@ -99,7 +109,7 @@ nav:
 # CONFIGURATION
 # ===========================================================
 
-site_name: Alnoda Workspaces
+site_name: Alnoda workspaces
 repo_url: https://github.com/bluxmit/alnoda-workspaces
 site_url: https://docs.alnoda.org
 edit_uri: ""
@@ -110,21 +120,25 @@ edit_uri: ""
 
 theme:
   name: 'material'
-  favicon: 'assets/favicon.ico'
-  logo: 'assets/Alnoda-white.svg'
+  favicon: 'assets/laptop-circle.svg'
+  logo: 'assets/laptop-circle-white.svg'
   custom_dir: overrides
+  font:
+    text: Roboto
   icon:
     repo: fontawesome/brands/git-alt
   features:
     - navigation.instant
+    - navigation.tabs
+    - navigation.top
   palette:
-    - scheme: default
+    - scheme: docs-light
       toggle:
         icon: material/weather-sunny
         name: Switch to dark mode
       primary: black  
       accent: red
-    - scheme: slate
+    - scheme: docs-dark
       toggle:
         icon: material/weather-night
         name: Switch to light mode
@@ -140,6 +154,9 @@ plugins:
   - search
   # Enable Macros and jinja2 templates
 
+extra_css:
+  - stylesheets/custom.css
+  - stylesheets/extra.css
 
 extra_javascript:
   - javascripts/config.js

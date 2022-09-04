@@ -1,0 +1,19 @@
+html {
+  font-size: 125%;
+}
+
+.md-grid {
+    max-width: 65rem;
+}
+
+.md-header__title {
+    font-weight: 900;
+}
+
+.md-tabs__list {
+    font-weight: 900;
+}
+
+.md-header[data-md-state="shadow"] {
+    box-shadow: 0 0 0 0 !important;
+}

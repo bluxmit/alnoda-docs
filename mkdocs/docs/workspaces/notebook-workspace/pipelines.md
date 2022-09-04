@@ -101,7 +101,7 @@ This pipeline is an introductory tutorial to learn the basics of Ploomber. Pipel
 
 ![Ploomber pipeline](img/ploomber-example-pipeline.png) 
 
-Read more abou this pipeline in the [pipeline documentation]([Pipeline documentation](https://github.com/ploomber/projects/blob/master/guides/first-pipeline/README.ipynb))  
+Read more abou this pipeline in the [pipeline documentation](Pipeline documentation](https://github.com/ploomber/projects/blob/master/guides/first-pipeline/README.ipynb))  
 
 Explore the tasks with the Jupyter Lab. Notice, that tasks are `.py` files, but they are not mere scripts - they 
 are jupytext notebooks. Open them as notebooks 
