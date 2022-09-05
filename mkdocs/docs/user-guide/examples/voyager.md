@@ -1,76 +1,160 @@
-# Voyager
+# Voyager - data exploration tool
 
-In this example we are going to add [Voyager](https://github.com/vega/voyager) to the workspace. Voyager is a data exploration 
-tool that blends manual and automated chart specification.  
+## Intro
 
-We will install Voyager in the separate isolated environment, start it in a way that is resilient to the workspace restart, 
-and add a Voyager tab to the workspace UI Home tab.
+In this example we are going to add [__Voyager__](https://github.com/vega/voyager) to the workspace as a permanent workspace application.    
+
+[__Voyager__](https://github.com/vega/voyager) is a data exploration tool with a browser-based user interface that blends manual and automated chart specification.     
+
+![voyager](img/voyager.jpg)
+
+[__Voyager__](https://github.com/vega/voyager) can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
+
+Voyager is a Javascript application. We will clone code repository, install dependencies and build Voyager.  
+
+!!! note
+    We will install Voyager in the separate isolated environment, start it in a way that is resilient to the workspace restart, 
+    and add a Voyager tab to the workspace UI Home tab.   
+
+## Requirements
+
+First thing is to install python2. Voyager has rather outdated dependencies. 
+Luckily workspace is completely isolated, and this won't affect you main environment.  
+
+Open workspace terminal and execute the next commands
+
+<div class="termy">
+```bash
+$ sudo apt-get update
+$ sudo apt-get install -y python2
+
+Preparing to unpack .../python2_2.7.17-2ubuntu4_amd64.deb ...
+Unpacking python2 (2.7.17-2ubuntu4) ...
+Setting up libpython2.7-stdlib:amd64 (2.7.18-1~20.04.3) ...
+Setting up python2.7 (2.7.18-1~20.04.3) ...
+Setting up libpython2-stdlib:amd64 (2.7.17-2ubuntu4) ...
+Setting up python2 (2.7.17-2ubuntu4) ...
+Processing triggers for mime-support (3.64ubuntu1) ...
+```
+</div>
 
 ## Build
 
-First install python2. Voyager requires this dependency
+Now, clone Voyager GitHub repository, and go into it
 
-```
-sudo apt-get update
-sudo apt-get install -y python2
-```
+<div class="termy">
+```bash
+$ git clone https://github.com/vega/voyager.git ~/apps/voyager
 
-Clone voyager repository, and go into it
+Cloning into '/home/abc/apps/voyager'...
+remote: Enumerating objects: 21671, done.
+remote: Counting objects: 100% (185/185), done.
+remote: Compressing objects: 100% (163/163), done.
+remote: Total 21671 (delta 64), reused 103 (delta 20), pack-reused 21486
+Receiving objects: 100% (21671/21671), 77.35 MiB | 2.90 MiB/s, done.
+Resolving deltas: 100% (14910/14910), done.
 
-```
-git clone https://github.com/vega/voyager.git ~/apps/voyager
-cd ~/apps/voyager
-```
+$ cd ~/apps/voyager
 
-Create node environment. Separate environment will prevent dependencies conflicts with other applications.  
+with <font color="#FDEB61">abc</font> in <font color="#37E6E8">~/apps/voyager</font> on <font color="#BC94B7">⇡master</font> <font color="#98E242">➜</font>
+```
+</div>
 
+Let's create an isolate node environment. Separate environment will prevent dependencies conflicts with other applications 
+that we might want to install in the workspace later.    
+
+<div class="termy">
 ```
-nodeenv --node=12.18.3 env
+$ nodeenv --node=12.18.3 env
+
+with <font color="#FDEB61">abc</font> in <font color="#37E6E8">~/apps/voyager</font> on <font color="#BC94B7">⇡master</font> <font color="#98E242">➜</font> <font color="#5EA702">nodeenv</font> --node=12.18.3 env
+ * Install prebuilt node (12.18.3) ..... done.
 ```
+</div>
 
 Activate this environment
 
+<div class="termy">
 ```
-. env/bin/activate
+$ . env/bin/activate
+
+(env) 18:11:21 with <font color="#FDEB61">abc</font> in <font color="#37E6E8">~/apps/voyager</font> on <font color="#BC94B7">⇡master</font> 📦 <font color="#F54235">v2.0.0-alpha.24</font> via <font color="#99E343">⬢ v12.18.3</font> <font color="#98E242">➜</font> 
 ```
+</div>
 
 Install yarn
 
+<div class="termy">
 ```
-npm install -g yarn
+$ npm install -g yarn
+
++ yarn@1.22.19
+added 1 package in 1.697s
 ```
+</div>
 
 Install all required packages
 
+<div class="termy">
 ```
-yarn
+$ yarn
+
+Binary found at /home/abc/apps/voyager/node_modules/node-sass/vendor/linux-x64-72/binding.node
+Testing binary
+Binary is fine
+node-sass@4.14.1 /home/abc/apps/voyager/node_modules/node-sass
+Done in 91.65s.
 ```
+</div>
 
 Build Voyager
 
+<div class="termy">
 ```
-yarn build
+$ yarn build
+
+Done in 144.69s.
 ```
+</div>
 
 ## Run
 
 We have built voyager, now we can start it
 
+<div class="termy">
 ```
-yarn start
+$ yarn start
+
+<font color="#3C6894">ℹ</font> <font color="#646562">｢wdm｣</font>: Compiled successfully.
 ```
+</div>
 
-Voyager runs on port 9000, but workspace exposes port range 8020-8040. Lets create port tunneling 
-from port 9000 to 8030. Open another terminal, and run
+Voyager listens to the port 9000. You can open another terminal and run `curl localhost:9000` to check 
+if Voyager is up and running.  
 
+But now we cannot access Voyager bescides the terminal. The workspace exposes port range 8020-8040. 
+Lets create port tunneling from port 9000 to 8030, so that we could open Voyager in browser like any other application.   
+
+Open new terminal window, and execute
+
+<div class="termy">
 ```
-socat tcp-listen:8030,reuseaddr,fork tcp:localhost:9000
+$ socat tcp-listen:8030,reuseaddr,fork tcp:localhost:9000
+
+<font color="#646562">_</font>
 ```
+</div>
 
-Now you can open Voyager from the "My-apps" tab. Click on "Application on port 8030". Browser opens Voyager in the new page.   
+Now we can open Voyager from the "My-apps" tab on the workspace UI.   
 
-We can use Voyager now, but as soon as we close the terminal, Voyager will stop. It would be good if it kept running even if we 
-close terminal and even after we restart the workspace. To make this happen, we need to start Voyager (together with the port tunneling) 
+![voyager run](img/voyager-run.gif) 
+
+We can work with Voyager now! But as soon as we close the terminal, Voyager will stop too.  
+
+It would be much more convenient if we didn't need to start Voyager from the terminal each time. Voyager should kept running 
+even after we close the terminal session, and even after we restart the workspace.   
+
+To make this happen, we need to add Voyager (together with the port tunneling) as a permanent workspace application 
 via the workspace settings page.  
 
 
@@ -114,9 +198,14 @@ After you upload the image to the workspace, go to the "Interface" tab of the wo
 
 Give it any title and description. In the field "Port" enter port 8032. Then select your image.   
 
-Now we have Voyager tab on the Home page of the workspace.   
+Now we have Voyager tab on the Home page of the workspace. 
 
 ![start voyager](img/workspace-ui-voyager.jpg)
 
+## Result
+
+Voyager was permanently added to the workspace. If we stop and then start workspace, Voyager will be started too.  
+
+Any new workspace we create from this workspace will have Voyager too.
 
 

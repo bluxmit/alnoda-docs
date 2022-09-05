@@ -100,6 +100,9 @@ nav:
   
   - User guide:
     - Examples:
+        - q: user-guide/examples/q.md
+        - Label Studio: user-guide/examples/label-studio.md
+        - Luckysheet Document: user-guide/examples/luckysheet.md
         - Voyager: user-guide/examples/voyager.md
 
   
@@ -128,7 +131,7 @@ theme:
   icon:
     repo: fontawesome/brands/git-alt
   features:
-    - navigation.instant
+    # - navigation.instant
     - navigation.tabs
     - navigation.top
   palette:
@@ -145,6 +148,18 @@ theme:
       primary: black
       accent: red
 
+markdown_extensions:
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format ''
+  - pymdownx.tabbed:
+      alternate_style: true
+  - admonition
+  # - mdx_include:
+  #     base_path: docs
+
 extra:
   # Link to open when your logo is clicked
   homepage: https://docs.alnoda.org
@@ -155,12 +170,16 @@ plugins:
   # Enable Macros and jinja2 templates
 
 extra_css:
-  - stylesheets/custom.css
+  - stylesheets/modify.css
   - stylesheets/extra.css
+  - stylesheets/termynal.css
+  - stylesheets/custom.css
 
 extra_javascript:
-  - javascripts/config.js
   - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - javascript/termynal.js
+  - javascript/custom.js
+  
 
 
 

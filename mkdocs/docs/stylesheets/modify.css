@@ -1,0 +1,35 @@
+html {
+  font-size: 125%;
+}
+
+.md-grid {
+    max-width: 65rem;
+}
+
+.md-header__title {
+    font-weight: 900;
+}
+
+.md-tabs__list {
+    font-weight: 900;
+}
+
+.md-header[data-md-state="shadow"] {
+    box-shadow: 0 0 0 0 !important;
+}
+
+
+.md-typeset .admonition, .md-typeset details {
+    font-size: .71rem;
+}
+.md-typeset .note > .admonition-title, .md-typeset .note > summary {
+    background-color: rgba(31, 19, 49,1);
+    border-color: #448aff;
+    color: #ffffff;
+}
+.md-typeset .admonition.note, .md-typeset details.note {
+  border-color: #E77260;
+}
+.md-typeset .note > .admonition-title::before, .md-typeset .note > summary::before {
+    background-color: #E77260;
+}

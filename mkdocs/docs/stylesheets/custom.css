@@ -1,19 +1,23 @@
-html {
-  font-size: 125%;
+.termynal-comment {
+    color: #4a968f;
+    font-style: italic;
+    display: block;
 }
 
-.md-grid {
-    max-width: 65rem;
+.termy [data-termynal] {
+    white-space: pre-wrap;
 }
 
-.md-header__title {
-    font-weight: 900;
+a.external-link::after {
+    /* \00A0 is a non-breaking space
+        to make the mark be on the same line as the link
+    */
+    content: "\00A0[↪]";
 }
 
-.md-tabs__list {
-    font-weight: 900;
-}
-
-.md-header[data-md-state="shadow"] {
-    box-shadow: 0 0 0 0 !important;
+a.internal-link::after {
+    /* \00A0 is a non-breaking space
+        to make the mark be on the same line as the link
+    */
+    content: "\00A0↪";
 }
