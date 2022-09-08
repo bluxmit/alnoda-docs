@@ -45,12 +45,13 @@
 }
 
 [data-termynal]:after {
-    content: 'bash';
+    content: 'workspace terminal';
     position: absolute;
     color: var(--color-text-subtle);
     top: 5px;
     left: 0;
     width: 100%;
+    padding-top: 9px;
     text-align: center;
 }
 

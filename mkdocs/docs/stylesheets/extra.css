@@ -8,6 +8,8 @@
   --md-typeset-color:           #1C1C1C;
   --md-typeset-a-color:         #1C1C1C;
 
+  --md-admonition-bg-color:     #f0c999;
+
 }
 
 [data-md-color-scheme="docs-dark"] {

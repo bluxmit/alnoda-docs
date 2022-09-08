@@ -21,6 +21,7 @@ html {
 
 .md-typeset .admonition, .md-typeset details {
     font-size: .71rem;
+    box-shadow: none !important;
 }
 .md-typeset .note > .admonition-title, .md-typeset .note > summary {
     background-color: rgba(31, 19, 49,1);
@@ -32,4 +33,18 @@ html {
 }
 .md-typeset .note > .admonition-title::before, .md-typeset .note > summary::before {
     background-color: #E77260;
+}
+
+
+.md-typeset .attention > .admonition-title, .md-typeset .attention > summary, .md-typeset .caution > .admonition-title, .md-typeset .caution > summary, .md-typeset .warning > .admonition-title, .md-typeset .warning > summary {
+    background-color: #E77260;
+    color: #ffffff;
+}
+
+.md-typeset .attention > .admonition-title, .md-typeset .attention > summary::before, .md-typeset .caution > .admonition-title, .md-typeset .caution > summary::before, .md-typeset .warning > .admonition-title, .md-typeset .warning > summary::before {
+    background-color: #E77260;
+}
+
+.md-typeset [type="checkbox"]:checked + .task-list-indicator::before {
+    background-color: #9CDCFE;
 }

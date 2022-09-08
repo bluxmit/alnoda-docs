@@ -2,7 +2,7 @@
 
 ## Intro
 
-In this example we are going to add [Label Studio](https://labelstud.io/) to the workspace as a permanent workspace application.   
+In this example we are going to add [__Label Studio__](https://labelstud.io/) to the workspace as a permanent workspace application.   
 
 [Label Studio](https://labelstud.io/) - is an open source data labeling tool. It lets you label data types like audio, text, 
 images, videos, and time series with a simple and straightforward UI and export to various model formats. 
@@ -10,7 +10,8 @@ It can be used to prepare raw data or improve existing training data to get more
 
 ![label-studio](img/label-studio.jpg)
 
-Label Studio can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.  
+!!! attention
+    Label Studio can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.  
 
 !!! note
     Label Studio is a python package. We will install it in an isolated environment, start it as a permanent workspace application, 
@@ -18,7 +19,8 @@ Label Studio can be installed in any workspace. We will use __Theia workspace v.
 
 ## Install 
 
-[Label Studio](https://pypi.org/project/label-studio/) is a python package. It can be installed with either __pip__ or [__pipx__](https://github.com/pypa/pipx).  
+[Label Studio](https://pypi.org/project/label-studio/) is a python package. It can be installed with either __pip__ or [__pipx__](https://github.com/pypa/pipx). 
+Both are present in every workspace.    
 
 There is an advantage of using [__pipx__](https://github.com/pypa/pipx) - pipx installs and runs Python applications in an 
 isolated environments. This will prevent package conflicts with any other Python application that we might install in future.  
@@ -80,7 +82,9 @@ This is a command that would start Label Studio in a resilient way. Give it any 
 
 ![label-studio-start](img/label-studio-start.png)
 
-Started in this way, Label Studio will keep running even if you restart the workspace. Notice that this time we have 
+Restart the workspace for Label Studio to start.  
+
+Started in this way, Label Studio will keep running even if you restart the workspace again. Notice that this time we have 
 started it on the other port - 8032. This is a free port, not used by any application in the workspace.  
 
 ## Add UI card

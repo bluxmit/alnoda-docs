@@ -1,0 +1,1 @@
+https://github.com/piccolomo/plotext/blob/master/readme/other.md

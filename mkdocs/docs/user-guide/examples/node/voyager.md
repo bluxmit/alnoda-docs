@@ -8,13 +8,14 @@ In this example we are going to add [__Voyager__](https://github.com/vega/voyage
 
 ![voyager](img/voyager.jpg)
 
-[__Voyager__](https://github.com/vega/voyager) can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
+!!! attention
+    [__Voyager__](https://github.com/vega/voyager) can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
 
 Voyager is a Javascript application. We will clone code repository, install dependencies and build Voyager.  
 
 !!! note
-    We will install Voyager in the separate isolated environment, start it in a way that is resilient to the workspace restart, 
-    and add a Voyager tab to the workspace UI Home tab.   
+    We will create isolated node environment, istall Voyager dependencies and build Voyager in it.   
+    Then we will start it in a permanent way, and add a Voyager card to the workspace UI Home tab.   
 
 ## Requirements
 
@@ -184,6 +185,8 @@ Select "START NEW" from the picklist, enter any name and paste this command
 ```
 socat tcp-listen:8032,reuseaddr,fork tcp:localhost:9000
 ```
+
+Let's restart the workspace for new applications to start.  
 
 ## Update UI
 

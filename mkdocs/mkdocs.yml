@@ -100,10 +100,26 @@ nav:
   
   - User guide:
     - Examples:
-        - q: user-guide/examples/q.md
-        - Label Studio: user-guide/examples/label-studio.md
-        - Luckysheet Document: user-guide/examples/luckysheet.md
-        - Voyager: user-guide/examples/voyager.md
+        # - Apt:
+        - Nix packages:
+          - Glow: user-guide/examples/nix/glow.md
+          - Micro: user-guide/examples/nix/micro.md
+        - Downloaded binaries:
+          - q: user-guide/examples/binary/q.md
+          - nnnn: user-guide/examples/binary/nnn.md
+        - Python applications:
+          - Calibre-Web: user-guide/examples/python/calibre-web.md
+          - Label Studio: user-guide/examples/python/label-studio.md
+        - Node.js applications:
+          - Luckysheet Document: user-guide/examples/node/luckysheet.md
+          - Voyager: user-guide/examples/node/voyager.md
+          - Trilium: user-guide/examples/node/trilium.md
+        - Go applications:
+          - cointop: user-guide/examples/go/cointop.md
+        - Rust applications:
+          - amp: user-guide/examples/rust/amp.md
+        # - Ruby applications:
+        # - PHP applications:
 
   
 
@@ -157,6 +173,8 @@ markdown_extensions:
   - pymdownx.tabbed:
       alternate_style: true
   - admonition
+  - pymdownx.tasklist:
+      custom_checkbox: true
   # - mdx_include:
   #     base_path: docs
 
