@@ -8,7 +8,7 @@ application with focus on building large personal knowledge bases.
 ![trilium](img/trilium.jpg)
 
 !!! attention
-    [__Trilium__](https://github.com/zadam/trilium) can be installed in any workspace. We will use __Theia workspace v.4.0__ for this example.
+    [__Trilium__](https://github.com/zadam/trilium) can be installed in any workspace. We will use __Codeserver workspace v.4.0__ for this example.
 
 Trilium is a Javascript application with the browser-based user interface. 
 

@@ -17,6 +17,10 @@ https://github.com/wwebdev/convert2svg
 https://github.com/ZeroX-DG/limus
 
 
+https://docs.hedgedoc.org/
 
+https://github.com/FujitsuLaboratories/cattaz  
 
+https://github.com/munshkr/flok
 
+https://github.com/lostintangent/kyte

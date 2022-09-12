@@ -199,11 +199,11 @@ After you upload the image to the workspace, go to the "Interface" tab of the wo
 
 ![start voyager](img/voyager-ui.jpg)
 
-Give it any title and description. In the field "Port" enter port 8032. Then select your image.   
+Give it any title and description. In the field "Port" enter port 8032. Leave field "path" blank. Then select your image.   
 
 Now we have Voyager tab on the Home page of the workspace. 
 
-![start voyager](img/workspace-ui-voyager.jpg)
+![voyager ui](img/workspace-ui-voyager.jpg)
 
 ## Result
 

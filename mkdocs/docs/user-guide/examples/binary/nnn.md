@@ -10,7 +10,7 @@ It is designed to be unobtrusive with smart workflows to match the trains of tho
 [__nnn__](http://harelba.github.io/q/) is a terminal-based application without a graphical user interface.  
 
 !!! attention 
-    [__nnn__](http://harelba.github.io/q/) can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
+    [__nnn__](http://harelba.github.io/q/) can be installed in any workspace. We will use __Codeserver workspace v.4.0__ in this example.
 
 !!! note
     We will download the archeived release .tar file, extract the binary and mowe it to the executable folder.   

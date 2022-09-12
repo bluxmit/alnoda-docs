@@ -10,7 +10,7 @@ and allowing direct access to multi-file sqlite3 databases.
 [__q__](http://harelba.github.io/q/) is a terminal-based application without a graphical user interface.   
 
 !!! attention 
-    [__q__](http://harelba.github.io/q/) can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
+    [__q__](http://harelba.github.io/q/) can be installed in any workspace. We will use __Codeserver workspace v.4.0__ in this example.
 
 !!! note
     In this example tutorial we will download and install the [__q__](http://harelba.github.io/q/) package.  

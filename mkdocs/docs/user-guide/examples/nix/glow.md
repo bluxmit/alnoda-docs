@@ -14,7 +14,7 @@ in subdirectories or a local Git repository.
 Glow is a terminal-based application without a graphical user interface.  
 
 !!! attention 
-    Glow can be installed in any workspace. We will use __Theia workspace v.4.0__ in this example.
+    Glow can be installed in any workspace. We will use __Codeserver workspace v.4.0__ in this example.
 
 !!! note
     We will install Glow with [__Nix__](https://nixos.org/) package manager, and create terminal alias for more convenient use of Glow.   
