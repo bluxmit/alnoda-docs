@@ -99,31 +99,38 @@ nav:
       - Tutorial: workspaces/ubuntu-docker-workspace/tutorial.md
   
   - User guide:
-    - Examples:
-        - Apt packages:
-          - Kakoune: user-guide/examples/apt/kakoune.md
-          - SnipKit: user-guide/examples/apt/snipkit.md
-        - Nix packages:
-          - Glow: user-guide/examples/nix/glow.md
-          - Micro: user-guide/examples/nix/micro.md
-        - Binary packages:
-          - q: user-guide/examples/binary/q.md
-          - nnnn: user-guide/examples/binary/nnn.md
-        - Python applications:
-          - Calibre-Web: user-guide/examples/python/calibre-web.md
-          - Label Studio: user-guide/examples/python/label-studio.md
-        - Node.js applications:
-          - Luckysheet Document: user-guide/examples/node/luckysheet.md
-          - Voyager: user-guide/examples/node/voyager.md
-          - Trilium: user-guide/examples/node/trilium.md
-        - Go applications:
-          - cointop: user-guide/examples/go/cointop.md
-        - Rust applications:
-          - amp: user-guide/examples/rust/amp.md
-        - Serverless in-browser:
-          - JupyterLite: user-guide/examples/static/jupyterlite.md
-        # - Ruby applications:
-        # - PHP applications:
+    - Apps and services:
+      - PM2: user-guide/apps-services/pm2.md
+    - Extend Workspace:
+      - Examples:
+          - Apt packages:
+            - Kakoune: user-guide/extend-workspace/examples/apt/kakoune.md
+            - SnipKit: user-guide/extend-workspace/examples/apt/snipkit.md
+          - Nix packages:
+            - Glow: user-guide/extend-workspace/examples/nix/glow.md
+            - Micro: user-guide/extend-workspace/examples/nix/micro.md
+          - Binary packages:
+            - Dagu: user-guide/extend-workspace/examples/binary/dagu.md
+            - q: user-guide/extend-workspace/examples/binary/q.md
+            - nnn: user-guide/extend-workspace/examples/binary/nnn.md
+          - Python applications:
+            - Label Studio: user-guide/extend-workspace/examples/python/label-studio.md
+            - Cooka: user-guide/extend-workspace/examples/python/cooka.md
+          - Node.js applications:
+            - Luckysheet Document: user-guide/extend-workspace/examples/node/luckysheet.md
+            - Voyager: user-guide/extend-workspace/examples/node/voyager.md
+            - Trilium: user-guide/extend-workspace/examples/node/trilium.md
+            - Neumorphism: user-guide/extend-workspace/examples/node/neumorphism.md
+            - ZeroDivs: user-guide/examples/node/zerodivs.md
+          - Go applications:
+            - cointop: user-guide/extend-workspace/examples/go/cointop.md
+          - Rust applications:
+            - amp: user-guide/extend-workspace/examples/rust/amp.md
+          - Serverless in-browser:
+            - JupyterLite: user-guide/extend-workspace/examples/static/jupyterlite.md
+            - Laverna: user-guide/extend-workspace/examples/static/laverna.md
+          # - Ruby applications:
+          # - PHP applications:
 
   
 
