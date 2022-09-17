@@ -1,17 +1,17 @@
-# ZeroDivs  - UI Editor for CSS Illustrations
+# Limus  - Look at your screenshot at different angles
 
 ## Intro
 
-In this example we will set up [__ZeroDivs__](https://github.com/jperals/zerodivs) in the workspace.    
+In this example we will set up [__Limus__](https://github.com/ZeroX-DG/limus) in the workspace.    
 
-ZeroDivs - is a UI Editor for creating CSS illustrations with a single HTML element 
+Limus makes your screenshot/image more professional by rotating, adding shadow and more.  
 
 !!! attention
-    ZeroDivs can be installed in any workspace. We will use __Codeserver workspace v.4.0__ in this example.
+    Limus can be installed in any workspace. We will use __Codeserver workspace v.4.0__ in this example.
 
 !!! note
-    We will create isolated node environment for ZeroDivs and its dependencies.  
-    Then we will start it in a permanent way, and add ZeroDivs tab shortcut to the workspace UI. 
+    We will create isolated node environment for Limus and its dependencies.  
+    Then we will start it in a permanent way, and add Limus tab shortcut to the workspace UI. 
 
 
 ## Prepare  
@@ -43,7 +43,7 @@ Open workspace terminal, clone ZeroDivs git repository and enter it
 
 <div class="termy">
 ```bash
-$ git clone https://github.com/jperals/zerodivs /home/abc/apps/zerodivs
+$ git clone https://github.com/ZeroX-DG/limus /home/abc/apps/limus
 
 Cloning into '/home/abc/apps/zerodivs'...
 remote: Enumerating objects: 1915, done.

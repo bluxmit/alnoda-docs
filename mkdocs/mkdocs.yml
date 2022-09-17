@@ -114,6 +114,7 @@ nav:
             - q: user-guide/extend-workspace/examples/binary/q.md
             - nnn: user-guide/extend-workspace/examples/binary/nnn.md
           - Python applications:
+            - Static server: user-guide/extend-workspace/examples/python/static-server.md
             - Label Studio: user-guide/extend-workspace/examples/python/label-studio.md
             - Cooka: user-guide/extend-workspace/examples/python/cooka.md
           - Node.js applications:
@@ -121,7 +122,7 @@ nav:
             - Voyager: user-guide/extend-workspace/examples/node/voyager.md
             - Trilium: user-guide/extend-workspace/examples/node/trilium.md
             - Neumorphism: user-guide/extend-workspace/examples/node/neumorphism.md
-            - ZeroDivs: user-guide/examples/node/zerodivs.md
+            - ZeroDivs: user-guide/extend-workspace/examples/node/zerodivs.md
           - Go applications:
             - cointop: user-guide/extend-workspace/examples/go/cointop.md
           - Rust applications:
