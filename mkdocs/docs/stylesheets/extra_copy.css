@@ -9,7 +9,6 @@
   --md-typeset-a-color:         #1C1C1C;
 
   --md-admonition-bg-color:     #f0c999;
-
 }
 
 [data-md-color-scheme="docs-dark"] {
@@ -37,5 +36,5 @@
 }
 
 [data-md-color-primary="black"] .md-header {
-  background-color: #252A33;
+  background-color: #1f1331;
 }

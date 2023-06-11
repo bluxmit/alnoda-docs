@@ -3,7 +3,15 @@
 # ===========================================================
 
 nav:
-  - About: README.md
+  - About:
+    - Intro: about/intro.md
+    - What is workspace: about/what-is-workspace.md
+    - Why separate workspaces: about/separation.md 
+    - Containers: about/containers.md
+    - All in browser: about/containers.md
+    - Superpowers: about/containers.md
+    - Limitations: about/containers.md
+    - Alnoda Hub: about/containers.md
   - Get started:
     - Create workspace: get-started/create-workspace.md
     - Common features: get-started/common-features.md
@@ -63,6 +71,7 @@ nav:
       - Tutorial: workspaces/postgres-workspace/tutorial.md
     - Python workspace: 
       - About: workspaces/python-workspace/README.md
+      - Tutorial: workspaces/python-workspace/tutorial.md
     - Python-automate workspace: 
       - About: workspaces/python-automate-workspace/README.md
       - Tutorial: workspaces/python-automate-workspace/tutorial.md
@@ -117,12 +126,16 @@ nav:
             - Static server: user-guide/extend-workspace/examples/python/static-server.md
             - Label Studio: user-guide/extend-workspace/examples/python/label-studio.md
             - Cooka: user-guide/extend-workspace/examples/python/cooka.md
-          - Node.js applications:
-            - Luckysheet Document: user-guide/extend-workspace/examples/node/luckysheet.md
-            - Voyager: user-guide/extend-workspace/examples/node/voyager.md
-            - Trilium: user-guide/extend-workspace/examples/node/trilium.md
-            - Neumorphism: user-guide/extend-workspace/examples/node/neumorphism.md
-            - ZeroDivs: user-guide/extend-workspace/examples/node/zerodivs.md
+          - Javascript applications:
+            - Snippet Box: user-guide/extend-workspace/examples/javascript/snippetbox.md
+            - Voyager: user-guide/extend-workspace/examples/javascript/voyager.md
+            - Trilium: user-guide/extend-workspace/examples/javascript/trilium.md
+            - Neumorphism: user-guide/extend-workspace/examples/javascript/neumorphism.md
+            - ZeroDivs: user-guide/extend-workspace/examples/javascript/zerodivs.md
+            - Limus: user-guide/extend-workspace/examples/javascript/limus.md
+            - Csv-editor: user-guide/extend-workspace/examples/javascript/csv-editor.md
+            - Pm2-webui: user-guide/extend-workspace/examples/javascript/pm2-webui.md
+            - Convert2svg: user-guide/extend-workspace/examples/javascript/convert2svg.md
           - Go applications:
             - cointop: user-guide/extend-workspace/examples/go/cointop.md
           - Rust applications:
@@ -133,6 +146,9 @@ nav:
           # - Ruby applications:
           # - PHP applications:
 
+  - Collaborate:
+    - Ngrok: collaborate/ngrok.md
+    - Bore: collaborate/bore.md
   
 
 
@@ -155,7 +171,9 @@ theme:
   logo: 'assets/laptop-circle-white.svg'
   custom_dir: overrides
   font:
+    # text: Lato
     text: Roboto
+    # text: Fira Code
   icon:
     repo: fontawesome/brands/git-alt
   features:

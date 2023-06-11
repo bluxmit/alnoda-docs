@@ -1,1 +1,0 @@
-https://knowledge-repo.readthedocs.io/en/latest/installation.html#installation-with-a-python-virtual-environment

@@ -38,7 +38,7 @@ Starting any application with PM2 is as easy as
 
 Below are some of the most useful commands that you would use to start and stop applications.  
 
-- [X] Start any application
+- [X] Start application and daemonize with pm2 process manager
 
 <div class="termy">
 ```bash

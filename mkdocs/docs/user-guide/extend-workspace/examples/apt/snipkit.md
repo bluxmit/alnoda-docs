@@ -1,5 +1,41 @@
 # SnipKit - Snippet CLI manager
 
+work with pet https://github.com/knqyf263/pet
+
+
+
+
+echo 'deb [trusted=yes] https://apt.fury.io/lemoony/ /' | tee /etc/apt/sources.list.d/snipkit.list
+sudo apt-get update
+sudo apt-get install snipkit
+
+
+
+cat <<EOF >/home/abc/.config/snipkit/config.yaml
+version: 1.1.1
+config:
+  style:
+    theme: default
+  editor: "" # Defaults to a reasonable value for your operation system when empty.
+  defaultRootCommand: "" # If not set, the help text will be shown.
+  fuzzySearch: false
+  scripts:
+    # The path to the shell to execute scripts with. If not set or empty, $SHELL will be used instead. Fallback is '/bin/bash'.
+    shell: ""
+    # Defines how parameters are handled. Allowed values: SET (sets the parameter value as shell variable) and REPLACE (replaces all occurrences of the variable with the actual value)
+    parameterMode: SET
+    # If set to true, any comments in your scripts will be removed upon executing or printing.
+    removeComments: false
+    # If set to true, the executed command is always printed on stdout before execution for confirmation (same functionality as providing flag -c/--confirm).
+    execConfirm: false
+    # If set to true, the executed command is always printed on stdout (same functionality as providing flag -p/--print).
+    execPrint: false
+  manager: {}
+EOF
+
+
+
+
 ## Intro 
 
 In this example we will install [__SnipKit__](https://github.com/lemoony/snipkit) - snippet manager that lets you execute 

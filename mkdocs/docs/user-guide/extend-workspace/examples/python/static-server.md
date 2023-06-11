@@ -1,11 +1,9 @@
-# Label Studio - data labeling tool
+# Static web server - serve static websites from any folder
 
 ## Intro
 
-In this example we are going to add a very basic static web server to the workspace.  
-
-We will launch python [__http.server__](https://docs.python.org/3/library/http.server.html).  
-This is the simplest way to start up a web server that serves the directory.  
+In this example we are going to add a very basic static web server to the workspace - we will simply start 
+python's [__http.server__](https://docs.python.org/3/library/http.server.html), which is already present in the workspace.   
 
 Python is installed in every workspace, and http.server - is a built-in package. So we won't need to install anything. 
 We only need to start it is a permanent workspace service, and add a UI tab for the http.server.  

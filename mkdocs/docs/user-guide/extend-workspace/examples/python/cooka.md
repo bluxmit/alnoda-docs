@@ -49,9 +49,6 @@ Successfully installed protobuf-3.20.0
 
 [Cooka](https://github.com/DataCanvasIO/Cooka) is a python package. It can be installed with either __pip__ or [__pipx__](https://github.com/pypa/pipx).  
 
-There is an advantage of using [__pipx__](https://github.com/pypa/pipx) - with pipx we install and run Python applications in an 
-isolated environments. This will prevent package conflicts with any other Python application that we might install in future.  
-
 To install Cooka, execute the next command. __NOTE: this will take several minutes__
 <div class="termy">
 ```bash
