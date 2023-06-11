@@ -189,7 +189,7 @@
 
     .hr {
         border-bottom: 1px solid #eee;
-        width: 100%;
+        width: 80%;
         margin: 20px 0;
     }
 
@@ -312,6 +312,38 @@
         border-color: var(--md-accent-fg-color)
     }
 
+    .footer {
+      background-color: #252A33;
+      color: #FFFFFF;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-column {
+      flex: 1 0 50%;
+      padding: 10px;
+    }
+    /* Optional: Style the content within the columns */
+    .footer-column h3 {
+    }
+    .footer-column ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-column ul li {
+      margin-bottom: 5px;
+    }
+    @media (max-width: 600px) {
+        .md-header__title {
+            display: none
+        }
+    }
 
 </style>
 
@@ -324,7 +356,7 @@
         </div>
         <div class="tx-hero__content">
           <h1> Alnoda workspaces </h1>
-          <p>Open-source portable containerized browser-based development environments!</p>
+          <p>Open-source portable containerized browser-based development environments</p>
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
             Get started
           </a>
@@ -382,7 +414,60 @@
     </div>
 </div>
 
+<div class="top-hr">
+    <div class="feature-item" style="max-width: 600px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/container-transportation.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2 style="white-space: unset; word-break: break-word; overflow: unset;">
+            Development in docker is finally easy!
+        </h2>
+        <p>
+            Aloda simplifies the complexities often encountered when working with Docker-based development environments.
+        </p>
+    </div>
+</div>
 
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item" style="max-width: 500px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/software-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>No configuration</h2>
+        <p>
+            No need to create configuration or bootstrap scripts, Dockerfiles, docker-compose and understand docker intricacies.
+        </p>
+    </div>
+    <div class="feature-item" style="max-width: 500px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/creative-solutions.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Flexible and extendable</h2>
+        <p>Expand your development environments effortlessly by choosing from a vast selection of tools and applications, all without the need for prior knowledge of Docker.</p>
+    </div>
+</div>
+
+<div class="section-parent" style="background: linear-gradient(to bottom, rgb(48, 156, 214), #692580)">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1>Improve collaboration </h1>
+            <p>Alnoda workspaces was designed to cater to the era of remote work, decentralized teams, and digital nomads.</p>
+            <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/improve-collaboration.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
+    </div>
+</div>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js">
 <script>
@@ -400,4 +485,32 @@
 
 {% endblock %}
 {% block content %}{% endblock %}
-{% block footer %}{% endblock %}
+{% block footer %}
+<footer class="footer md-typeset">
+    <div class="footer-columns">
+      <div class="footer-column">
+            <div class="md-header__title" style="margin-left: 0; font-size: 1.1rem;">
+                <img src="assets/laptop-circle-white.svg" style="height: 1.5rem; vertical-align: middle; margin-right: 1rem;"/>
+                <span> Alnoda workspaces</span> 
+            </div>
+            <div><em>Flexible container-based development environments</em></div>
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li>
+            <img src="assets/home/email.svg" style="height: 1.5rem; vertical-align: middle; margin-right: 1rem;"/>
+            <b>bluxmit@gmail.com</b>
+          </li>
+          <li>
+            <b><a href="https://github.com/bluxmit/alnoda-workspaces" style="color: white" target="_blank">GitHub</a></b>
+          </li>
+          <li>
+            <b><a href="https://alnoda.org/" style="color: white" target="_blank">Alnoda Hub</a></b>
+          </li>
+        </ul>
+      </div>
+    </div>
+</footer>
+{% endblock %}
+
+
