@@ -6,12 +6,13 @@ nav:
   - About:
     - Intro: about/intro.md
     - What is workspace: about/what-is-workspace.md
-    - Why separate workspaces: about/separation.md 
+    - Workspace separation: about/separation.md 
     - Containers: about/containers.md
-    - All in browser: about/containers.md
-    - Superpowers: about/containers.md
-    - Limitations: about/containers.md
-    - Alnoda Hub: about/containers.md
+    - Ecosystem: about/ecosystem.md
+    - Advantages: about/advantages.md
+    - Limitations: about/limitations.md
+    - Use-cases: about/use-cases.md
+    - Roadmap: about/roadmap.md
   - Get started:
     - Create workspace: get-started/create-workspace.md
     - Common features: get-started/common-features.md

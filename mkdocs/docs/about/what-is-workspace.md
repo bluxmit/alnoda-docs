@@ -1,13 +1,21 @@
-!!! info
-    __Workspace__ - is a designated environment where developers, 
-    engineers, analysts, scientists and other professionals carry out their work. _It is a digital space that encompasses the tools, 
-    resources, and configurations required for productive and efficient work on projects._
+<p align="center">
+  <img src="../img/software-development-2.svg" alt="" width="350">
+</p>
+
+# Workspace
 
 A typical workspace often includes a range of tools that facilitate coding, debugging, collaboration, version control, 
 and project management. Depending on the user's role and project purpose, workspace can include tools to develop and orchestrate 
 workflows, interact and query databases, explore datasets, train ML models, track experiments, work with cloud servises and much more! 
 
-# Basic workspace
+!!! info
+    __Workspace__ - is a designated environment where developers, 
+    engineers, analysts, scientists and other professionals carry out their work. _It is a digital space that encompasses the tools, 
+    resources, and configurations required for productive and efficient work on projects._
+
+Depending on the role, IT professionals use workspaces with different unique set of tools. Below you will find couple of workspace examples.
+
+## Basic Workspace
 
 A very basic workspace can have the following tools:
 
@@ -17,7 +25,7 @@ A very basic workspace can have the following tools:
 
 - [X] Version Control System: Git is the most widely used version control system. In addition, platforms like GitHub or GitLab have their own CLI tools that can improve your experience and productivity.
 
-# Developer workspace
+## Developer Workspace
 
 A software developer workspace is a personalized environment where software developers create, modify, and maintain software applications. It includes a range of tools, technologies, and resources to support the development process. 
 
@@ -31,7 +39,7 @@ A software developer workspace is a personalized environment where software deve
 
 - [X]  Local instances of databases and message queues: Postgres, Kafka, Redis, RabbitMQ and other.
 
-# Data engineer workspace
+## Data engineer workspace
 
 A data engineer workspace is a specialized environment tailored to the needs of data engineers who work with large-scale data processing, 
 data integration, and data infrastructure. It includes a range of tools, technologies, and resources to support the design, 
@@ -49,15 +57,7 @@ development, and maintenance of data pipelines, databases, and data systems.
 
 - [X] Database Systems Exploration and Management Tools - tools that allow to explore and query data, fix data issues, ingest/download datasets.
 
-Data Modeling and ETL Tools: Data engineers employ tools like Apache Hive, Apache Pig, or Talend for data modeling and ETL (Extract, Transform, Load) processes. These tools help in organizing, transforming, and preparing data for analysis and consumption.
+- [X] Data Modeling and ETL Tools: Data engineers employ tools like Apache Hive, Apache Pig, or Talend for data modeling and ETL (Extract, Transform, Load) processes. These tools help in organizing, transforming, and preparing data for analysis and consumption.
 
-Data Quality and Testing Tools: Data engineers employ tools like Great Expectations, Apache Hudi, or Apache Griffin to validate data quality, perform data profiling, and ensure the accuracy and reliability of data pipelines and systems.
+- [X] Data Quality and Testing Tools: Data engineers employ tools like Great Expectations, Apache Hudi, or Apache Griffin to validate data quality, perform data profiling, and ensure the accuracy and reliability of data pipelines and systems.
 
-
-# And much more!
-
-Collaboration and Documentation: Data engineers often use collaboration tools like Jupyter Notebooks, Confluence, or Wiki pages to document code, processes, and system configurations. These tools facilitate knowledge sharing and collaboration among team member
-
-Continuous Integration and Deployment (CI/CD) Tools like Jenkins, Travis CI automate the build, testing, and deployment processes, ensuring code quality and streamlining the release pipeline.
-
-Documentation and Collaboration Tools: Platforms like Confluence, Google Docs, or Markdown editors facilitate documentation creation, knowledge sharing, and collaborative editing.

@@ -343,6 +343,9 @@
         .md-header__title {
             display: none
         }
+        .section-parent .child-hero {
+            padding-left: 2rem;
+        }
     }
 
 </style>
@@ -360,7 +363,7 @@
           <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
             Get started
           </a>
-          <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
+          <a href="https://alnoda.org" target="_blank" class="md-button">
             Alnoda Hub
           </a>
         </div>
@@ -423,7 +426,7 @@
             Development in docker is finally easy!
         </h2>
         <p>
-            Aloda simplifies the complexities often encountered when working with Docker-based development environments.
+            Alnoda simplifies the complexities often encountered when working with Docker-based development environments.
         </p>
     </div>
 </div>
@@ -468,6 +471,72 @@
         </div>
     </div>
 </div>
+
+
+
+<div class="top-hr">
+    <div class="feature-item" style="max-width: 600px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/software-upgrade.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2 style="white-space: unset; word-break: break-word; overflow: unset;">
+            Various deployment options
+        </h2>
+        <p>
+            Alnoda workspaces offer various deployment choices, allowing for portability and effortless migration across different environments.
+        </p>
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/local.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Local</h2>
+        <p>
+            Use workspaces locally and benefit from project isolation, the ability to create backups, and the ease of sharing with others. 
+        </p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/host-in-cloud.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Self-hosted</h2>
+        <p>Launch workspace in the cloud and enjoy the flexibility of working from any device, regardless of your location anywhere in the world.</p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/host-in-kubernetes.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Kubernetes</h2>
+        <p>Deploy workspaces in kubernetes to create a powerful in-house cloud development plafrorm. </p>
+    </div>
+</div>
+
+
+<div class="section-parent" style="background: linear-gradient(to bottom, #49e3b0, #692580)">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1>Roadmap </h1>
+            <p>Alnoda is continuously evolving, with many exciting features yet to be unveiled. Stay tuned and explore our roadmap for future updates and enhancements!</p>
+            <a href="{{ config.repo_url }}" title="{{ lang.t('source.link.title') }}" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/roadmap.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
+    </div>
+</div>
+
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js">
 <script>
