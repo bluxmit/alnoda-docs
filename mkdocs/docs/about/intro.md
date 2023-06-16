@@ -21,3 +21,6 @@ By leveraging the power
 of containerization, we enable users to isolate their projects, back up their work, conduct isolated experiments, work on any 
 computer, share workspaces, and collaborate effortlessly.
 
+!!! warning
+    These Alnoda features are in active development, and not publicly available yet: 1) workspace deployment on cloud server; 
+    2) workspace deployment in Kubernetes; 3) Alnoda desktop app

@@ -7,11 +7,13 @@ nav:
     - Intro: about/intro.md
     - What is workspace: about/what-is-workspace.md
     - Workspace separation: about/separation.md 
-    - Containers: about/containers.md
-    - Ecosystem: about/ecosystem.md
-    - Advantages: about/advantages.md
-    - Limitations: about/limitations.md
+    - Containerized environments: about/containers.md
+    - Alnoda advantages: about/advantages.md
+    - Increase productivity: about/productivity.md
+    - Improve collaboration: about/collaboration.md
+    - Alnoda limitations: about/limitations.md
     - Use-cases: about/use-cases.md
+    - Alnoda ecosystem: about/ecosystem.md
     - Roadmap: about/roadmap.md
   - Get started:
     - Create workspace: get-started/create-workspace.md
@@ -168,7 +170,7 @@ edit_uri: ""
 
 theme:
   name: 'material'
-  favicon: 'assets/laptop-circle.svg'
+  favicon: 'assets/laptop-red.svg'
   logo: 'assets/laptop-circle-white.svg'
   custom_dir: overrides
   font:
