@@ -17,6 +17,8 @@ The short-term roadmap outlines the following milestones:
 
 - [x] Development and release of the Alnoda desktop application.
 
+Furthermore, we are consistently expanding collection of workspaces and applications!
+
 We are commited to enhancing the Alnoda ecosystem, with an emphasis on refining existing components and introducing new tools to improve user experience and productivity.
 
 !!! info 

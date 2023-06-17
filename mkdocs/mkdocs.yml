@@ -17,8 +17,8 @@ nav:
     - Roadmap: about/roadmap.md
     - Contribution: about/contribution.md
   - Get started:
-    - Create workspace: get-started/create-workspace.md
-    - Common features: get-started/common-features.md
+    - Launch workspace: get-started/launch-workspace.md
+    - Install apps: get-started/install-apps.md
     - Working in terminal: get-started/working-in-terminal.md
     - Schedule script executions: get-started/schedule-script.md
 
