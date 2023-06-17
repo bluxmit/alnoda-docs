@@ -72,14 +72,22 @@ stopped workspace on one computer you can start it on the other one.
 provides the flexibility to utilize remote computing resources, enabling efficient development and resource utilization.
 
 ## Alnoda-wrk
-Alnoda-wrk is a tool that allows building new and extending running Alnoda workspaces. It  
-helps with launching multiple applications and services in the same Docker container, installation of applications from Alnoda Hub, 
-customization of workspace user interface. 
+Alnoda-wrk (wrk) is a ClI tool that helps with building new workspaces, and perform actions in the running workspaces:
 
-## Alnoda helm chart
-Generic helm chart that can be used to launch any Alnoda-compatible workspace in a Kubernetes cluster
+- install application from Alnoda Hub 
+- show list of applications
+- add environmental variables or terminal aliases 
+- start services
+- sign in and sign out to Alnoda Hub
+- restart workspace
+
+## Alnoda Helm chart
+Generic helm chart that can be used to launch any Alnoda-compatible workspace in a Kubernetes cluster. 
 
 ## Alnoda docs
+Docs for Alnoda workspaces users and developers.
 
-
+!!! warning
+    These Alnoda features are in active development, and not publicly available yet: 1) Alnoda desktop app; 
+    2) Alnoda Helm chart
 

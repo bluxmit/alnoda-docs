@@ -15,6 +15,7 @@ nav:
     - Use-cases: about/use-cases.md
     - Alnoda ecosystem: about/ecosystem.md
     - Roadmap: about/roadmap.md
+    - Contribution: about/contribution.md
   - Get started:
     - Create workspace: get-started/create-workspace.md
     - Common features: get-started/common-features.md

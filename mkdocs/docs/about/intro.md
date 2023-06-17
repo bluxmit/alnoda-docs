@@ -9,7 +9,16 @@ In an ever-evolving technological landscape, software developers, web developers
 DevOps professionals, sysadmins, data analysts, and other IT specialists face unique challenges when it comes to 
 managing their work environments effectively. This is where our project comes in.  
 
-## Our Goal
+## Our goal
+
+
+The Alnoda team is dedicated to developing open-source solutions aimed at providing containerized development environments.  
+
+Our primary goal is to empower software developers, analysts, data scientists, researchers, DevOps professionals, platform engineers, infrastructure engineers, and various other IT professionals and teams.  
+
+By leveraging our solutions, individuals and organizations can enhance their productivity and efficiency in their respective fields of work. We believe in fostering a collaborative environment where the collective expertise of the community can contribute to the continual improvement and evolution of these solutions, enabling a more streamlined and effective approach to software development and IT operations.
+
+## Our project
 
 Our open-source project focuses on providing containerized portable development environments that empower professionals across various 
 domains to work seamlessly, regardless of their physical location or the resources available to them. 
