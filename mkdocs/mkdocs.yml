@@ -18,9 +18,13 @@ nav:
     - Contribution: about/contribution.md
   - Get started:
     - Launch workspace: get-started/launch-workspace.md
-    - Install apps: get-started/install-apps.md
-    - Working in terminal: get-started/working-in-terminal.md
-    - Schedule script executions: get-started/schedule-script.md
+    - Terminal: get-started/terminal.md
+    - File browser: get-started/file-browser.md
+    - Install Code Editor: get-started/install-code-editor.md
+    - Install File Manager: get-started/install-file-manager.md
+    - Install Desktop: get-started/install-desktop.md
+    - Personalize workspace: get-started/personalize.md
+    - Share workspace: get-started/share.md
 
   - Workspaces:
     - Ansible-Terraform workspace: 
@@ -112,9 +116,19 @@ nav:
       - Tutorial: workspaces/ubuntu-docker-workspace/tutorial.md
   
   - User guide:
-    - Apps and services:
-      - PM2: user-guide/apps-services/pm2.md
-    - Extend Workspace:
+    - Terminal:
+      - Linux: user-guide/terminal/terminal.md
+      - Features: user-guide/terminal/features.md
+      - Services: user-guide/terminal/services.md
+      - PM2: user-guide/terminal/pm2.md
+    - Workspace UI:
+      - Admin interface: user-guide/workspace-ui/admin.md
+      - Metadata: user-guide/workspace-ui/meta.md
+      - Features: user-guide/workspace-ui/features.md
+    - Cloud deployment:
+      - Kubernetes: user-guide/cloud-deployment/kubernetes.md
+      - Cloud server: user-guide/cloud-deployment/server.md
+    - Install any application:
       - Examples:
           - Apt packages:
             - Kakoune: user-guide/extend-workspace/examples/apt/kakoune.md
