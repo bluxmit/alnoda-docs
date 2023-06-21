@@ -8,7 +8,7 @@
 Adding a code editor to any Alnoda workspace is a very easy. Alnoda Hub offers a vast collection of browser-based code editors, 
 including versatile IDEs like VSCode, as well as specialized IDEs like RStudio. 
 
-!!! note
+!!! tip
     Explore Alnoda Hub to find your favourite code editor.
 
 Let's add one of the VSCode versions. You only need to execute `wrk install openvscode` in the workspace terminal
@@ -38,7 +38,7 @@ R E S T A R T    T E R M I N A L    N O W   (CTRL+D) !!!!!!!!
 ```
 </div> 
 
-!!! warning 
+!!! note 
     After installation of applications it is necessary to restart workspace!
 
 Restart workspace with the command `wrk kill`

@@ -13,9 +13,9 @@ nav:
     - Improve collaboration: about/collaboration.md
     - Alnoda limitations: about/limitations.md
     - Use-cases: about/use-cases.md
-    - Alnoda ecosystem: about/ecosystem.md
     - Roadmap: about/roadmap.md
     - Contribution: about/contribution.md
+    
   - Get started:
     - Launch workspace: get-started/launch-workspace.md
     - Terminal: get-started/terminal.md
@@ -26,148 +26,85 @@ nav:
     - Personalize workspace: get-started/personalize.md
     - Share workspace: get-started/share.md
 
-  - Workspaces:
-    - Ansible-Terraform workspace: 
-      - About: workspaces/ansible-terraform-workspace/README.md
-      - Ansible tools: workspaces/ansible-terraform-workspace/ansible-tools.md
-      - Terraform tools: workspaces/ansible-terraform-workspace/terraform-tools.md
-    - Base workspace: 
-      - About: workspaces/base-workspace/README.md
-    - Codeserver workspace: 
-      - About: workspaces/codeserver-workspace/README.md
-    - Elasticsearch workspace: 
-      - About: workspaces/elasticsearch-workspace/README.md
-      - Tutorial: workspaces/elasticsearch-workspace/tutorial.md
-    - Erlang-Elixir workspace: 
-      - About: workspaces/erlang-elixir-workspace/README.md
-      - Tutorial: workspaces/erlang-elixir-workspace/tutorial.md
-    - Go workspace: 
-      - About: workspaces/go-workspace/README.md
-      - Tutorial: workspaces/go-workspace/tutorial.md
-    - IDE workspace: 
-      - About: workspaces/ide-workspace/README.md
-    - Java workspace: 
-      - About: workspaces/java-workspace/README.md
-      - Tutorial: workspaces/java-workspace/tutorial.md
-    - Kafka workspace: 
-      - About: workspaces/kafka-workspace/README.md
-      - Tutorial: workspaces/kafka-workspace/tutorial.md
-    - Kubespray workspace: 
-      - About: workspaces/kubespray-workspace/README.md
-      - Tutorial: workspaces/kubespray-workspace/tutorial.md
-    - Mkdocs-workspace: 
-      - About: workspaces/mkdocs-workspace/README.md
-      - Docs: https://mkdocs-magicspace.alnoda.org/
-    - Node.js workspace: 
-      - About: workspaces/nodejs-workspace/README.md
-      - Tutorial: workspaces/nodejs-workspace/tutorial.md
-    - Notebook workspace: 
-      - About: workspaces/notebook-workspace/README.md
-      - Working with data: workspaces/notebook-workspace/working-with-data.md
-      - Data exploration: workspaces/notebook-workspace/data-exploration.md
-      - Presentations: workspaces/notebook-workspace/presentations.md
-      - Reports: workspaces/notebook-workspace/reports.md
-      - Productionalize notebooks: workspaces/notebook-workspace/productionalize.md
-      - Pipelines: workspaces/notebook-workspace/pipelines.md
-      - Interactive web app: workspaces/notebook-workspace/interactive.md
-      - Documentation: workspaces/notebook-workspace/documentation.md
-    - PHP workspace: 
-      - About: workspaces/php-workspace/README.md
-      - Tutorial: workspaces/php-workspace/tutorial.md
-    - Postgres workspace: 
-      - About: workspaces/postgres-workspace/README.md
-      - Tutorial: workspaces/postgres-workspace/tutorial.md
-    - Python workspace: 
-      - About: workspaces/python-workspace/README.md
-      - Tutorial: workspaces/python-workspace/tutorial.md
-    - Python-automate workspace: 
-      - About: workspaces/python-automate-workspace/README.md
-      - Tutorial: workspaces/python-automate-workspace/tutorial.md
-    - R workspace: 
-      - About: workspaces/r-workspace/README.md
-      - Tutorial: workspaces/r-workspace/tutorial.md
-    - Redis workspace: 
-      - About: workspaces/redis-workspace/README.md
-      - Tutorial: workspaces/redis-workspace/tutorial.md
-    - Ruby workspace: 
-      - About: workspaces/ruby-workspace/README.md
-      - Tutorial: workspaces/ruby-workspace/tutorial.md
-    - Rust workspace: 
-      - About: workspaces/rust-workspace/README.md
-      - Tutorial: workspaces/rust-workspace/tutorial.md
-    - Scala workspace: 
-      - About: workspaces/scala-workspace/README.md
-      - Tutorial: workspaces/scala-workspace/tutorial.md
-    - SQlite workspace: 
-      - About: workspaces/sqlite-workspace/README.md
-      - Tutorial: workspaces/sqlite-workspace/tutorial.md
-    - Streamlit workspace: 
-      - About: workspaces/streamlit-workspace/README.md
-      - Tutorial: workspaces/streamlit-workspace/tutorial.md
-    - Theia workspace: 
-      - About: workspaces/theia-workspace/README.md
-      - Tutorial: workspaces/theia-workspace/getting-started.md
-    - Ubunntu workspace: 
-      - About: workspaces/ubuntu-workspace/README.md
-      - Tutorial: workspaces/ubuntu-workspace/tutorial.md
-      - Run remotely: workspaces/ubuntu-workspace/remote-wid.md
-    - Ubunntu-docker workspace: 
-      - About: workspaces/ubuntu-docker-workspace/README.md
-      - Tutorial: workspaces/ubuntu-docker-workspace/tutorial.md
-  
   - User guide:
+    - Workspace:
+      - General: user-guide/workspace/general.md
+      - User interface: user-guide/workspace/ui.md
+      - Application ports: user-guide/workspace/apps-ports.md
     - Terminal:
       - Linux: user-guide/terminal/terminal.md
       - Features: user-guide/terminal/features.md
+      - Wrk: user-guide/terminal/wrk.md
       - Services: user-guide/terminal/services.md
-      - PM2: user-guide/terminal/pm2.md
-    - Workspace UI:
-      - Admin interface: user-guide/workspace-ui/admin.md
-      - Metadata: user-guide/workspace-ui/meta.md
-      - Features: user-guide/workspace-ui/features.md
+      - Cron: user-guide/terminal/cron.md
+    - Admin application: 
+      - Info: user-guide/admin/info.md
+      - Static server: user-guide/admin/static-server.md
+    - Wrk tool:
+      - Info: user-guide/wrk/info.md 
     - Cloud deployment:
       - Kubernetes: user-guide/cloud-deployment/kubernetes.md
       - Cloud server: user-guide/cloud-deployment/server.md
-    - Install any application:
-      - Examples:
-          - Apt packages:
-            - Kakoune: user-guide/extend-workspace/examples/apt/kakoune.md
-            - SnipKit: user-guide/extend-workspace/examples/apt/snipkit.md
-          - Nix packages:
-            - Glow: user-guide/extend-workspace/examples/nix/glow.md
-            - Micro: user-guide/extend-workspace/examples/nix/micro.md
-          - Binary packages:
-            - Dagu: user-guide/extend-workspace/examples/binary/dagu.md
-            - q: user-guide/extend-workspace/examples/binary/q.md
-            - nnn: user-guide/extend-workspace/examples/binary/nnn.md
-          - Python applications:
-            - Static server: user-guide/extend-workspace/examples/python/static-server.md
-            - Label Studio: user-guide/extend-workspace/examples/python/label-studio.md
-            - Cooka: user-guide/extend-workspace/examples/python/cooka.md
-          - Javascript applications:
-            - Snippet Box: user-guide/extend-workspace/examples/javascript/snippetbox.md
-            - Voyager: user-guide/extend-workspace/examples/javascript/voyager.md
-            - Trilium: user-guide/extend-workspace/examples/javascript/trilium.md
-            - Neumorphism: user-guide/extend-workspace/examples/javascript/neumorphism.md
-            - ZeroDivs: user-guide/extend-workspace/examples/javascript/zerodivs.md
-            - Limus: user-guide/extend-workspace/examples/javascript/limus.md
-            - Csv-editor: user-guide/extend-workspace/examples/javascript/csv-editor.md
-            - Pm2-webui: user-guide/extend-workspace/examples/javascript/pm2-webui.md
-            - Convert2svg: user-guide/extend-workspace/examples/javascript/convert2svg.md
-          - Go applications:
-            - cointop: user-guide/extend-workspace/examples/go/cointop.md
-          - Rust applications:
-            - amp: user-guide/extend-workspace/examples/rust/amp.md
-          - Serverless in-browser:
-            - JupyterLite: user-guide/extend-workspace/examples/static/jupyterlite.md
-            - Laverna: user-guide/extend-workspace/examples/static/laverna.md
-          # - Ruby applications:
-          # - PHP applications:
-
-  - Collaborate:
-    - Ngrok: collaborate/ngrok.md
-    - Bore: collaborate/bore.md
-  
+    - Install applications:
+        - Info: user-guide/install-apps/info.md
+        - Alnoda Hub: user-guide/install-apps/alnoda-hub.md
+        - APT:
+          - Info: user-guide/install-apps/apt/install.md
+          - Examples:
+            - Kakoune: user-guide/install-apps/apt/kakoune.md
+            - SnipKit: user-guide/install-apps/apt/snipkit.md
+        - Binary packages:
+          - Info: user-guide/install-apps/binary/install.md
+          - Examples:
+            - Dagu: user-guide/install-apps/binary/dagu.md
+            - q: user-guide/install-apps/binary/q.md
+            - nnn: user-guide/install-apps/binary/nnn.md
+        - Nix:
+          - Info: user-guide/install-apps/nix/install.md
+          - Examples:
+            - Glow: user-guide/install-apps/nix/glow.md
+            - Micro: user-guide/install-apps/nix/micro.md
+        - Asdf:
+          - Info: user-guide/install-apps/asdf/install.md
+          - Examples: 
+            - Devspace: user-guide/install-apps/asdf/devspace.md
+        - Python applications:
+          - Info: user-guide/install-apps/python/install.md
+          - Examples:
+            - Label Studio: user-guide/install-apps/python/label-studio.md
+            # - Cooka: user-guide/install-apps/python/cooka.md
+        - Node.js applications:
+          - Info: user-guide/install-apps/nodejs/install.md
+          - Examples:
+            - Snippet Box: user-guide/install-apps/nodejs/snippetbox.md
+            - Voyager: user-guide/install-apps/nodejs/voyager.md
+            - Trilium: user-guide/install-apps/nodejs/trilium.md
+            - Neumorphism: user-guide/install-apps/nodejs/neumorphism.md
+            - ZeroDivs: user-guide/install-apps/nodejs/zerodivs.md
+            - Limus: user-guide/install-apps/nodejs/limus.md
+            - Csv-editor: user-guide/install-apps/nodejs/csv-editor.md
+            - Convert2svg: user-guide/install-apps/nodejs/convert2svg.md
+        - Go applications:
+          - Info: user-guide/install-apps/go/install.md
+          - Examples:
+            - cointop: user-guide/install-apps/go/cointop.md  
+        - Rust applications:
+          - Info: user-guide/install-apps/rust/install.md
+          - Examples:
+            - amp: user-guide/install-apps/rust/amp.md
+        - Ruby applications:
+          - Info: user-guide/install-apps/ruby/install.md
+          # - Examples:
+        - PHP applications:
+          - Info: user-guide/install-apps/php/install.md
+          # - Examples:
+        - In-browser:
+          - Info: user-guide/install-apps/static/install.md
+          - Examples:
+            - JupyterLite: user-guide/install-apps/static/jupyterlite.md
+            - Laverna: user-guide/install-apps/static/laverna.md
+    - Develop workspaces:
+      - Images: user-guide/develop-workspaces/images.md
 
 
 # ===========================================================

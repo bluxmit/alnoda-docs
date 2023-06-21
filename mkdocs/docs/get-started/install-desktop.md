@@ -33,7 +33,7 @@ R E S T A R T    T E R M I N A L    N O W   (CTRL+D) !!!!!!!!
 ```
 </div> 
 
-!!! warning 
+!!! note 
     After installation of applications it is necessary to restart workspace!
 
 Restart workspace with the command `wrk kill`

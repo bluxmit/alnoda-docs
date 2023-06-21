@@ -9,7 +9,7 @@ Terminal with a command-line interface (CLI) allows to interact with the workspa
 !!! info 
     Workspaces are based on Linux (Ubuntu) hence you can execute any Linux commands.
 
-!!! note
+!!! info
     Workspaces come with commonly used applications pre-installed, eliminating the need for repetitive installations when creating 
     containerized environments.
 
