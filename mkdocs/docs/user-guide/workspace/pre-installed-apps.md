@@ -23,15 +23,16 @@ Furthermore, the file browser features a text editor with code highlighting, off
 
 The following CLI tools are pre-installed in the base Alnoda workspace:
 
-- [x] z shell (zsh) - shell that offers a more user-friendly and interactive command-line experience. 
-- [x] git
-- [x] text editors: nano, vim, tilde, mcedit
-- [x] tools for managing packages and software dependencies: apt, nix, asdf, pipx 
-- [x] tools for interacting with servers and downloading files over the internet: curl, wget 
-- [x] tools for archiving and compressing files: tar, zip
-- [x] process monitor: htop
-- [x] disk usage analyzer: ncdu
-- [x] utility to multiplex several virtual consoles: tmux
+- [x] z shell (`zsh`) - shell that offers a more user-friendly and interactive command-line experience. 
+- [x] `git`
+- [x] text editors: `nano`, `vim`, `tilde`, `mcedit`
+- [x] tools for managing packages and software dependencies: `apt`, `nix`, `asdf`, `pipx`
+- [x] tools for interacting with servers and downloading files over the internet: `curl`, `wget`
+- [x] tools for archiving and compressing files: `tar`, `zip`
+- [x] process monitor: `htop`
+- [x] disk usage analyzer: `ncdu`
+- [x] utility to multiplex several virtual consoles: `tmux`
+- [x] file manager with terminal user interface: `mc`
 - [x] utility for better file printing: rich-cli (command `rich file.py` or `p file.py`)
 
 ## Python 

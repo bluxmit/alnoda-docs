@@ -21,6 +21,8 @@ With the help of Alnoda Admin you can:
 
 After setting up an account with Alnoda Hub, you can log in from your workspaces using either the __wrk__ tool or the _Alnoda Admin app_. 
 
+![meta](img/signin.jpg)
+
 Logging into the Alnoda Hub from your workspace allows you to monitor the applications installed in your workspaces. This feature aids in replicating 
 workspaces and maintaining a record of the applications used for different projects.
 

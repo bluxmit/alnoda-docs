@@ -35,7 +35,7 @@ nav:
     - Workspace Admin: 
       - Info: user-guide/admin/info.md
       - Metadata: user-guide/admin/meta.md
-      - Appearance: user-guide/admin/appearance.md
+      - UI customization: user-guide/admin/ui-customization.md
       - Apps and services: user-guide/admin/apps-services.md
       - Terminal: user-guide/admin/terminal.md
       - Notes: user-guide/admin/notes.md
@@ -105,6 +105,8 @@ nav:
             # - Laverna: user-guide/install-apps/in-browser/laverna.md
     - Build workspaces:
       - Images: user-guide/build-workspaces/images.md
+      - Commit workspaces: user-guide/build-workspaces/commit.md
+      - With Dockerfile: user-guide/build-workspaces/dockerfile.md
 
 
 # ===========================================================
