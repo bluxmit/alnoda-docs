@@ -86,7 +86,11 @@ In the workspace UI open "My Apps" and click "My app on port 8026". Trilium is u
 
 The way we have launched Trilium is not permanent. As soon as we close the terminal session Trilium will shut down. Lets add Trilium to the workspace as a permanet application.  
 
-Let's change the Trilium config again. Port 8026 is reserved for the "My app on port 8026", let's use another port - 8032.  
+Let's change the Trilium config again. Port 8026 is reserved for the "My app on port 8026", let's use another port - 8032. 
+
+!!! warning 
+    This example relies on port 8032 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
 
 After you changed the port to 8032 in the file `data/config.ini`, open "Admin" tab, click "Workspace settings" go to "Apps & Services" 
 and select "START NEW" from the picklist.   

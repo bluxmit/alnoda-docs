@@ -118,6 +118,10 @@ we also need to create service traffic tunneling from port 3000 to another port
 socat tcp-listen:8033,reuseaddr,fork tcp:localhost:3000
 ``` 
 
+!!! warning 
+    This example relies on port 8033 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
+
 - [X] Give it any name you want 
 - [X] Click "Save"
 

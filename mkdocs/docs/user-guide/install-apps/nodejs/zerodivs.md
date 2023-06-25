@@ -132,7 +132,12 @@ Let's add ZeroDivs as a permanent workspace application:
 ```sh
 cd /home/abc/apps/zerodivs; . env/bin/activate; cd dist; http-server -p 8032
 ``` 
+
 This command consists of several parts: 1) go to the ZeroDivs repo, 2) activate node environment, 3) serve ZeroDivs on port 8032
+
+!!! warning 
+    This example relies on port 8032 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
 
 - [X] Give it any name you want 
 - [X] Click "Save"

@@ -4,6 +4,9 @@ The Alnoda Hub simplifies the process of installing applications in workspaces. 
 need to concern yourself with service start-ups, home page shortcut creation, or environmental variable setting. Even workspace 
 features like tags, aliases, and links are conveniently updated for you. This seamless process helps you to configure workspace fast.
 
+!!! info
+    Aloda Hub is the most convenient way to install applications in the workspaces.
+
 ## Alnoda Hub apps
 
 To install application from Alnoda Hub use command `wrk install` following by the application name. For example, to install Postgres 

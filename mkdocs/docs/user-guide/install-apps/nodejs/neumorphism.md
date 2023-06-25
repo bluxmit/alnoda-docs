@@ -116,6 +116,10 @@ socat tcp-listen:8032,reuseaddr,fork tcp:localhost:3000
 ``` 
 This time we will forward traffic from port 3000 to 8032 - one of the workspace free ports.
 
+!!! warning 
+    This example relies on port 8032 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
+
 - [X] Give it any name you want 
 - [X] Click "Save"
 

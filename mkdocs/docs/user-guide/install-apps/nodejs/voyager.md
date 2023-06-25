@@ -161,6 +161,10 @@ go to voyager folder, activate environment and start application.
 Let's also start the port tunneling, which will map voyager's port 9000 to the port 8032. The latter is in the exposed range, hence it 
 can be accessed.   
 
+!!! warning 
+    This example relies on port 8032 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
+
 Select "START NEW" from the picklist, enter any name and paste this command
 
 ```sh

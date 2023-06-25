@@ -51,7 +51,7 @@ After worksapce is restarted you can open KodExplorer from the workspace home pa
 
 ![vscode](img/kodexplorer.jpg)
 
-*Explore [__Alnoda Hub__](https://alnoda.org) to find many more awesome applications to install*
+*💡 Explore [__Alnoda Hub__](https://alnoda.org) to find many more awesome applications to install*
 
 <a href="/get-started/personalize/">
     <div id="lottieContainer" style="display: flex; justify-content: flex-end;">

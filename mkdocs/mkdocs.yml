@@ -28,16 +28,11 @@ nav:
 
   - User guide:
     - Workspace:
-      - General: user-guide/workspace/general.md
+      - Docker: user-guide/workspace/docker.md
       - User interface: user-guide/workspace/ui.md
-      - Application ports: user-guide/workspace/apps-ports.md
-    - Terminal:
-      - Linux: user-guide/terminal/terminal.md
-      - Features: user-guide/terminal/features.md
-      - Wrk: user-guide/terminal/wrk.md
-      - Services: user-guide/terminal/services.md
-      - Cron: user-guide/terminal/cron.md
-    - Admin application: 
+      - Base image: user-guide/workspace/base-image.md
+      - Default applications: user-guide/workspace/defauklt-apps.md
+    - Workspace Admin app: 
       - Info: user-guide/admin/info.md
       - Static server: user-guide/admin/static-server.md
     - Wrk tool:
@@ -95,16 +90,16 @@ nav:
         - Ruby applications:
           - Info: user-guide/install-apps/ruby/install.md
           # - Examples:
-        - PHP applications:
-          - Info: user-guide/install-apps/php/install.md
+        # - PHP applications:
+        #   - Info: user-guide/install-apps/php/install.md
           # - Examples:
-        - In-browser:
-          - Info: user-guide/install-apps/static/install.md
+        - In-browser applications:
+          - Info: user-guide/install-apps/in-browser/install.md
           - Examples:
-            - JupyterLite: user-guide/install-apps/static/jupyterlite.md
-            - Laverna: user-guide/install-apps/static/laverna.md
-    - Develop workspaces:
-      - Images: user-guide/develop-workspaces/images.md
+            - JupyterLite: user-guide/install-apps/in-browser/jupyterlite.md
+            # - Laverna: user-guide/install-apps/in-browser/laverna.md
+    - Build workspaces:
+      - Images: user-guide/build-workspaces/images.md
 
 
 # ===========================================================

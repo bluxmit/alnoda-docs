@@ -45,7 +45,7 @@ inflating: /home/static-server/static-laverna-gh-pages/styles/theme-default.css
 ```
 </div>
 
-The files were extracted into the folder `/home/static-server/static-laverna-gh-pages/`. Let's rename it to  
+The files were extracted into the folder `/home/abc/apps/laverna/static-laverna-gh-pages`. Let's rename it to  
 shorter name  
 
 <div class="termy">

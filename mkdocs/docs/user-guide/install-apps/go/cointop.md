@@ -1,15 +1,11 @@
-# Convert2Svg  - convert images to SVG
-
-## Intro
+# Cointop 
 
 In this example we will set up [__cointop__](https://docs.cointop.sh) - a fast and lightweight interactive 
 terminal based UI application for tracking and monitoring cryptocurrency coin stats in real-time. 
 
 ![cointop.jpg](img/cointop.jpg)
 
-## Golang
-
-Requirement for any Go application - is to have go programming language installed
+Install Go version 1.18.2
 
 <div class="termy">
 ```
@@ -21,11 +17,9 @@ R E S T A R T    T E R M I N A L    N O W   (CTRL+D) !!!!!!!!
 ```
 </div>
 
-__Please restart the terminal!__
+Please restart the terminal now!
 
-## App
-
-Now we can istall. the latest versio of __cointop__ 
+Now we can install the latest versio of __cointop__ 
 
 <div class="termy">
 ```

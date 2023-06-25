@@ -81,6 +81,10 @@ command: /home/abc/bin/dagu
 In the config file, we've specified the host as `0.0.0.0`, which is essential because the application is running within a Docker 
 container. We've also designated 8033 as the port, a vacant one within the workspace's range of 8021-8040.
 
+!!! warning 
+    This example relies on port 8033 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
+
 Furthermore, we've denoted `/home/project/dags` as our DAGs directory. Let's establish this folder and navigate into it.
 
 <div class="termy">

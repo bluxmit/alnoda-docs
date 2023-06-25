@@ -55,15 +55,18 @@ If you currently have Label Studio running in your terminal, you can safely clos
 
 To start Label Studio in a resilient manner, follow these steps:
 
-1. Open the workspace UI page.
-2. Navigate to the "Admin" tab and select "Workspace settings".
-3. In the workspace settings, go to "Apps & Services".
-4. Choose the "START NEW" option from the picklist.
-5. Copy and paste the following command:
+1. Open workspace Admin and select "Workspace settings".
+2. In the workspace settings, go to "Apps & Services".
+3. Choose the "START NEW" option from the picklist.
+4. Copy and paste the following command:
 
 ```bash
 label-studio start --port 8032
 ```
+
+!!! warning 
+    This example relies on port 8032 being available within your workspace. To verify the availability of this port, 
+    please consult the 'About' tab within your workspace's UI.
 
 This is a command that would start Label Studio in a resilient manner. Give it any name, and click "Save"
 
