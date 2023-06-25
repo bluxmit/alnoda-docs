@@ -31,10 +31,15 @@ nav:
       - Docker: user-guide/workspace/docker.md
       - User interface: user-guide/workspace/ui.md
       - Base image: user-guide/workspace/base-image.md
-      - Default applications: user-guide/workspace/defauklt-apps.md
-    - Workspace Admin app: 
+      - Pre-installed apps: user-guide/workspace/pre-installed-apps.md
+    - Workspace Admin: 
       - Info: user-guide/admin/info.md
-      - Static server: user-guide/admin/static-server.md
+      - Metadata: user-guide/admin/meta.md
+      - Appearance: user-guide/admin/appearance.md
+      - Apps and services: user-guide/admin/apps-services.md
+      - Terminal: user-guide/admin/terminal.md
+      - Notes: user-guide/admin/notes.md
+      - Share: user-guide/admin/share.md 
     - Wrk tool:
       - Info: user-guide/wrk/info.md 
     - Cloud deployment:
