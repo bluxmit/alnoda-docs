@@ -23,5 +23,8 @@ Send the secret link to your peer. From her browser she will have direct access 
 !!! info 
     After session ends you can start the sharing session again. 
 
+!!! note 
+    You can share any application with browser-based UI including terminal, file manager or desktop. 
+
 !!! hint
     Sign in from your workspace to Alnoda Hub and you will be have longer sessions.

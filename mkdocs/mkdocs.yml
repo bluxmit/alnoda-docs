@@ -40,8 +40,7 @@ nav:
       - Terminal: user-guide/admin/terminal.md
       - Notes: user-guide/admin/notes.md
       - Share: user-guide/admin/share.md 
-    - Wrk tool:
-      - Info: user-guide/wrk/info.md 
+    - Wrk tool: user-guide/wrk/info.md 
     - Cloud deployment:
       - Kubernetes: user-guide/cloud-deployment/kubernetes.md
       - Cloud server: user-guide/cloud-deployment/server.md

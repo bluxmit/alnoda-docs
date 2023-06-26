@@ -1,4 +1,4 @@
-# Alnoda Admin 
+# Workspace Admin 
 
 Alnoda Admin is an application integrated within the workspace. It helps to fine-tune and customize the workspace according to your specific project requirements.
 
@@ -15,7 +15,7 @@ With the help of Alnoda Admin you can:
 - [x] share workspace browser-based applications over the interet
 
 !!! tip 
-    You can open Alnoda Admin from the Workspace UI _Admin tab_ 
+    You can open _Workspace Admin_ from the Workspace UI _Admin tab_ 
 
 ## Sign in to Alnoda Hub
 
