@@ -13,7 +13,6 @@ nav:
     - Improve collaboration: about/collaboration.md
     - Alnoda limitations: about/limitations.md
     - Use-cases: about/use-cases.md
-    - Roadmap: about/roadmap.md
     - Contribution: about/contribution.md
     
   - Get started:
@@ -42,8 +41,8 @@ nav:
       - Share: user-guide/admin/share.md 
     - Wrk tool: user-guide/wrk/info.md 
     - Cloud deployment:
-      - Kubernetes: user-guide/cloud-deployment/kubernetes.md
       - Cloud server: user-guide/cloud-deployment/server.md
+      - Kubernetes: user-guide/cloud-deployment/kubernetes.md
     - Install applications:
         - Info: user-guide/install-apps/info.md
         - Alnoda Hub: user-guide/install-apps/alnoda-hub.md

@@ -86,5 +86,4 @@ between laptops, and deploying or migrating workspaces to your cloud server beco
     a simple __docker run__ command
 
 !!! warning
-    These Alnoda features are in active development, and not publicly available yet: 1) workspace deployment on cloud server; 
-    2) workspace deployment in Kubernetes; 3) Alnoda desktop app
+    Alnoda desktop app is in active development and not available for public use yet.

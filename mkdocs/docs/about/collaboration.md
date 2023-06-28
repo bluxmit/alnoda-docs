@@ -51,7 +51,3 @@ the ability to download the results at a specific time or simply execute the ana
 ## Create public workspace
 Are you an author of an open-source framework or library? You may very well create a public workspace with all the system and programming language 
 requirements installed, your package set up and pre-configured, and examples included. Doing so will make it easier for the community to explore and experiment with your new framework.
-
-!!! warning
-    These Alnoda features are in active development, and not publicly available yet: 1) workspace deployment on cloud server; 
-    2) workspace deployment in Kubernetes; 3) Alnoda desktop app

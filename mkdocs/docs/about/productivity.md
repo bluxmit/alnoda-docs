@@ -67,7 +67,3 @@ demonstration.
     With the ability to isolate projects, backup work, conduct isolated experiments, work on any computer, 
     Alnoda workspaces empowers you to focus on what you do best: building exceptional software and driving technological advancements. 
     Get ready to unleash your productivity and creativity with our containerized workspaces!
-
-!!! warning
-    These Alnoda features are in active development, and not publicly available yet: 1) workspace deployment on cloud server; 
-    2) workspace deployment in Kubernetes; 3) Alnoda desktop app
