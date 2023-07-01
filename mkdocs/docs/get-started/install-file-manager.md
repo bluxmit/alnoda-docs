@@ -5,11 +5,11 @@
 
 ## Install file manager
 
-In Alnoda Hub you can finnd many applications that can improve your workspace experience. One of them is Cloud Commander - 
-a great browser-based file manager, and has many very useful features:
+In Alnoda Hub you can find many applications that would improve your workspace experience. One of them is Cloud Commander - browser-based file manager 
+which has many very useful features:
 
-- [x] Has 2 classic panels
-- [x] Has 3 built-in editors with support of syntax highlighting
+- [x] 2 classic panels
+- [x] 3 built-in editors with support of syntax highlighting
 - [x] Console with support of the default OS command line
 - [x] Built-in archives extract: zip, tar, gz, bz2, .tar.gz and .tar.bz2
 
