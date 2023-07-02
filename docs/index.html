@@ -1,3 +1,5 @@
+<!-- Custom HTML site displayed as the Home chapter -->
+
 
 <!doctype html>
 <html lang="en" class="no-js">
@@ -11,12 +13,12 @@
       
         <link rel="canonical" href="https://docs.alnoda.org/">
       
-      <link rel="icon" href="assets/favicon.ico">
+      <link rel="icon" href="assets/laptop-red.svg">
       <meta name="generator" content="mkdocs-1.2.3, mkdocs-material-7.1.8">
     
     
       
-        <title>Alnoda Workspaces</title>
+        <title>Home - Alnoda workspaces</title>
       
     
     
@@ -32,11 +34,19 @@
       
         
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7CRoboto+Mono&display=fallback">
-        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:"Roboto Mono"}</style>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:300,400,400i,700%7C&display=fallback">
+        <style>:root{--md-text-font-family:"Roboto";--md-code-font-family:""}</style>
       
     
     
+    
+      <link rel="stylesheet" href="stylesheets/modify.css">
+    
+      <link rel="stylesheet" href="stylesheets/extra.css">
+    
+      <link rel="stylesheet" href="stylesheets/termynal.css">
+    
+      <link rel="stylesheet" href="stylesheets/custom.css">
     
     
       
@@ -54,7 +64,7 @@
     
     
     
-    <body dir="ltr" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red">
+    <body dir="ltr" data-md-color-scheme="docs-light" data-md-color-primary="black" data-md-color-accent="red">
   
     
     <script>function __prefix(e){return new URL(".",location).pathname+"."+e}function __get(e,t=localStorage){return JSON.parse(t.getItem(__prefix(e)))}</script>
@@ -66,11 +76,6 @@
     <label class="md-overlay" for="__drawer"></label>
     <div data-md-component="skip">
       
-        
-        <a href="#what-is-workspace" class="md-skip">
-          Skip to content
-        </a>
-      
     </div>
     <div data-md-component="announce">
       
@@ -78,9 +83,9 @@
     
       <header class="md-header" data-md-component="header">
   <nav class="md-header__inner md-grid" aria-label="Header">
-    <a href="https://docs.alnoda.org" title="Alnoda Workspaces" class="md-header__button md-logo" aria-label="Alnoda Workspaces" data-md-component="logo">
+    <a href="https://docs.alnoda.org" title="Alnoda workspaces" class="md-header__button md-logo" aria-label="Alnoda workspaces" data-md-component="logo">
       
-  <img src="assets/Alnoda-white.svg" alt="logo">
+  <img src="assets/laptop-circle-white.svg" alt="logo">
 
     </a>
     <label class="md-header__button md-icon" for="__drawer">
@@ -90,13 +95,13 @@
       <div class="md-header__ellipsis">
         <div class="md-header__topic">
           <span class="md-ellipsis">
-            Alnoda Workspaces
+            Alnoda workspaces
           </span>
         </div>
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              About
+              Home
             
           </span>
         </div>
@@ -107,7 +112,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="default" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="docs-light" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to dark mode"  type="radio" name="__palette" id="__palette_1">
           
             <label class="md-header__button md-icon" title="Switch to dark mode" for="__palette_2" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 7a5 5 0 0 1 5 5 5 5 0 0 1-5 5 5 5 0 0 1-5-5 5 5 0 0 1 5-5m0 2a3 3 0 0 0-3 3 3 3 0 0 0 3 3 3 3 0 0 0 3-3 3 3 0 0 0-3-3m0-7 2.39 3.42C13.65 5.15 12.84 5 12 5c-.84 0-1.65.15-2.39.42L12 2M3.34 7l4.16-.35A7.2 7.2 0 0 0 5.94 8.5c-.44.74-.69 1.5-.83 2.29L3.34 7m.02 10 1.76-3.77a7.131 7.131 0 0 0 2.38 4.14L3.36 17M20.65 7l-1.77 3.79a7.023 7.023 0 0 0-2.38-4.15l4.15.36m-.01 10-4.14.36c.59-.51 1.12-1.14 1.54-1.86.42-.73.69-1.5.83-2.29L20.64 17M12 22l-2.41-3.44c.74.27 1.55.44 2.41.44.82 0 1.63-.17 2.37-.44L12 22z"/></svg>
@@ -116,7 +121,7 @@
         
           
           
-          <input class="md-option" data-md-color-media="" data-md-color-scheme="slate" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
+          <input class="md-option" data-md-color-media="" data-md-color-scheme="docs-dark" data-md-color-primary="black" data-md-color-accent="red"  aria-label="Switch to light mode"  type="radio" name="__palette" id="__palette_2">
           
             <label class="md-header__button md-icon" title="Switch to light mode" for="__palette_1" hidden>
               <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="m17.75 4.09-2.53 1.94.91 3.06-2.63-1.81-2.63 1.81.91-3.06-2.53-1.94L12.44 4l1.06-3 1.06 3 3.19.09m3.5 6.91-1.64 1.25.59 1.98-1.7-1.17-1.7 1.17.59-1.98L15.75 11l2.06-.05L18.5 9l.69 1.95 2.06.05m-2.28 4.95c.83-.08 1.72 1.1 1.19 1.85-.32.45-.66.87-1.08 1.27C15.17 23 8.84 23 4.94 19.07c-3.91-3.9-3.91-10.24 0-14.14.4-.4.82-.76 1.27-1.08.75-.53 1.93.36 1.85 1.19-.27 2.86.69 5.83 2.89 8.02a9.96 9.96 0 0 0 8.02 2.89m-1.64 2.02a12.08 12.08 0 0 1-7.8-3.47c-2.17-2.19-3.33-5-3.49-7.82-2.81 3.14-2.7 7.96.31 10.98 3.02 3.01 7.84 3.12 10.98.31z"/></svg>
@@ -177,8 +182,676 @@
     <div class="md-container" data-md-component="container">
       
       
+
+        
+          
+<nav class="md-tabs" aria-label="Tabs" data-md-component="tabs">
+  <div class="md-tabs__inner md-grid">
+    <ul class="md-tabs__list">
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="about/intro/" class="md-tabs__link">
+        About
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="get-started/launch-workspace/" class="md-tabs__link">
+        Get started
+      </a>
+    </li>
+  
+
+      
+        
+  
+  
+
+
+  
+  
+  
+    
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="user-guide/workspace/docker/" class="md-tabs__link">
+        User guide
+      </a>
+    </li>
+  
+
+  
+
+      
+    </ul>
+  </div>
+</nav>
         
       
+<style>
+    :root {
+        --color-purple: #692580;
+        }
+
+    .md-main {
+        flex-grow: 0
+    }
+
+    .md-main__inner {
+        display: flex;
+        height: 100%;
+    }
+
+    .tx-container {
+        padding-top: .0rem;
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--color-purple))
+    }
+
+    .tx-hero {
+        margin: 32px 2.8rem;
+        color: var(--md-primary-bg-color);
+        justify-content: center !important;
+        display: flex;
+        flex-wrap: wrap;
+    }
+
+    .tx-hero h1 {
+        margin-bottom: 1rem;
+        color: currentColor;
+        font-weight: 700
+    }
+
+    .tx-hero__content {
+        padding-bottom: 1rem;
+        margin: 0 auto;
+    }
+
+    .tx-hero__image{
+        width:17rem;
+        height:17rem;
+        order:1;
+        padding-right: 2.5rem;
+    }
+
+    .tx-hero .md-button {
+        margin-top: .5rem;
+        margin-right: .5rem;
+        color: var(--md-primary-bg-color)
+    }
+    .tx-hero .md-button--primary {
+        background-color: var(--md-primary-bg-color);
+        color: hsla(280deg, 37%, 48%, 1);
+        border-color: var(--md-primary-bg-color)
+    }
+    .tx-hero .md-button:focus,
+    .tx-hero .md-button:hover {
+        background-color: var(--md-accent-fg-color);
+        color: var(--md-default-bg-color);
+        border-color: var(--md-accent-fg-color)
+    }
+
+    .feature-item h2 svg {
+        height: 30px;
+        margin-right: 10px;
+        transform: translateY(10%);
+    }
+
+    .top-hr {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+
+    .feature-item {
+        font-family: 'Lato', sans-serif;
+        font-weight: 300;
+        box-sizing: border-box;
+        margin-top: 2rem;
+        padding: 0 15px;
+        word-break: break-word;
+        max-width: 400px;
+    }
+
+    .feature-item-img {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+    .feature-item-img object {
+        height: 12rem;
+    }
+
+    .feature-item h2 {
+        color: var(--md-typeset-color);
+        font-weight: 300;
+        font-size: 25px;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        line-height: normal;
+        margin-top: 20px;
+        margin-bottom: 10px;
+        font-family: inherit;
+        text-align: center;
+    }
+
+    .feature-item p {
+        font-size: 16px;
+        line-height: 1.8em;
+        text-rendering: optimizeLegibility;
+        -webkit-font-smoothing: antialiased;
+        color: var(--md-typeset-color);
+        margin: 0 0 10px;
+        display: block;
+    }
+
+    @media screen and (max-width:30em) {
+        .tx-hero h1 {
+            font-size: 1.4rem
+        }
+    }
+
+    @media screen and (min-width:60em) {
+        .tx-hero__image object {
+            min-height: 17rem !important;
+        }
+
+        .md-sidebar--secondary {
+            display: none
+        }
+
+        .tx-hero {
+            display: flex;
+            align-items: center;
+            /* justify-content: center; */
+        }
+
+        .tx-hero__content {
+            max-width: 25rem;
+            margin-top: 3.5rem;
+            margin-bottom: 3.5rem;
+            margin-left: 1.0rem;
+            margin-right: 4.0rem;
+            align-items: center;
+        }
+    }
+
+    @media screen and (min-width:76.25em) {
+        .md-sidebar--primary {
+            display: none
+        }
+
+        .top-hr {
+            width: 100%;
+            display: flex;
+            max-width: 61rem;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0 .2rem;
+        }
+
+        .bottom-hr {
+            margin-top: 10px;
+            width: 100%;
+            display: flex;
+            max-width: 61rem;
+            margin-right: auto;
+            margin-left: auto;
+            padding: 0 .2rem;
+        }
+
+        .feature-item {
+            flex: 1;
+            min-width: 0;
+        }
+
+        .feature-item:hover {
+            background-color: #526cfe47;
+            border-radius: 3px;
+        }
+    }
+
+    .hr {
+        border-bottom: 1px solid #eee;
+        width: 80%;
+        margin: 20px 0;
+    }
+
+    .text-center {
+        text-align: center;
+        padding-right: 15px;
+        padding-left: 15px;
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 15px;
+        font-family: 'Lato', sans-serif;
+        font-size: 23px;
+        font-weight: 300;
+        padding-bottom: 10px;
+    }
+
+    .logos {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-flow: row wrap;
+        margin: 0 auto;
+    }
+
+    .logos img {
+        flex: 1 1 auto;
+        padding: 25px;
+        max-height: 130px;
+        vertical-align: middle;
+    }
+
+    .hr-logos {
+        margin-top: 0;
+        margin-bottom: 30px;
+    }
+
+    .md-footer-meta__inner {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        margin-top: 1.0rem;
+    }
+    .tx-hero__image {
+        display: flex;
+    }
+    .tx-hero__image object {
+        min-height: 12rem;
+    }
+
+    .md-footer-social {
+        padding-top: 20px;
+    }
+
+    /* .tx-sm-container {
+        margin-top: 4rem !important;
+        border-radius: 20px;
+        width: 90%;
+        max-width: 50rem;
+        margin: auto;
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--color-purple))
+    } */
+
+    .section-image {
+        width: 90%;
+        max-width: 50rem;
+        border-radius: 20px;
+        border: 3px solid #252A33;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
+    .section-parent {
+        color: var(--md-primary-bg-color);
+        width: 90%;
+        max-width: 50rem;
+        margin: auto;
+        margin-top: 4rem;
+        border-radius: 20px;
+        background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--color-purple));
+    }
+    .section-parent .child-hero {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: space-between;
+        padding-left: 4rem;
+        padding-right: 4rem;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+        color: var(--md-primary-bg-color);
+    }
+    .section-parent h1 {
+        margin-bottom: 1rem;
+        color: currentColor;
+        font-weight: 700;
+    }
+    .section-child {
+        box-sizing: border-box;
+        justify-content: center;
+        align-items: center;
+        min-width: 15em;
+        padding-bottom: 2rem;
+    }
+    .section-child1 {
+        width: 40%;
+    }
+    .section-child2 {
+        width: 50%;
+    } 
+    @media (max-width: 768px) {
+      .section-child {
+        width: 100%;
+      }
+    }
+    .child-hero .md-button {
+        margin-top: .5rem;
+        margin-right: .5rem;
+        color: var(--md-primary-bg-color)
+    }
+    .child-hero .md-button--primary {
+        background-color: var(--md-primary-bg-color);
+        color: hsla(280deg, 37%, 48%, 1);
+        border-color: var(--md-primary-bg-color)
+    }
+    .child-hero .md-button:focus,
+    .child-hero .md-button:hover {
+        background-color: var(--md-accent-fg-color);
+        color: var(--md-default-bg-color);
+        border-color: var(--md-accent-fg-color)
+    }
+
+    .footer {
+      background-color: #252A33;
+      color: #FFFFFF;
+      padding-left: 4rem;
+      padding-right: 4rem;
+      padding-top: 1rem;
+      padding-bottom: 1rem;
+    }
+    .footer-columns {
+      display: flex;
+      flex-wrap: wrap;
+    }
+    .footer-column {
+      flex: 1 0 50%;
+      padding: 10px;
+    }
+    /* Optional: Style the content within the columns */
+    .footer-column h3 {
+    }
+    .footer-column ul {
+      list-style-type: none;
+      padding: 0;
+      margin: 0;
+    }
+    .footer-column ul li {
+      margin-bottom: 5px;
+    }
+    @media (max-width: 600px) {
+        .md-header__title {
+            display: none
+        }
+        .section-parent .child-hero {
+            padding-left: 2rem;
+        }
+    }
+
+</style>
+
+<!-- Main site Entry button descriptions -->
+<section class="tx-container">
+    <div class="md-grid md-typeset">
+      <div class="tx-hero">
+        <div class="tx-hero__image">
+          <object data="assets/home/mainpage.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <div class="tx-hero__content">
+          <h1> Alnoda workspaces </h1>
+          <p>Open-source portable containerized browser-based development environments</p>
+          <a href="/get-started/launch-workspace/" title="" class="md-button md-button--primary">
+            Get started
+          </a>
+          <a href="https://alnoda.org" target="_blank" class="md-button">
+            Alnoda Hub
+          </a>
+        </div>
+      </div>
+    </div>
+</section>
+<!-- <div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.67,86.35 C241.82,195.89 282.45,39.97 501.41,120.89 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #2E303E;"></path></svg></div> -->
+<div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.67,86.35 C193.85,273.85 310.10,-146.53 501.41,120.89 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--color-purple);"></path></svg></div>
+
+<!-- Main site box descriptions -->
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/container-transportation.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Containerized</h2>
+        <p>
+            Every workspace in isolated docker container, which can be duplicated, backed up shared.
+        </p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/smart-drone-delivery.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Portable</h2>
+        <p>Workspaces can be moved between computers or servers, sent to colleagues or clients.</p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/order-checkout.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Browser-based</h2>
+        <p>Access workspace in browser, no mater if it is running locally, on remote server or in kubernetes cluster.</p>
+    </div>
+</div>
+
+<img src="assets/home/wrk-demo.gif" class="section-image" alt="GIF" loop>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/male-ui-ux-designer.svg" style="padding-bottom: 1rem; height: 15rem;"> </object>
+        </div>
+        <h2>Flexible</h2>
+        <p>
+            Customize workspaces for individual projects, selecting the desired apps for each.
+        </p>
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/female-web-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Extenadable</h2>
+        <p>
+            Install code editors, notebooks, desktop apps, CLI tools, and more!
+        </p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/male-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Easy install</h2>
+        <p>Install apps effortlessly with a single command. Want JupyterLab? Simply run <b><em>wrk install jupyterlab</em></b></p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/frontend-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Community</h2>
+        <p><b>Alnoda Hub</b> has hundreeds of applications. And it is ever growing.</p>
+    </div>
+</div>
+
+<div class="section-parent">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1> Increase productivity </h1>
+            <p>Reduce the time it takes to start the project and deliver first results. Switch between projects seamlessly.</p>
+            <a href="/about/productivity/" title="Go to repository" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/improve-productivity.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- <div class="top-hr">
+    <div class="feature-item" style="max-width: 600px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/container-transportation.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2 style="white-space: unset; word-break: break-word; overflow: unset;">
+            Working inside containtainers is finally easy!
+        </h2>
+        <p>
+            Alnoda simplifies the complexities often encountered when working with Docker-based development environments.
+        </p>
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item" style="max-width: 500px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/software-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>No configuration</h2>
+        <p>
+            No need to create configuration or bootstrap scripts, Dockerfiles, docker-compose and understand docker intricacies.
+        </p>
+    </div>
+    <div class="feature-item" style="max-width: 500px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/creative-solutions.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Flexible and extendable</h2>
+        <p>Expand your development environments effortlessly by choosing from a vast selection of tools and applications, all without the need for prior knowledge of Docker.</p>
+    </div>
+</div> -->
+
+
+<div class="top-hr">
+    <div class="feature-item" style="max-width: 600px !important;">
+        <div class="feature-item-img">
+            <object data="assets/home/software-upgrade.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2 style="white-space: unset; word-break: break-word; overflow: unset;">
+            Various deployment options
+        </h2>
+        <p>
+            Alnoda workspaces offer various deployment choices, allowing for portability and effortless migration across different environments.
+        </p>
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/local.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Local</h2>
+        <p>
+            Use workspaces locally and benefit from project isolation, the ability to create backups, and the ease of sharing with others. 
+        </p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/host-in-cloud.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Self-hosted</h2>
+        <p>Launch workspace in the cloud and enjoy the flexibility of working from any device, regardless of your location anywhere in the world.</p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/host-in-kubernetes.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Kubernetes</h2>
+        <p>Deploy workspaces in kubernetes to create a powerful in-house cloud development plafrorm. </p>
+    </div>
+</div>
+
+<div class="section-parent" style="background: linear-gradient(to bottom, rgb(48, 156, 214), #692580)">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1>Improve collaboration </h1>
+            <p>Designed to cater to the era of remote work, decentralized teams, and digital nomads.</p>
+            <a href="/about/collaboration/" title="Go to repository" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/improve-collaboration.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
+    </div>
+</div>
+
+
+<!-- <div class="section-parent" style="background: linear-gradient(to bottom, #49e3b0, #692580)">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1>Roadmap </h1>
+            <p>Alnoda is continuously evolving, with many exciting features yet to be unveiled. Stay tuned and explore our roadmap for future updates and enhancements!</p>
+            <a href="/about/roadmap/" title="Go to repository" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/roadmap.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
+    </div>
+</div> -->
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js">
+<script>
+  var animation = bodymovin.loadAnimation({
+  // animationData: { /* ... */ },
+  container: document.getElementById('icon-container'), // required
+  path: 'data.json', // required
+  renderer: 'svg', // required
+  loop: true, // optional
+  autoplay: true, // optional
+  name: "Demo Animation", // optional
+});
+</script>
+
+
+
       <main class="md-main" data-md-component="main">
         <div class="md-main__inner md-grid">
           
@@ -189,15 +862,17 @@
                   <div class="md-sidebar__inner">
                     
 
+  
 
-<nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+
+<nav class="md-nav md-nav--primary md-nav--lifted" aria-label="Navigation" data-md-level="0">
   <label class="md-nav__title" for="__drawer">
-    <a href="https://docs.alnoda.org" title="Alnoda Workspaces" class="md-nav__button md-logo" aria-label="Alnoda Workspaces" data-md-component="logo">
+    <a href="https://docs.alnoda.org" title="Alnoda workspaces" class="md-nav__button md-logo" aria-label="Alnoda workspaces" data-md-component="logo">
       
-  <img src="assets/Alnoda-white.svg" alt="logo">
+  <img src="assets/laptop-circle-white.svg" alt="logo">
 
     </a>
-    Alnoda Workspaces
+    Alnoda workspaces
   </label>
   
     <div class="md-nav__source">
@@ -221,61 +896,146 @@
 
   
   
+  
     
-  
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    <li class="md-nav__item md-nav__item--nested">
       
       
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_1" type="checkbox" id="__nav_1" >
       
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          About
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="." class="md-nav__link md-nav__link--active">
+      <label class="md-nav__link" for="__nav_1">
         About
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="About" data-md-level="1">
+        <label class="md-nav__title" for="__nav_1">
+          <span class="md-nav__icon md-icon"></span>
+          About
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/intro/" class="md-nav__link">
+        Intro
       </a>
-      
-        
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+    </li>
+  
+
+          
+            
   
   
   
+    <li class="md-nav__item">
+      <a href="about/what-is-workspace/" class="md-nav__link">
+        What is workspace
+      </a>
+    </li>
   
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-workspace" class="md-nav__link">
-    What is workspace
-  </a>
+
+          
+            
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-cases" class="md-nav__link">
-    Use-cases
-  </a>
   
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contribution" class="md-nav__link">
-    Contribution
-  </a>
   
-</li>
-      
-    </ul>
+    <li class="md-nav__item">
+      <a href="about/separation/" class="md-nav__link">
+        Workspace separation
+      </a>
+    </li>
   
-</nav>
-      
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/containers/" class="md-nav__link">
+        Containerized environments
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/advantages/" class="md-nav__link">
+        Alnoda advantages
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/productivity/" class="md-nav__link">
+        Increase productivity
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/collaboration/" class="md-nav__link">
+        Improve collaboration
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/limitations/" class="md-nav__link">
+        Alnoda limitations
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/use-cases/" class="md-nav__link">
+        Use-cases
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="about/contribution/" class="md-nav__link">
+        Contribution
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
     </li>
   
 
@@ -309,8 +1069,8 @@
   
   
     <li class="md-nav__item">
-      <a href="get-started/create-workspace/" class="md-nav__link">
-        Create workspace
+      <a href="get-started/launch-workspace/" class="md-nav__link">
+        Launch workspace
       </a>
     </li>
   
@@ -321,8 +1081,8 @@
   
   
     <li class="md-nav__item">
-      <a href="get-started/common-features/" class="md-nav__link">
-        Common features
+      <a href="get-started/terminal/" class="md-nav__link">
+        Terminal
       </a>
     </li>
   
@@ -333,8 +1093,8 @@
   
   
     <li class="md-nav__item">
-      <a href="get-started/working-in-terminal/" class="md-nav__link">
-        Working in terminal
+      <a href="get-started/file-browser/" class="md-nav__link">
+        File browser
       </a>
     </li>
   
@@ -345,8 +1105,56 @@
   
   
     <li class="md-nav__item">
-      <a href="get-started/schedule-script/" class="md-nav__link">
-        Schedule script executions
+      <a href="get-started/install-code-editor/" class="md-nav__link">
+        Install Code Editor
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started/install-file-manager/" class="md-nav__link">
+        Install File Manager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started/install-desktop/" class="md-nav__link">
+        Install Desktop
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started/personalize/" class="md-nav__link">
+        Personalize workspace
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="get-started/share/" class="md-nav__link">
+        Share workspace
       </a>
     </li>
   
@@ -372,13 +1180,34 @@
         <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3" type="checkbox" id="__nav_3" >
       
       <label class="md-nav__link" for="__nav_3">
-        Ansible-Terraform workspace
+        User guide
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Ansible-Terraform workspace" data-md-level="1">
+      <nav class="md-nav" aria-label="User guide" data-md-level="1">
         <label class="md-nav__title" for="__nav_3">
           <span class="md-nav__icon md-icon"></span>
-          Ansible-Terraform workspace
+          User guide
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_1" type="checkbox" id="__nav_3_1" >
+      
+      <label class="md-nav__link" for="__nav_3_1">
+        Workspace
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Workspace" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_1">
+          <span class="md-nav__icon md-icon"></span>
+          Workspace
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -387,8 +1216,8 @@
   
   
     <li class="md-nav__item">
-      <a href="ansible-terraform-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/workspace/docker/" class="md-nav__link">
+        Docker
       </a>
     </li>
   
@@ -399,8 +1228,8 @@
   
   
     <li class="md-nav__item">
-      <a href="ansible-terraform-workspace/ansible-tools/" class="md-nav__link">
-        Ansible tools
+      <a href="user-guide/workspace/ui/" class="md-nav__link">
+        User interface
       </a>
     </li>
   
@@ -411,8 +1240,20 @@
   
   
     <li class="md-nav__item">
-      <a href="ansible-terraform-workspace/terraform-tools/" class="md-nav__link">
-        Terraform tools
+      <a href="user-guide/workspace/base-image/" class="md-nav__link">
+        Base image
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/workspace/pre-installed-apps/" class="md-nav__link">
+        Pre-installed apps
       </a>
     </li>
   
@@ -423,11 +1264,8 @@
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
@@ -435,16 +1273,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_2" type="checkbox" id="__nav_3_2" >
       
-      <label class="md-nav__link" for="__nav_4">
-        Base workspace
+      <label class="md-nav__link" for="__nav_3_2">
+        Workspace Admin
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Base workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_4">
+      <nav class="md-nav" aria-label="Workspace Admin" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_2">
           <span class="md-nav__icon md-icon"></span>
-          Base workspace
+          Workspace Admin
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -453,8 +1291,80 @@
   
   
     <li class="md-nav__item">
-      <a href="base-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/admin/info/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/meta/" class="md-nav__link">
+        Metadata
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/ui-customization/" class="md-nav__link">
+        UI customization
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/apps-services/" class="md-nav__link">
+        Apps and services
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/terminal/" class="md-nav__link">
+        Terminal
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/notes/" class="md-nav__link">
+        Notes
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/admin/share/" class="md-nav__link">
+        Share
       </a>
     </li>
   
@@ -465,11 +1375,20 @@
     </li>
   
 
-    
-      
-      
-      
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/wrk/info/" class="md-nav__link">
+        Wrk tool
+      </a>
+    </li>
+  
 
+          
+            
   
   
   
@@ -477,16 +1396,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_5" type="checkbox" id="__nav_5" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_4" type="checkbox" id="__nav_3_4" >
       
-      <label class="md-nav__link" for="__nav_5">
-        Codeserver workspace
+      <label class="md-nav__link" for="__nav_3_4">
+        Cloud deployment
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Codeserver workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_5">
+      <nav class="md-nav" aria-label="Cloud deployment" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_4">
           <span class="md-nav__icon md-icon"></span>
-          Codeserver workspace
+          Cloud deployment
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -495,8 +1414,20 @@
   
   
     <li class="md-nav__item">
-      <a href="codeserver-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/cloud-deployment/server/" class="md-nav__link">
+        Cloud server
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/cloud-deployment/kubernetes/" class="md-nav__link">
+        Kubernetes
       </a>
     </li>
   
@@ -507,11 +1438,8 @@
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
@@ -519,16 +1447,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_6" type="checkbox" id="__nav_6" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5" type="checkbox" id="__nav_3_5" >
       
-      <label class="md-nav__link" for="__nav_6">
-        Elasticsearch workspace
+      <label class="md-nav__link" for="__nav_3_5">
+        Install applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Elasticsearch workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_6">
+      <nav class="md-nav" aria-label="Install applications" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_5">
           <span class="md-nav__icon md-icon"></span>
-          Elasticsearch workspace
+          Install applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -537,8 +1465,8 @@
   
   
     <li class="md-nav__item">
-      <a href="elasticsearch-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/info/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -549,8 +1477,86 @@
   
   
     <li class="md-nav__item">
-      <a href="elasticsearch-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/alnoda-hub/" class="md-nav__link">
+        Alnoda Hub
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_3" type="checkbox" id="__nav_3_5_3" >
+      
+      <label class="md-nav__link" for="__nav_3_5_3">
+        APT
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="APT" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_3">
+          <span class="md-nav__icon md-icon"></span>
+          APT
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/apt/install/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_3_2" type="checkbox" id="__nav_3_5_3_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_3_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_3_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/apt/kakoune/" class="md-nav__link">
+        Kakoune
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/apt/snipkit/" class="md-nav__link">
+        SnipKit
       </a>
     </li>
   
@@ -561,11 +1567,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -573,16 +1582,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_4" type="checkbox" id="__nav_3_5_4" >
       
-      <label class="md-nav__link" for="__nav_7">
-        Erlang-Elixir workspace
+      <label class="md-nav__link" for="__nav_3_5_4">
+        Binary packages
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Erlang-Elixir workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_7">
+      <nav class="md-nav" aria-label="Binary packages" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_4">
           <span class="md-nav__icon md-icon"></span>
-          Erlang-Elixir workspace
+          Binary packages
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -591,8 +1600,41 @@
   
   
     <li class="md-nav__item">
-      <a href="erlang-elixir-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/binary/install/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_4_2" type="checkbox" id="__nav_3_5_4_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_4_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_4_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/binary/dagu/" class="md-nav__link">
+        Dagu
       </a>
     </li>
   
@@ -603,8 +1645,20 @@
   
   
     <li class="md-nav__item">
-      <a href="erlang-elixir-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/binary/q/" class="md-nav__link">
+        q
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/binary/nnn/" class="md-nav__link">
+        nnn
       </a>
     </li>
   
@@ -615,11 +1669,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -627,16 +1684,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_8" type="checkbox" id="__nav_8" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_5" type="checkbox" id="__nav_3_5_5" >
       
-      <label class="md-nav__link" for="__nav_8">
-        Go workspace
+      <label class="md-nav__link" for="__nav_3_5_5">
+        Nix
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Go workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_8">
+      <nav class="md-nav" aria-label="Nix" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_5">
           <span class="md-nav__icon md-icon"></span>
-          Go workspace
+          Nix
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -645,8 +1702,41 @@
   
   
     <li class="md-nav__item">
-      <a href="go-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/nix/install/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_5_2" type="checkbox" id="__nav_3_5_5_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_5_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_5_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nix/glow/" class="md-nav__link">
+        Glow
       </a>
     </li>
   
@@ -657,8 +1747,8 @@
   
   
     <li class="md-nav__item">
-      <a href="go-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/nix/micro/" class="md-nav__link">
+        Micro
       </a>
     </li>
   
@@ -669,11 +1759,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -681,16 +1774,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_9" type="checkbox" id="__nav_9" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_6" type="checkbox" id="__nav_3_5_6" >
       
-      <label class="md-nav__link" for="__nav_9">
-        IDE workspace
+      <label class="md-nav__link" for="__nav_3_5_6">
+        Asdf
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="IDE workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_9">
+      <nav class="md-nav" aria-label="Asdf" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_6">
           <span class="md-nav__icon md-icon"></span>
-          IDE workspace
+          Asdf
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -699,8 +1792,41 @@
   
   
     <li class="md-nav__item">
-      <a href="ide-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/asdf/install/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_6_2" type="checkbox" id="__nav_3_5_6_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_6_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_6_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/asdf/devspace/" class="md-nav__link">
+        Devspace
       </a>
     </li>
   
@@ -711,11 +1837,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -723,16 +1852,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_10" type="checkbox" id="__nav_10" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_7" type="checkbox" id="__nav_3_5_7" >
       
-      <label class="md-nav__link" for="__nav_10">
-        Java workspace
+      <label class="md-nav__link" for="__nav_3_5_7">
+        Python applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Java workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_10">
+      <nav class="md-nav" aria-label="Python applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_7">
           <span class="md-nav__icon md-icon"></span>
-          Java workspace
+          Python applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -741,8 +1870,8 @@
   
   
     <li class="md-nav__item">
-      <a href="java-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/python/install/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -752,9 +1881,30 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_7_2" type="checkbox" id="__nav_3_5_7_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_7_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_7_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="java-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/python/label-studio/" class="md-nav__link">
+        Label Studio
       </a>
     </li>
   
@@ -765,11 +1915,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -777,16 +1930,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_11" type="checkbox" id="__nav_11" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_8" type="checkbox" id="__nav_3_5_8" >
       
-      <label class="md-nav__link" for="__nav_11">
-        Kafka workspace
+      <label class="md-nav__link" for="__nav_3_5_8">
+        Node.js applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Kafka workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_11">
+      <nav class="md-nav" aria-label="Node.js applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_8">
           <span class="md-nav__icon md-icon"></span>
-          Kafka workspace
+          Node.js applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -795,8 +1948,41 @@
   
   
     <li class="md-nav__item">
-      <a href="kafka-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/nodejs/install/" class="md-nav__link">
+        Info
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_8_2" type="checkbox" id="__nav_3_5_8_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_8_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_8_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/snippetbox/" class="md-nav__link">
+        Snippet Box
       </a>
     </li>
   
@@ -807,8 +1993,80 @@
   
   
     <li class="md-nav__item">
-      <a href="kafka-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/nodejs/voyager/" class="md-nav__link">
+        Voyager
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/trilium/" class="md-nav__link">
+        Trilium
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/neumorphism/" class="md-nav__link">
+        Neumorphism
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/zerodivs/" class="md-nav__link">
+        ZeroDivs
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/limus/" class="md-nav__link">
+        Limus
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/csv-editor/" class="md-nav__link">
+        Csv-editor
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="user-guide/install-apps/nodejs/convert2svg/" class="md-nav__link">
+        Convert2svg
       </a>
     </li>
   
@@ -819,11 +2077,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -831,16 +2092,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_12" type="checkbox" id="__nav_12" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_9" type="checkbox" id="__nav_3_5_9" >
       
-      <label class="md-nav__link" for="__nav_12">
-        Kubespray workspace
+      <label class="md-nav__link" for="__nav_3_5_9">
+        Go applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Kubespray workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_12">
+      <nav class="md-nav" aria-label="Go applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_9">
           <span class="md-nav__icon md-icon"></span>
-          Kubespray workspace
+          Go applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -849,8 +2110,8 @@
   
   
     <li class="md-nav__item">
-      <a href="kubespray-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/go/install/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -860,9 +2121,30 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_9_2" type="checkbox" id="__nav_3_5_9_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_9_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_9_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="kubespray-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/go/cointop/" class="md-nav__link">
+        cointop
       </a>
     </li>
   
@@ -873,11 +2155,14 @@
     </li>
   
 
-    
-      
-      
-      
+          
+        </ul>
+      </nav>
+    </li>
+  
 
+          
+            
   
   
   
@@ -885,16 +2170,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_13" type="checkbox" id="__nav_13" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_10" type="checkbox" id="__nav_3_5_10" >
       
-      <label class="md-nav__link" for="__nav_13">
-        Mkdocs-workspace
+      <label class="md-nav__link" for="__nav_3_5_10">
+        Rust applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Mkdocs-workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_13">
+      <nav class="md-nav" aria-label="Rust applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_10">
           <span class="md-nav__icon md-icon"></span>
-          Mkdocs-workspace
+          Rust applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -903,8 +2188,8 @@
   
   
     <li class="md-nav__item">
-      <a href="mkdocs-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/rust/install/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -914,9 +2199,30 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_10_2" type="checkbox" id="__nav_3_5_10_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_10_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_10_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="https://mkdocs-magicspace.alnoda.org/" class="md-nav__link">
-        Docs
+      <a href="user-guide/install-apps/rust/amp/" class="md-nav__link">
+        amp
       </a>
     </li>
   
@@ -927,39 +2233,9 @@
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_14" type="checkbox" id="__nav_14" >
-      
-      <label class="md-nav__link" for="__nav_14">
-        Node.js workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Node.js workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_14">
-          <span class="md-nav__icon md-icon"></span>
-          Node.js workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="nodejs-workspace/" class="md-nav__link">
-        About
-      </a>
+        </ul>
+      </nav>
     </li>
   
 
@@ -968,9 +2244,30 @@
   
   
   
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_11" type="checkbox" id="__nav_3_5_11" >
+      
+      <label class="md-nav__link" for="__nav_3_5_11">
+        Ruby applications
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Ruby applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_11">
+          <span class="md-nav__icon md-icon"></span>
+          Ruby applications
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
     <li class="md-nav__item">
-      <a href="nodejs-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/install-apps/ruby/install/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -981,11 +2278,8 @@
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
@@ -993,16 +2287,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_15" type="checkbox" id="__nav_15" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_12" type="checkbox" id="__nav_3_5_12" >
       
-      <label class="md-nav__link" for="__nav_15">
-        Notebook workspace
+      <label class="md-nav__link" for="__nav_3_5_12">
+        In-browser applications
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Notebook workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_15">
+      <nav class="md-nav" aria-label="In-browser applications" data-md-level="3">
+        <label class="md-nav__title" for="__nav_3_5_12">
           <span class="md-nav__icon md-icon"></span>
-          Notebook workspace
+          In-browser applications
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1011,8 +2305,8 @@
   
   
     <li class="md-nav__item">
-      <a href="notebook-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/install-apps/in-browser/install/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -1022,93 +2316,30 @@
   
   
   
-    <li class="md-nav__item">
-      <a href="notebook-workspace/working-with-data/" class="md-nav__link">
-        Working with data
-      </a>
-    </li>
-  
-
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_5_12_2" type="checkbox" id="__nav_3_5_12_2" >
+      
+      <label class="md-nav__link" for="__nav_3_5_12_2">
+        Examples
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Examples" data-md-level="4">
+        <label class="md-nav__title" for="__nav_3_5_12_2">
+          <span class="md-nav__icon md-icon"></span>
+          Examples
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
           
             
   
   
   
     <li class="md-nav__item">
-      <a href="notebook-workspace/data-exploration/" class="md-nav__link">
-        Data exploration
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/presentations/" class="md-nav__link">
-        Presentations
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/reports/" class="md-nav__link">
-        Reports
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/productionalize/" class="md-nav__link">
-        Productionalize notebooks
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/pipelines/" class="md-nav__link">
-        Pipelines
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/interactive/" class="md-nav__link">
-        Interactive web app
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="notebook-workspace/documentation/" class="md-nav__link">
-        Documentation
+      <a href="user-guide/install-apps/in-browser/jupyterlite/" class="md-nav__link">
+        JupyterLite
       </a>
     </li>
   
@@ -1119,51 +2350,9 @@
     </li>
   
 
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_16" type="checkbox" id="__nav_16" >
-      
-      <label class="md-nav__link" for="__nav_16">
-        PHP workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="PHP workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_16">
-          <span class="md-nav__icon md-icon"></span>
-          PHP workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
           
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="php-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="php-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
+        </ul>
+      </nav>
     </li>
   
 
@@ -1173,11 +2362,8 @@
     </li>
   
 
-    
-      
-      
-      
-
+          
+            
   
   
   
@@ -1185,16 +2371,16 @@
     <li class="md-nav__item md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_17" type="checkbox" id="__nav_17" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_3_6" type="checkbox" id="__nav_3_6" >
       
-      <label class="md-nav__link" for="__nav_17">
-        Postgres workspace
+      <label class="md-nav__link" for="__nav_3_6">
+        Build workspaces
         <span class="md-nav__icon md-icon"></span>
       </label>
-      <nav class="md-nav" aria-label="Postgres workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_17">
+      <nav class="md-nav" aria-label="Build workspaces" data-md-level="2">
+        <label class="md-nav__title" for="__nav_3_6">
           <span class="md-nav__icon md-icon"></span>
-          Postgres workspace
+          Build workspaces
         </label>
         <ul class="md-nav__list" data-md-scrollfix>
           
@@ -1203,8 +2389,8 @@
   
   
     <li class="md-nav__item">
-      <a href="postgres-workspace/" class="md-nav__link">
-        About
+      <a href="user-guide/build-workspaces/images/" class="md-nav__link">
+        Info
       </a>
     </li>
   
@@ -1215,8 +2401,8 @@
   
   
     <li class="md-nav__item">
-      <a href="postgres-workspace/tutorial/" class="md-nav__link">
-        Tutorial
+      <a href="user-guide/build-workspaces/dockerfile/" class="md-nav__link">
+        Dockerfile
       </a>
     </li>
   
@@ -1224,594 +2410,6 @@
           
         </ul>
       </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_18" type="checkbox" id="__nav_18" >
-      
-      <label class="md-nav__link" for="__nav_18">
-        Python workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Python workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_18">
-          <span class="md-nav__icon md-icon"></span>
-          Python workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="python-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_19" type="checkbox" id="__nav_19" >
-      
-      <label class="md-nav__link" for="__nav_19">
-        Python-automate workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Python-automate workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_19">
-          <span class="md-nav__icon md-icon"></span>
-          Python-automate workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="python-automate-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="python-automate-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_20" type="checkbox" id="__nav_20" >
-      
-      <label class="md-nav__link" for="__nav_20">
-        R workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="R workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_20">
-          <span class="md-nav__icon md-icon"></span>
-          R workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="r-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="r-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_21" type="checkbox" id="__nav_21" >
-      
-      <label class="md-nav__link" for="__nav_21">
-        Redis workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Redis workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_21">
-          <span class="md-nav__icon md-icon"></span>
-          Redis workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="redis-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="redis-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_22" type="checkbox" id="__nav_22" >
-      
-      <label class="md-nav__link" for="__nav_22">
-        Ruby workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Ruby workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_22">
-          <span class="md-nav__icon md-icon"></span>
-          Ruby workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ruby-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ruby-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_23" type="checkbox" id="__nav_23" >
-      
-      <label class="md-nav__link" for="__nav_23">
-        Rust workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Rust workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_23">
-          <span class="md-nav__icon md-icon"></span>
-          Rust workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="rust-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="rust-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_24" type="checkbox" id="__nav_24" >
-      
-      <label class="md-nav__link" for="__nav_24">
-        Scala workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Scala workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_24">
-          <span class="md-nav__icon md-icon"></span>
-          Scala workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="scala-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="scala-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_25" type="checkbox" id="__nav_25" >
-      
-      <label class="md-nav__link" for="__nav_25">
-        SQlite workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="SQlite workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_25">
-          <span class="md-nav__icon md-icon"></span>
-          SQlite workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="sqlite-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="sqlite-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_26" type="checkbox" id="__nav_26" >
-      
-      <label class="md-nav__link" for="__nav_26">
-        Streamlit workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Streamlit workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_26">
-          <span class="md-nav__icon md-icon"></span>
-          Streamlit workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="streamlit-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="streamlit-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_27" type="checkbox" id="__nav_27" >
-      
-      <label class="md-nav__link" for="__nav_27">
-        Ubunntu workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Ubunntu workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_27">
-          <span class="md-nav__icon md-icon"></span>
-          Ubunntu workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ubuntu-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ubuntu-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ubuntu-workspace/remote-wid/" class="md-nav__link">
-        Run remotely
-      </a>
-    </li>
-  
-
-          
-        </ul>
-      </nav>
-    </li>
-  
-
-    
-      
-      
-      
-
-  
-  
-  
-    
-    <li class="md-nav__item md-nav__item--nested">
-      
-      
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_28" type="checkbox" id="__nav_28" >
-      
-      <label class="md-nav__link" for="__nav_28">
-        Ubunntu-docker workspace
-        <span class="md-nav__icon md-icon"></span>
-      </label>
-      <nav class="md-nav" aria-label="Ubunntu-docker workspace" data-md-level="1">
-        <label class="md-nav__title" for="__nav_28">
-          <span class="md-nav__icon md-icon"></span>
-          Ubunntu-docker workspace
-        </label>
-        <ul class="md-nav__list" data-md-scrollfix>
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ubuntu-docker-workspace/" class="md-nav__link">
-        About
-      </a>
-    </li>
-  
-
-          
-            
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="ubuntu-docker-workspace/tutorial/" class="md-nav__link">
-        Tutorial
-      </a>
     </li>
   
 
@@ -1829,89 +2427,9 @@
               </div>
             
             
-              
-              <div class="md-sidebar md-sidebar--secondary" data-md-component="sidebar" data-md-type="toc" >
-                <div class="md-sidebar__scrollwrap">
-                  <div class="md-sidebar__inner">
-                    
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#what-is-workspace" class="md-nav__link">
-    What is workspace
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#use-cases" class="md-nav__link">
-    Use-cases
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#contribution" class="md-nav__link">
-    Contribution
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-                  </div>
-                </div>
-              </div>
-            
           
           <div class="md-content" data-md-component="content">
             <article class="md-content__inner md-typeset">
-              
-                
-                
-                  <h1>About</h1>
-                
-                <p align="center">
-  <img src="assets/Alnoda-logo.svg" alt="Alnoda logo" width="150">
-</p>
-
-<p>Containerized development, admin and professional environments.  </p>
-<h3 id="what-is-workspace">What is workspace</h3>
-<p>Workspace is a docker image with </p>
-<ul>
-<li>toolset selected for specific tasks, such as software development, database administration or data exploration</li>
-<li>browser based user interfaces that enable cloud development, such as IDE, file manager, job scheduler</li>
-</ul>
-<h3 id="use-cases">Use-cases</h3>
-<ol>
-<li>You are building cloud development platform </li>
-<li>You need to get started fast without building your own toolset</li>
-</ol>
-<div align="center" style="font-style: italic;">
-    Demo: Ansible-Terraform workspace
-</div>
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/bluxmit/alnoda-workspaces/main/workspaces/ansible-terraform-workspace/img/ansible-terraform-wid.gif" alt="Htop" width="900">
-</p>
-
-<blockquote>
-<p>If you like this project, please support it by simply putting a Github star and sharing with friends on Twitter.</p>
-</blockquote>
-<h3 id="contribution">Contribution</h3>
-<p>Pull requests welcome.<br />
-If you feel you need to discuss first, create an issue.</p>
-                
               
               
                 
@@ -1922,22 +2440,53 @@ If you feel you need to discuss first, create an issue.</p>
           </div>
         </div>
         
+          <a href="#" class="md-top md-icon" title="Back to top" data-md-component="top" data-md-state="hidden">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M13 20h-2V8l-5.5 5.5-1.42-1.42L12 4.16l7.92 7.92-1.42 1.42L13 8v12z"/></svg>
+          </a>
+        
       </main>
       
-        
-      
+<footer class="footer md-typeset">
+    <div class="footer-columns">
+      <div class="footer-column">
+            <div class="md-header__title" style="margin-left: 0; font-size: 1.1rem;">
+                <img src="assets/laptop-circle-white.svg" style="height: 1.5rem; vertical-align: middle; margin-right: 1rem;"/>
+                <span> Alnoda workspaces</span> 
+            </div>
+            <div><em>Flexible container-based development environments</em></div>
+            <div><em><a href="/about/contribution/" style="color: white" target="_blank"><b>Want to contribute?</b></a></em></div>
+      </div>
+      <div class="footer-column">
+        <ul>
+          <li>
+            <img src="assets/home/email.svg" style="height: 1.5rem; vertical-align: middle; margin-right: 1rem;"/>
+            <b>bluxmit@gmail.com</b>
+          </li>
+          <li>
+            <b><a href="https://github.com/bluxmit/alnoda-workspaces" style="color: white" target="_blank">GitHub</a></b>
+          </li>
+          <li>
+            <b><a href="https://alnoda.org/" style="color: white" target="_blank">Alnoda Hub</a></b>
+          </li>
+        </ul>
+      </div>
+    </div>
+</footer>
+
     </div>
     <div class="md-dialog" data-md-component="dialog">
       <div class="md-dialog__inner md-typeset"></div>
     </div>
-    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.instant"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
+    <script id="__config" type="application/json">{"base": ".", "features": ["navigation.tabs", "navigation.top"], "translations": {"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.placeholder": "Search", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents", "search.result.more.one": "1 more on this page", "search.result.more.other": "# more on this page", "search.result.term.missing": "Missing", "select.version.title": "Select version"}, "search": "assets/javascripts/workers/search.b0710199.min.js", "version": null}</script>
     
     
       <script src="assets/javascripts/bundle.76f349be.min.js"></script>
       
-        <script src="javascripts/config.js"></script>
-      
         <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+      
+        <script src="javascript/termynal.js"></script>
+      
+        <script src="javascript/custom.js"></script>
       
     
   </body>
