@@ -102,9 +102,8 @@ nav:
             - JupyterLite: user-guide/install-apps/in-browser/jupyterlite.md
             # - Laverna: user-guide/install-apps/in-browser/laverna.md
     - Build workspaces:
-      - Images: user-guide/build-workspaces/images.md
-      - Commit workspaces: user-guide/build-workspaces/commit.md
-      - With Dockerfile: user-guide/build-workspaces/dockerfile.md
+      - Info: user-guide/build-workspaces/images.md
+      - Dockerfile: user-guide/build-workspaces/dockerfile.md
 
 
 # ===========================================================
