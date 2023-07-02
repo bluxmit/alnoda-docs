@@ -252,6 +252,15 @@
         background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--color-purple))
     } */
 
+    .section-image {
+        width: 90%;
+        max-width: 50rem;
+        border-radius: 20px;
+        border: 3px solid #252A33;
+        margin: auto;
+        margin-top: 4rem;
+    }
+
     .section-parent {
         color: var(--md-primary-bg-color);
         width: 90%;
@@ -360,7 +369,7 @@
         <div class="tx-hero__content">
           <h1> Alnoda workspaces </h1>
           <p>Open-source portable containerized browser-based development environments</p>
-          <a href="{{ page.next_page.url | url }}" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
+          <a href="/get-started/launch-workspace/" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
             Get started
           </a>
           <a href="https://alnoda.org" target="_blank" class="md-button">
@@ -400,6 +409,51 @@
     </div>
 </div>
 
+<img src="assets/home/wrk-demo.gif" class="section-image" alt="GIF" loop>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/male-ui-ux-designer.svg" style="padding-bottom: 1rem; height: 15rem;"> </object>
+        </div>
+        <h2>Flexible</h2>
+        <p>
+            Customize workspaces for individual projects, selecting the desired apps for each.
+        </p>
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="hr">
+    </div>
+</div>
+
+<div class="top-hr">
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/female-web-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Extenadable</h2>
+        <p>
+            Install code editors, notebooks, desktop apps, CLI tools, and more!
+        </p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/male-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Easy install</h2>
+        <p>Install apps effortlessly with a single command. Want JupyterLab? Simply run <b><em>wrk install jupyterlab</em></b></p>
+    </div>
+    <div class="feature-item">
+        <div class="feature-item-img">
+            <object data="assets/home/frontend-developer.svg" style="padding-bottom: 1rem;"> </object>
+        </div>
+        <h2>Community</h2>
+        <p><b>Alnoda Hub</b> has hundreeds of applications. And it is ever growing.</p>
+    </div>
+</div>
+
 <div class="section-parent">
     <div class="child-hero md-grid md-typeset">
         <div class="section-child section-child1">
@@ -417,13 +471,13 @@
     </div>
 </div>
 
-<div class="top-hr">
+<!-- <div class="top-hr">
     <div class="feature-item" style="max-width: 600px !important;">
         <div class="feature-item-img">
             <object data="assets/home/container-transportation.svg" style="padding-bottom: 1rem;"> </object>
         </div>
         <h2 style="white-space: unset; word-break: break-word; overflow: unset;">
-            Development in docker is finally easy!
+            Working inside containtainers is finally easy!
         </h2>
         <p>
             Alnoda simplifies the complexities often encountered when working with Docker-based development environments.
@@ -453,25 +507,7 @@
         <h2>Flexible and extendable</h2>
         <p>Expand your development environments effortlessly by choosing from a vast selection of tools and applications, all without the need for prior knowledge of Docker.</p>
     </div>
-</div>
-
-<div class="section-parent" style="background: linear-gradient(to bottom, rgb(48, 156, 214), #692580)">
-    <div class="child-hero md-grid md-typeset">
-        <div class="section-child section-child1">
-            <h1>Improve collaboration </h1>
-            <p>Designed to cater to the era of remote work, decentralized teams, and digital nomads.</p>
-            <a href="/about/collaboration/" title="{{ lang.t('source.link.title') }}" class="md-button">
-                Lern more
-            </a>
-        </div>
-        <div class="section-child section-child2">
-            <div class="child-svg-image">
-                <img src="assets/home/improve-collaboration.svg" style="padding-bottom: 1rem;" /> 
-            </div>
-        </div>
-    </div>
-</div>
-
+</div> -->
 
 
 <div class="top-hr">
@@ -516,6 +552,23 @@
         </div>
         <h2>Kubernetes</h2>
         <p>Deploy workspaces in kubernetes to create a powerful in-house cloud development plafrorm. </p>
+    </div>
+</div>
+
+<div class="section-parent" style="background: linear-gradient(to bottom, rgb(48, 156, 214), #692580)">
+    <div class="child-hero md-grid md-typeset">
+        <div class="section-child section-child1">
+            <h1>Improve collaboration </h1>
+            <p>Designed to cater to the era of remote work, decentralized teams, and digital nomads.</p>
+            <a href="/about/collaboration/" title="{{ lang.t('source.link.title') }}" class="md-button">
+                Lern more
+            </a>
+        </div>
+        <div class="section-child section-child2">
+            <div class="child-svg-image">
+                <img src="assets/home/improve-collaboration.svg" style="padding-bottom: 1rem;" /> 
+            </div>
+        </div>
     </div>
 </div>
 
