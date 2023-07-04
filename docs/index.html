@@ -498,13 +498,17 @@
         background: linear-gradient(to bottom, var(--md-primary-fg-color), var(--color-purple))
     } */
 
-    .section-image {
+    .section {
         width: 90%;
         max-width: 50rem;
-        border-radius: 20px;
-        border: 3px solid #252A33;
         margin: auto;
         margin-top: 4rem;
+    }
+
+    .section-image {
+        width: 100%;
+        border-radius: 20px;
+        border: 3px solid #252A33;
     }
 
     .section-parent {
@@ -603,7 +607,48 @@
         }
     }
 
+    /* Style the tab buttons */
+    .tablink {
+        background-color: #F6F8FA;
+        color: black;
+        float: left;
+        border: none;
+        outline: none;
+        cursor: pointer;
+        padding: 14px 16px;
+        font-size: 17px;
+        width: 25%;
+    }
+
+    .tablink:hover {
+        background-color: #ddd;
+    }
+
+    /* Style the tab content (and add height if you want) */
+    .tabcontent {
+        display: none;
+        padding-top: 1rem;
+        height: 100%;
+    }
+    .centered-tab {
+        display: flex;
+        justify-content: center;
+        margin-bottom: 20px;
+    }
+
+    .code-container {
+        background-color: #f6f8fa;
+        padding: 16px;
+        overflow-x: auto;
+        border-radius: 6px;
+        font-family: "Courier New", Courier, monospace;
+        font-size: 14px;
+        line-height: 20px;
+        border: 1px solid #e1e4e8;
+    }
+
 </style>
+
 
 <!-- Main site Entry button descriptions -->
 <section class="tx-container">
@@ -655,7 +700,45 @@
     </div>
 </div>
 
-<img src="assets/home/wrk-demo.gif" class="section-image" alt="GIF" loop>
+
+<div class="section">
+    <div class="tabs">
+        <div class="centered-tab">
+            <button class="tablink" onclick="openTab('tab1', this)" id="defaultOpen">Demo</button>
+            <button class="tablink" onclick="openTab('tab2', this)">Dockerfile</button>
+        </div>
+    </div>
+    <div id="tab1" class="tabcontent">
+        <img src="assets/home/wrk-demo.gif" class="section-image" alt="GIF" loop>
+    </div>
+
+    <div id="tab2" class="tabcontent">
+        <div class="code-container">
+            <pre>
+                <code>
+        FROM alnoda/alnoda-workspace:latest
+
+        RUN wrk install openvscode
+        RUN wrk install kodexplorer
+        RUN wrk install cloud-commander
+        RUN wrk install zellij-ui
+        RUN wrk install mate-desktop
+        RUN wrk install jupyterlab
+        RUN wrk install r
+        RUN wrk install rstudio
+        RUN wrk install excalidraw
+        RUN wrk install vvvebjs
+
+        # There are hundreds more apps in Alnoda Hub!
+                </code>
+            </pre>
+        </div>
+    </div>
+</div>
+
+
+
+
 
 <div class="top-hr">
     <div class="feature-item">
@@ -848,6 +931,29 @@
   autoplay: true, // optional
   name: "Demo Animation", // optional
 });
+</script>
+
+
+<script>
+function openTab(tabId, elmnt) {
+    var i, tabcontent, tablinks;
+
+    tabcontent = document.getElementsByClassName("tabcontent");
+    for (i = 0; i < tabcontent.length; i++) {
+        tabcontent[i].style.display = "none";
+    }
+
+    tablinks = document.getElementsByClassName("tablink");
+    for (i = 0; i < tablinks.length; i++) {
+        tablinks[i].style.backgroundColor = "";
+        tablinks[i].style.borderBottom = "";
+    }
+
+    document.getElementById(tabId).style.display = "block";
+    elmnt.style.borderBottom = "3px solid red";
+}
+// Get the element with id="defaultOpen" and click on it
+document.getElementById("defaultOpen").click();
 </script>
 
 
