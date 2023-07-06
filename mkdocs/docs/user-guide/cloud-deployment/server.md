@@ -2,10 +2,25 @@
 
 Alnoda workspaces can be easily deployed in the cloud, with the simplest approach being the launch of workspaces as Docker containers.
 
-However, when running on a cloud server with a public IP and accessing the workspace over the internet, it becomes essential to establish a secure and 
-encrypted connection with authentication measures in place.
+When starting workspace on a server it is necessary to set a container environmetal variable `WRK_HOST` equal to the IP or the host name of the server. 
+You can set this variable in the docker run command passing an argumentt `-e WRK_HOST="<ip-of-your-remote-server>"`.  
 
-## HTTPS
+For example, if the IP of your server is _204.35.20.100_ you will start workspace on a server with a following command: 
+
+```shell 
+docker run --name space-1 -d -p 8020-8040:8020-8040 --restart=always -e WRK_HOST=204.35.20.100 alnoda/alnoda-workspace
+```
+
+!!! note 
+    Please make sure that ports from the range 8020-8040 are not blocked by the firewall.
+
+Ope browser on _<ip-of-your-remote-server>:8020_
+
+However, when running on a cloud server with a public IP and accessing the workspace over the internet, it becomes necessary to establish a secure and 
+encrypted connection with at least some authentication. You can do this using docker-compose. We have a companion repository with docker-compose file 
+and instructions.
+
+## HTTPS and authentication
 
 To launch an Alnoda workspace on a cloud server with basic authentication over HTTPS using a self-signed certificate, follow these steps:
 

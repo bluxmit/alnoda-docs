@@ -852,8 +852,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#https" class="md-nav__link">
-    HTTPS
+  <a href="#https-and-authentication" class="md-nav__link">
+    HTTPS and authentication
   </a>
   
 </li>
@@ -1912,8 +1912,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#https" class="md-nav__link">
-    HTTPS
+  <a href="#https-and-authentication" class="md-nav__link">
+    HTTPS and authentication
   </a>
   
 </li>
@@ -1954,9 +1954,20 @@
                 
                 <h1 id="cloud-server">Cloud Server</h1>
 <p>Alnoda workspaces can be easily deployed in the cloud, with the simplest approach being the launch of workspaces as Docker containers.</p>
-<p>However, when running on a cloud server with a public IP and accessing the workspace over the internet, it becomes essential to establish a secure and 
-encrypted connection with authentication measures in place.</p>
-<h2 id="https">HTTPS</h2>
+<p>When starting workspace on a server it is necessary to set a container environmetal variable <code>WRK_HOST</code> equal to the IP or the host name of the server. 
+You can set this variable in the docker run command passing an argumentt <code>-e WRK_HOST="&lt;ip-of-your-remote-server&gt;"</code>.  </p>
+<p>For example, if the IP of your server is <em>204.35.20.100</em> you will start workspace on a server with a following command: </p>
+<div class="highlight"><pre><span></span><code>docker run --name space-1 -d -p <span class="m">8020</span>-8040:8020-8040 --restart<span class="o">=</span>always -e <span class="nv">WRK_HOST</span><span class="o">=</span><span class="m">204</span>.35.20.100 alnoda/alnoda-workspace
+</code></pre></div>
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Please make sure that ports from the range 8020-8040 are not blocked by the firewall.</p>
+</div>
+<p>Ope browser on <em><ip-of-your-remote-server>:8020</em></p>
+<p>However, when running on a cloud server with a public IP and accessing the workspace over the internet, it becomes necessary to establish a secure and 
+encrypted connection with at least some authentication. You can do this using docker-compose. We have a companion repository with docker-compose file 
+and instructions.</p>
+<h2 id="https-and-authentication">HTTPS and authentication</h2>
 <p>To launch an Alnoda workspace on a cloud server with basic authentication over HTTPS using a self-signed certificate, follow these steps:</p>
 <p>Ensure that the server has Docker and Docker Compose installed.</p>
 <p>Verify that ports 8020 to 8040 are not blocked by the firewall. For instance, on Ubuntu/Debian, you can run the following command:</p>
