@@ -14,7 +14,7 @@ docker run --name space-1 -d -p 8020-8040:8020-8040 --restart=always -e WRK_HOST
 !!! note 
     Please make sure that ports from the range 8020-8040 are not blocked by the firewall.
 
-Ope browser on _ip-of-your-remote-server:8020_
+Open browser on _ip-of-your-remote-server:8020_
 
 However, when running on a cloud server with a public IP and accessing the workspace over the internet, it becomes necessary to establish a secure and 
 encrypted connection with at least some authentication. You can do this using docker-compose. We have a companion repository with docker-compose file 
