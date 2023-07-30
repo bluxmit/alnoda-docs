@@ -403,6 +403,7 @@
 
 </style>
 
+<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js"></script>
 
 <!-- Main site Entry button descriptions -->
 <section class="tx-container">
@@ -413,7 +414,7 @@
         </div>
         <div class="tx-hero__content">
           <h1> Alnoda workspaces </h1>
-          <p>Open-source portable containerized browser-based development environments</p>
+          <p>Open-source portable containerized workspaces. <b style="color: #ffc089;">NOW with free offline chat GPT 🚀🚀🚀</b></p>
           <a href="/get-started/launch-workspace/" title="{{ page.next_page.title | striptags }}" class="md-button md-button--primary">
             Get started
           </a>
@@ -426,6 +427,33 @@
 </section>
 <!-- <div style="height: 50px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.67,86.35 C241.82,195.89 282.45,39.97 501.41,120.89 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: #2E303E;"></path></svg></div> -->
 <div style="height: 100px; overflow: hidden;" ><svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%;"><path d="M-3.67,86.35 C193.85,273.85 310.10,-146.53 501.41,120.89 L500.00,0.00 L0.00,0.00 Z" style="stroke: none; fill: var(--color-purple);"></path></svg></div>
+
+
+<div class="section-parent" style="background: linear-gradient(to bottom, #252A33, #692580)">
+    <div class="child-hero md-grid md-typeset" style="color: #ffc089; padding-top: 1rem; padding-bottom: 0;">
+        <div class="section-child section-child1" style="padding-bottom: 0;">
+            <h1>Chat GPT offline (experimental)</h1>
+            <p>Entire FREE GPT inside your workspace</p>
+            <p>Based on open-source version of chat GPT</p>
+            <p>Chat with GPT directly in terminal</p>
+            <p>Have the whole world knowledge in your workspace EVEN OFFLINE!</p>
+        </div>
+        <div class="section-child section-child2" style="padding-bottom: 0;">
+            <div id="lottieBrainContainer" style="display: flex; justify-content: center;">
+                <div id="lottieBrainAnimation" style="width: 100%; text-color: #E77260;"></div>
+            </div>
+            <script>
+                var animation = bodymovin.loadAnimation({
+                container: document.getElementById('lottieBrainAnimation'),
+                renderer: 'svg',
+                loop: true,
+                autoplay: true,
+                path: 'assets/home/brain-pathway.json' 
+                });
+            </script>
+        </div>
+    </div>
+</div>
 
 <!-- Main site box descriptions -->
 <div class="top-hr">
@@ -656,25 +684,7 @@
 </div>
 
 
-<!-- <div class="section-parent" style="background: linear-gradient(to bottom, #49e3b0, #692580)">
-    <div class="child-hero md-grid md-typeset">
-        <div class="section-child section-child1">
-            <h1>Roadmap </h1>
-            <p>Alnoda is continuously evolving, with many exciting features yet to be unveiled. Stay tuned and explore our roadmap for future updates and enhancements!</p>
-            <a href="/about/roadmap/" title="{{ lang.t('source.link.title') }}" class="md-button">
-                Lern more
-            </a>
-        </div>
-        <div class="section-child section-child2">
-            <div class="child-svg-image">
-                <img src="assets/home/roadmap.svg" style="padding-bottom: 1rem;" /> 
-            </div>
-        </div>
-    </div>
-</div> -->
 
-
-<script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.7.4/lottie.min.js">
 <script>
   var animation = bodymovin.loadAnimation({
   // animationData: { /* ... */ },
