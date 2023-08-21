@@ -105,6 +105,9 @@ nav:
       - Info: user-guide/build-workspaces/images.md
       - Dockerfile: user-guide/build-workspaces/dockerfile.md
 
+  - Alnoda Hub:
+    - About: alnoda-hub/about.md
+    - Install App: alnoda-hub/install-apps.md
 
 # ===========================================================
 # CONFIGURATION
