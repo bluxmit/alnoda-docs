@@ -107,6 +107,7 @@ nav:
 
   - Alnoda Hub:
     - About: alnoda-hub/about.md
+    - Alnoda App: alnoda-hub/alnoda-app.md
     - Install App: alnoda-hub/install-apps.md
 
 # ===========================================================
