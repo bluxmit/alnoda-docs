@@ -1,6 +1,6 @@
 # About
 
-[__Alnoda Hub__](https://alnoda.org/) is simply a collection of scripts which will istall various applications, packages and libraries, download artifacts or datasets in the workspace.  
+[__Alnoda Hub__](https://alnoda.org/) is a collection of scripts which will istall various applications, packages and libraries, download artifacts or datasets in the workspace.  
 
 You can use Alnoda Hub to quickly install frequently used applications in any of your workspaces, reducing the bootstraping time. And by combining 
 different applications you can create unique workspaces for every specific need. 
