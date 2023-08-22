@@ -64,3 +64,5 @@ For example, _php workspace_ is built from _codeserver workspace_ and the latter
 ![app-wrk-compatibility.png](./img/app-wrk-compatibility.png)
 
 ## App Compatibility
+
+App compatibility is also optional, same as workspace compatibility. It is a mean to track compatibilities, incompatibilities or requirements between different applications and their versions. If you notice incompatibility between applicationns which is missing in the Alnoda Hub, you can as well add it to the applicaion, eve if it is not yours app. This will help you to remember if you try to install this app in the other workspaces. 
