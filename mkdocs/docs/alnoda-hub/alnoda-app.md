@@ -45,24 +45,38 @@ To add another version to the Alnoda app (created by you or anyone else) click b
 
 ## Workspace Compatibility
 
+On the app page you can find information about compatibility with the workspaces. This compatibility information can help to know if application can 
+freely be installed in the workspace. If you try to install application which is not defined to be compatible with your workspace, you will see a warning. 
+
+If the application compatibility with some workspace is not set, it does not mean that it is incompatible. It is possible that the information is simply has not been updated yet. 
+
+![rabbit-wrk-compat.jpg](./img/rabbit-wrk-compat.jpg)
+
 Apps can be compatible or incompatible with different workspaces. Such compatibility is optional and serves informational purpose only. 
 No matter if app is compatible or incompatible with a given workspace, you can ignore the warning and install anyway. 
 
 !!! info 
     You can ignore compatibility warning and install app in your workspace anyway. 
 
+!!! hint 
+    If you see the compatibility warning, but still want to continue, it is a good idea to stop installation and back up the workspace prior to installing the app.
+
 If you notice compatibility or incompatibility of an app with some workspace, you can update app compatibility with the relevant information, which will help your later if you want to install it in a similar workspace. 
 
 !!! info 
     You can update compatibility of a app with aother workspace even if you haven't created neither of them. 
 
-Because workspaces can be built from each other, it is not necessary to establish compatibility of an app with all the workspaces. It is enough 
-to have compatibility with a single workspace in the legacy of the given workspace. 
+Because workspaces can be built from each other, it is not necessary to set compatibility of an app with all the possible workspaces. It is enough 
+to have compatibility with a single workspace in the lieage of the given workspace. You can see the workspace lineage on the Workspace UI _About tab_ 
 
-For example, _php workspace_ is built from _codeserver workspace_ and the latter is built from the _alnoda worksapce_. Application _Apache2_ (popular web server) is compatible with _aloda workspace_, which means it becomes implicitly compatible with both _php workspace_ and _codeserver workspace_.
+![wrk-lineage.jpg](./img/wrk-lineage.jpg)
+
+For example, _php workspace_ is built from _Theia workspace_ and the latter is built from the _alnoda worksapce_. Application _Apache2_ (popular web server) is compatible with _aloda workspace_, which means it becomes implicitly compatible with both _php workspace_ and _codeserver workspace_.
 
 ![app-wrk-compatibility.png](./img/app-wrk-compatibility.png)
 
 ## App Compatibility
 
-App compatibility is also optional, same as workspace compatibility. It is a mean to track compatibilities, incompatibilities or requirements between different applications and their versions. If you notice incompatibility between applicationns which is missing in the Alnoda Hub, you can as well add it to the applicaion, eve if it is not yours app. This will help you to remember if you try to install this app in the other workspaces. 
+App compatibility is also optional, much like workspace compatibility. It is a mean to track compatibilities, incompatibilities or requirements between different applications and their versions. 
+
+If you notice incompatibility between applicationns which is missing in the Alnoda Hub, you can as well add it to the applicaion, eve if it is not yours app. This will help you to remember if you try to install this app in the other workspaces. 

@@ -163,6 +163,7 @@ markdown_extensions:
   - admonition
   - pymdownx.tasklist:
       custom_checkbox: true
+  - pymdownx.keys
   # - mdx_include:
   #     base_path: docs
 
