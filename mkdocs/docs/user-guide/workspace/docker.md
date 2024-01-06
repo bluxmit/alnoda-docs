@@ -6,7 +6,7 @@ Alnoda workspaces come in the form of Docker images that can be executed just li
 Use the following command to run them:
 
 ```shell
-docker run --name workspace-1 -d -p 8020-8040:8020-8040 --restart=always alnoda-workspace:latest
+docker run --name workspace-1 -d -p 8020-8040:8020-8040 --restart=always alnoda/alnoda-workspace:latest
 ```
 
 Once it's running, you can access the Workspace UI by navigating to [__http://localhost:8020__](http://localhost:8020) 
@@ -18,7 +18,7 @@ a different range of ports, include an environmental variable, WRK_HOME_PORT, se
 For example:
 
 ```shell
-docker run --name workspace-2 -d -p 7020-7040:8020-8040 -e WRK_HOME_PORT=7020 --restart=always alnoda-workspace:latest
+docker run --name workspace-2 -d -p 7020-7040:8020-8040 -e WRK_HOME_PORT=7020 --restart=always alnoda/alnoda-workspace:latest
 ```
 
 Now Workspace UI will be available on [__http://localhost:7020__](http://localhost:8020)

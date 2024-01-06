@@ -2,432 +2,452 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
          <loc>https://docs.alnoda.org/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/advantages/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/collaboration/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/containers/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/contribution/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/intro/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/limitations/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/productivity/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/separation/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/use-cases/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/about/what-is-workspace/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/alnoda-hub/about/</loc>
+         <lastmod>2024-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/alnoda-hub/add-app/</loc>
+         <lastmod>2024-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/alnoda-hub/alnoda-app/</loc>
+         <lastmod>2024-01-06</lastmod>
+         <changefreq>daily</changefreq>
+    </url>
+    <url>
+         <loc>https://docs.alnoda.org/alnoda-hub/install-apps/</loc>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/enhance-terminal/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/file-browser/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/install-code-editor/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/install-desktop/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/install-file-manager/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/launch-workspace/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/personalize/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/share/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/get-started/terminal/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/customize-ui/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/extend-workspace/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/images/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/schedule-script/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/apps-services/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/info/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/meta/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/notes/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/share/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/terminal/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/admin/ui-customization/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/build-workspaces/dockerfile/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/build-workspaces/images/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/cloud-deployment/kubernetes/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/cloud-deployment/server/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/alnoda-hub/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/info/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/apt/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/apt/kakoune/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/apt/snipkit/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/asdf/devspace/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/asdf/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/binary/dagu/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/binary/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/binary/nnn/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/binary/q/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/binary/img/zenith/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/go/cointop/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/go/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/in-browser/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/in-browser/jupyterlite/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/in-browser/laverna/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/java/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nix/glow/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nix/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nix/micro/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/candidates/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/convert2svg/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/csv-editor/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/limus/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/neumorphism/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/pm2-webui/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/snippetbox/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/trilium/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/voyager/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/nodejs/zerodivs/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/php/candidates/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/php/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/python/cooka/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/python/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/python/label-studio/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/ruby/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/rust/amp/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/install-apps/rust/install/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/cron/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/features/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/pm2/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/services/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/terminal/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/terminal/wrk/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/workspace/base-image/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/workspace/docker/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/workspace/pre-installed-apps/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/workspace/ui/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
     <url>
          <loc>https://docs.alnoda.org/user-guide/wrk/info/</loc>
-         <lastmod>2023-07-30</lastmod>
+         <lastmod>2024-01-06</lastmod>
          <changefreq>daily</changefreq>
     </url>
 </urlset>

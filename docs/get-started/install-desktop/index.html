@@ -248,6 +248,22 @@
   
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../alnoda-hub/about/" class="md-tabs__link">
+        Alnoda Hub
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -541,9 +557,46 @@
         
       
       
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Install Desktop
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
       <a href="./" class="md-nav__link md-nav__link--active">
         Install Desktop
       </a>
+      
+        
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#web-desktop" class="md-nav__link">
+    Web desktop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-desktop-environment" class="md-nav__link">
+    Linux desktop environment
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
       
     </li>
   
@@ -1833,6 +1886,72 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Alnoda Hub
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Alnoda Hub" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Alnoda Hub
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../alnoda-hub/about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../alnoda-hub/alnoda-app/" class="md-nav__link">
+        Alnoda App
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../alnoda-hub/install-apps/" class="md-nav__link">
+        Install App
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1852,6 +1971,28 @@
     
   
   
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#web-desktop" class="md-nav__link">
+    Web desktop
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#linux-desktop-environment" class="md-nav__link">
+    Linux desktop environment
+  </a>
+  
+</li>
+      
+    </ul>
+  
 </nav>
                   </div>
                 </div>
@@ -1869,6 +2010,7 @@
 
 <h1 id="install-desktop">Install Desktop</h1>
 <p>Do you want to get even more desktop experience? Install browser-based desktop from Alnoda Hub!  </p>
+<h2 id="web-desktop">Web desktop</h2>
 <p><strong>KodExplorer</strong> is windows-style desktop environment with file manager and code editor. </p>
 <div class="termy">
 <div class="highlight"><pre><span></span><code>$ wrk install kodexplorer
@@ -1909,6 +2051,33 @@ Do you want to <span class="k">continue</span>❓ <span class="o">[</span>y/N<sp
 
 <p>After worksapce is restarted you can open KodExplorer from the workspace home page.</p>
 <p><img alt="vscode" src="../img/kodexplorer.jpg" /></p>
+<h2 id="linux-desktop-environment">Linux desktop environment</h2>
+<p>Do you want to install a complete Linux desktop in your workspace, that you can use via browser? You can select one of desktop environments 
+from the <a href="https://alnoda.org/registry/?text=desktop&amp;ord=relevance&amp;uionly=true&amp;qs=Productivity&amp;sel=desktop">Alnoda hub</a> and install it in 
+the workspace with a single command!  </p>
+<p><img alt="lxde" src="../img/lxde-desktop.jpg" /></p>
+<p>In the <a href="https://alnoda.org/registry/?text=desktop&amp;ord=relevance&amp;uionly=true&amp;qs=Productivity&amp;sel=desktop">Alnoda hub</a> you will find </p>
+<ul>
+<li>
+<p><strong>XFCE:</strong> Lightweight and fast, ideal for lower-end hardware or users who prefer a simple, efficient desktop without sacrificing functionality.</p>
+</li>
+<li>
+<p><strong>LXDE/LXQt:</strong> Extremely lightweight and resource-efficient, perfect for very old hardware or minimalistic setups.</p>
+</li>
+<li>
+<p><strong>MATE:</strong> A continuation of GNOME 2, providing a classic desktop experience with simplicity and ease of use. </p>
+</li>
+</ul>
+<p>For example in order to install LXDE desktop in the Alnoda workspace, open workspace terminal and execute </p>
+<div class="termy">
+<div class="highlight"><pre><span></span><code>$ wrk install lxde-desktop
+</code></pre></div>
+</div>
+
+<div class="admonition note">
+<p class="admonition-title">Note</p>
+<p>Installation of Linux desktop might take some time. Wait untill the process is finished.</p>
+</div>
 <p><em>💡 Explore <a href="https://alnoda.org"><strong>Alnoda Hub</strong></a> to find many more awesome applications to install</em></p>
 <p><a href="/get-started/personalize/">
     <div id="lottieContainer" style="display: flex; justify-content: flex-end;">

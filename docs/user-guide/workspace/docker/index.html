@@ -248,6 +248,22 @@
   
 
       
+        
+  
+  
+
+
+  
+  
+  
+    <li class="md-tabs__item">
+      <a href="../../../alnoda-hub/about/" class="md-tabs__link">
+        Alnoda Hub
+      </a>
+    </li>
+  
+
+      
     </ul>
   </div>
 </nav>
@@ -1886,6 +1902,72 @@
   
 
     
+      
+      
+      
+
+  
+  
+  
+    
+    <li class="md-nav__item md-nav__item--nested">
+      
+      
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_4" type="checkbox" id="__nav_4" >
+      
+      <label class="md-nav__link" for="__nav_4">
+        Alnoda Hub
+        <span class="md-nav__icon md-icon"></span>
+      </label>
+      <nav class="md-nav" aria-label="Alnoda Hub" data-md-level="1">
+        <label class="md-nav__title" for="__nav_4">
+          <span class="md-nav__icon md-icon"></span>
+          Alnoda Hub
+        </label>
+        <ul class="md-nav__list" data-md-scrollfix>
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../alnoda-hub/about/" class="md-nav__link">
+        About
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../alnoda-hub/alnoda-app/" class="md-nav__link">
+        Alnoda App
+      </a>
+    </li>
+  
+
+          
+            
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../../../alnoda-hub/install-apps/" class="md-nav__link">
+        Install App
+      </a>
+    </li>
+  
+
+          
+        </ul>
+      </nav>
+    </li>
+  
+
+    
   </ul>
 </nav>
                   </div>
@@ -1956,7 +2038,7 @@
 <h2 id="run-workspace">Run workspace</h2>
 <p>Alnoda workspaces come in the form of Docker images that can be executed just like any other Docker container. 
 Use the following command to run them:</p>
-<div class="highlight"><pre><span></span><code>docker run --name workspace-1 -d -p <span class="m">8020</span>-8040:8020-8040 --restart<span class="o">=</span>always alnoda-workspace:latest
+<div class="highlight"><pre><span></span><code>docker run --name workspace-1 -d -p <span class="m">8020</span>-8040:8020-8040 --restart<span class="o">=</span>always alnoda/alnoda-workspace:latest
 </code></pre></div>
 <p>Once it's running, you can access the Workspace UI by navigating to <a href="http://localhost:8020"><strong>http://localhost:8020</strong></a> 
 in your web browser.</p>
@@ -1964,7 +2046,7 @@ in your web browser.</p>
 <p>Alnoda workspaces requires the availability of 20 ports, mapped internally to the range 8020-8040. If you need to designate 
 a different range of ports, include an environmental variable, WRK_HOME_PORT, set equal to the first port in the new range. 
 For example:</p>
-<div class="highlight"><pre><span></span><code>docker run --name workspace-2 -d -p <span class="m">7020</span>-7040:8020-8040 -e <span class="nv">WRK_HOME_PORT</span><span class="o">=</span><span class="m">7020</span> --restart<span class="o">=</span>always alnoda-workspace:latest
+<div class="highlight"><pre><span></span><code>docker run --name workspace-2 -d -p <span class="m">7020</span>-7040:8020-8040 -e <span class="nv">WRK_HOME_PORT</span><span class="o">=</span><span class="m">7020</span> --restart<span class="o">=</span>always alnoda/alnoda-workspace:latest
 </code></pre></div>
 <p>Now Workspace UI will be available on <a href="http://localhost:8020"><strong>http://localhost:7020</strong></a></p>
 <h2 id="start-stop-restart">Start, stop, restart</h2>
